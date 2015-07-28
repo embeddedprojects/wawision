@@ -6,3 +6,4 @@ Homepage: http://www.wawision.de
 
 Handbuch: http://wiki.wawision.de 
 
+Anpassungen für 3.15.1a
