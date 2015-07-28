@@ -3,3 +3,5 @@ Webbasierte Warenwirtschaft inkl. Stammdaten, Artikel, Adresse, Angebot, Auftrag
 Homepage: http://www.wawision.de
 
 Handbuch: http://wiki.wawision.de 
+
+Anpassungen für 3.15.1a
