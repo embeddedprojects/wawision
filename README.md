@@ -1,9 +1,12 @@
-Das ist eine neue bessere Beschreibung.
+Dies ist die Open-Source Version von waWision.
 
-Webbasierte Warenwirtschaft inkl. Stammdaten, Artikel, Adresse, Angebot, Auftrag, Rechnung, Lieferschein, Bestellung, Lagerverwaltung, Mahnwesen, Buchhaltung, Lohnabrechnung, Zeiterfassung, Stückliste, Produktion, etc. 
+Bitte beachten Sie die Bedinungen der Lizenzen.
 
-Homepage: http://www.wawision.de
+Informationen zur Software finden Sie im Internet:
 
-Handbuch: http://wiki.wawision.de 
+http://www.wawision.de/lizenzhinweis
 
-Anpassungen für 3.15.1a
+
+Handbuch: http://helpdesk.wawision.de
+Forum: http://forum.wawision.de
+
