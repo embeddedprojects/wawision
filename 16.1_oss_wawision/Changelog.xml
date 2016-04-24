@@ -1,0 +1,5957 @@
+<?xml version="1.0"?>
+<log>
+<logentry revision="b69faad">
+<date>2016-01-25T08:21:11Z</date>
+<msg>Fix .htaccess in userdata-Ordner
+</msg>
+</logentry>
+<logentry revision="ffae93d">
+<date>2016-01-23T07:58:24Z</date>
+<msg>Fix Anzeige Verkaufszahlendiagram
+</msg>
+</logentry>
+<logentry revision="f9e7a05">
+<date>2016-01-22T08:01:22Z</date>
+<msg>Fix Modul Bestellvorschlag korrekt im Menu
+</msg>
+</logentry>
+<logentry revision="2a92f7a">
+<date>2016-01-22T07:04:57Z</date>
+<msg>Change LagerAusgegend in Version FREE - PRE
+</msg>
+</logentry>
+<logentry revision="7a04b13">
+<date>2016-01-22T05:53:54Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="d45b84b">
+<date>2016-01-22T05:53:43Z</date>
+<msg>Fix Bestellvorschlag gehoert zu ALL
+</msg>
+</logentry>
+<logentry revision="527084c">
+<date>2016-01-20T15:26:13Z</date>
+<msg>Fix ImportUpdateAdresse
+</msg>
+</logentry>
+<logentry revision="4ca1303">
+<date>2016-01-20T15:20:02Z</date>
+<msg>Fix ImportUpdateAdresse
+</msg>
+</logentry>
+<logentry revision="73e7247">
+<date>2016-01-20T12:15:32Z</date>
+<msg>Fix Gutschrift-PDF Anzeige von Rechnungsnummer
+</msg>
+</logentry>
+<logentry revision="63bb680">
+<date>2016-01-20T11:10:28Z</date>
+<msg>Fix Gutschrift Rechnugnslink Minidetail
+</msg>
+</logentry>
+<logentry revision="9f0cf5f">
+<date>2016-01-20T10:46:32Z</date>
+<msg>Fix Korrektur InsertUpdateAdresse
+</msg>
+</logentry>
+<logentry revision="1d0cee3">
+<date>2016-01-20T08:49:21Z</date>
+<msg>Change Status in Beta geaendert
+</msg>
+</logentry>
+<logentry revision="55ad74d">
+<date>2016-01-20T08:17:13Z</date>
+<msg>Change Zahlungseingang Rechte angepasst
+</msg>
+</logentry>
+<logentry revision="59c1a3e">
+<date>2016-01-20T08:04:21Z</date>
+<msg>Change Projektrechte erweitert
+</msg>
+</logentry>
+<logentry revision="0687244">
+<date>2016-01-20T03:20:18Z</date>
+<msg>Fix Importvorlage uebernahme Daten auch bei Dateien &lt;= 50 Datensaetze
+</msg>
+</logentry>
+<logentry revision="88ea27c">
+<date>2016-01-19T16:27:48Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="173b980">
+<date>2016-01-19T16:27:41Z</date>
+<msg>Change Artikeleigenschaften ab Version Enterprise
+</msg>
+</logentry>
+<logentry revision="14ee3e0">
+<date>2016-01-19T15:18:08Z</date>
+<msg>Add Moeglichkeit zur Sicherheitsuberpruefung in Modulen erstellt
+</msg>
+</logentry>
+<logentry revision="e1af742">
+<date>2016-01-19T15:15:58Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="a70c9d2">
+<date>2016-01-19T15:15:54Z</date>
+<msg>Fix Adresse Korrespondenzen Brief Kopf
+</msg>
+</logentry>
+<logentry revision="882d14f">
+<date>2016-01-19T14:45:16Z</date>
+<msg>Fix Sicherheit fuer Benutzerrechte angepasst
+</msg>
+</logentry>
+<logentry revision="2a4fd30">
+<date>2016-01-19T13:35:02Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="ea499dd">
+<date>2016-01-19T13:34:56Z</date>
+<msg>Fix Im Installer muss firstinstall bei user in settings stehen
+</msg>
+</logentry>
+<logentry revision="217ef25">
+<date>2016-01-19T13:27:07Z</date>
+<msg>New Artikelnummern Fremdnummern hinzugefuegt fuer Onlineshop
+</msg>
+</logentry>
+<logentry revision="9fe0737">
+<date>2016-01-19T09:43:04Z</date>
+<msg>Fix Sammelrechnung Korrekturen in den Tabellen
+</msg>
+</logentry>
+<logentry revision="b889171">
+<date>2016-01-19T08:18:38Z</date>
+<msg>Change MLM Anzeige Download Lizenzgebuehr bezahlt bis
+</msg>
+</logentry>
+<logentry revision="bba4ea8">
+<date>2016-01-19T08:08:22Z</date>
+<msg>Change Versandzentrum Menu gelieferte Artikel ausgeblendet
+</msg>
+</logentry>
+<logentry revision="5bd52d5">
+<date>2016-01-19T07:55:14Z</date>
+<msg>Change Sammelrechnung Status Lieferschein auswerten
+</msg>
+</logentry>
+<logentry revision="aa34bc5">
+<date>2016-01-18T17:29:55Z</date>
+<msg>New Sammelrechnung
+</msg>
+</logentry>
+<logentry revision="dbd7657">
+<date>2016-01-18T15:17:19Z</date>
+<msg>Fix Stechuhr Korrektur Loginformular
+</msg>
+</logentry>
+<logentry revision="7494efb">
+<date>2016-01-18T15:04:14Z</date>
+<msg>Fix Stechuhr Korrektur Loginformular
+</msg>
+</logentry>
+<logentry revision="10df0ec">
+<date>2016-01-18T12:38:40Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="c7450c8">
+<date>2016-01-18T12:38:35Z</date>
+<msg>Change Auftrag Position Offene angepasst
+</msg>
+</logentry>
+<logentry revision="b543df5">
+<date>2016-01-18T11:38:16Z</date>
+<msg>Fix TeableSearch Externen Paramter hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="9461a17">
+<date>2016-01-18T11:14:30Z</date>
+<msg>Change Auftrag Offene Positionen Liste angepasst
+</msg>
+</logentry>
+<logentry revision="fc2b04d">
+<date>2016-01-18T10:53:59Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="0833b5e">
+<date>2016-01-18T10:53:46Z</date>
+<msg>Change Reihenfolge Firmendaten Maileinstellungen
+</msg>
+</logentry>
+<logentry revision="6173585">
+<date>2016-01-18T10:52:57Z</date>
+<msg>Fix Berechnung Artikelnummer Nummmernkreis
+</msg>
+</logentry>
+<logentry revision="8252ba4">
+<date>2016-01-18T09:32:53Z</date>
+<msg>Fix Auftragimport Steuersatz
+</msg>
+</logentry>
+<logentry revision="20f5399">
+<date>2016-01-17T18:22:33Z</date>
+<msg>New Funktion Angebot anpassen erstellt neue Unternummer des originalen Angebots und verlinkt intern Angebote
+</msg>
+</logentry>
+<logentry revision="65de6d7">
+<date>2016-01-17T17:54:57Z</date>
+<msg>Change Links Minidetail Gutschrift, Lieferschein auf Kunde angepasst
+</msg>
+</logentry>
+<logentry revision="bcd1f7b">
+<date>2016-01-17T15:25:31Z</date>
+<msg>Change ACL Kommentar entfernt
+</msg>
+</logentry>
+<logentry revision="b44003f">
+<date>2016-01-17T15:20:29Z</date>
+<msg>Change Konten Projektsensitive Rechte
+</msg>
+</logentry>
+<logentry revision="1be402e">
+<date>2016-01-16T08:48:04Z</date>
+<msg>Fix Arbeitsnachweis Standardprojekt aus Benutzer laden
+</msg>
+</logentry>
+<logentry revision="99b3e56">
+<date>2016-01-16T08:45:47Z</date>
+<msg>Fix Reisekosten Standardprojekt von Benutzer laden
+</msg>
+</logentry>
+<logentry revision="2df8f61">
+<date>2016-01-16T05:43:41Z</date>
+<msg>New Neues Module Auftrag Offene Positionen Liste
+</msg>
+</logentry>
+<logentry revision="4cea08c">
+<date>2016-01-15T08:57:25Z</date>
+<msg>Change Bestellvorschlag aus Lagermodul umgezogen
+</msg>
+</logentry>
+<logentry revision="a024911">
+<date>2016-01-15T08:27:28Z</date>
+<msg>Change Archivierungsfunktion Meldung verdeutlicht
+</msg>
+</logentry>
+<logentry revision="1c11103">
+<date>2016-01-15T08:13:28Z</date>
+<msg>Change Anpassungen Trennung Versionen
+</msg>
+</logentry>
+<logentry revision="d10d131">
+<date>2016-01-15T08:13:07Z</date>
+<msg>Fix Lager Check Resvierungen fuer Versand
+</msg>
+</logentry>
+<logentry revision="6e1c1da">
+<date>2016-01-14T17:16:26Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="baea026">
+<date>2016-01-14T17:16:19Z</date>
+<msg>Fix Inventur wird nicht zerstoert wenn gleicher Artikel gebucht wird
+</msg>
+</logentry>
+<logentry revision="1567081">
+<date>2016-01-14T16:50:50Z</date>
+<msg>Change Steuer in Beleg ebenfalls rechtebuendig
+</msg>
+</logentry>
+<logentry revision="20e78ec">
+<date>2016-01-14T15:35:28Z</date>
+<msg>Change Arbeitsnachweis Uhrzeit + Datum pro Zeile
+</msg>
+</logentry>
+<logentry revision="b6964d6">
+<date>2016-01-14T12:43:02Z</date>
+<msg>Change MahnwesenBezahltcheck auch in Version FREE
+</msg>
+</logentry>
+<logentry revision="347f542">
+<date>2016-01-14T12:31:22Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="2a380a4">
+<date>2016-01-14T12:31:18Z</date>
+<msg>Fix Rechnungen automatisch Status bezahlt in Professional
+</msg>
+</logentry>
+<logentry revision="7a65f42">
+<date>2016-01-14T12:07:11Z</date>
+<msg>Add Erweiterung PDF-Archivierung
+</msg>
+</logentry>
+<logentry revision="64c52f7">
+<date>2016-01-14T10:36:49Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="53ae8d3">
+<date>2016-01-14T10:36:43Z</date>
+<msg>Add PDF-Archivierung Meldung falls Dokument nicht archiviert
+</msg>
+</logentry>
+<logentry revision="f10f9ec">
+<date>2016-01-14T10:29:50Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="7e53546">
+<date>2016-01-14T10:29:44Z</date>
+<msg>Change Anzeige Liefertermin bei Teillieferung abspalten, Ticket neu ueberarbeitet
+</msg>
+</logentry>
+<logentry revision="80a228f">
+<date>2016-01-14T10:24:05Z</date>
+<msg>Change Stechuhrdevice Subnet wird beim Anlegen abhaengig von der Remote-IP gesetzt
+</msg>
+</logentry>
+<logentry revision="6413592">
+<date>2016-01-14T09:08:56Z</date>
+<msg>Change Auftrag Minidetail Test-Log herausgenommen
+</msg>
+</logentry>
+<logentry revision="9561426">
+<date>2016-01-14T09:02:10Z</date>
+<msg>Fix PDF-Archivierungsfunktion
+</msg>
+</logentry>
+<logentry revision="9cfd1f2">
+<date>2016-01-14T08:04:17Z</date>
+<msg>Fix Inventur
+</msg>
+</logentry>
+<logentry revision="d000811">
+<date>2016-01-14T07:53:58Z</date>
+<msg>Fix Inventur
+</msg>
+</logentry>
+<logentry revision="102f7fe">
+<date>2016-01-13T18:12:46Z</date>
+<msg>Fix Inventur Positionslager Auslagern korrigert und Inventur loescht keine paralellen
+</msg>
+</logentry>
+<logentry revision="04cc18e">
+<date>2016-01-13T16:07:00Z</date>
+<msg>Add Mitarbeiterzeiterfassung Warnung in Statistik falls Mitarbeiter mehr als 24 Stunden Arbeitszeit am Stueck hat
+</msg>
+</logentry>
+<logentry revision="09455af">
+<date>2016-01-13T15:37:28Z</date>
+<msg>Fix Mitarbeiterzeiterfassung Korrektur Statistik
+</msg>
+</logentry>
+<logentry revision="7a58a5a">
+<date>2016-01-13T12:15:14Z</date>
+<msg>Change Shopimort Artikelnummer bei Variantenartikel werden neu generiert
+</msg>
+</logentry>
+<logentry revision="5d8fc2c">
+<date>2016-01-13T11:50:34Z</date>
+<msg>Change Minidetails PDF-Archiv umgestellt auf neues System
+</msg>
+</logentry>
+<logentry revision="0330a0a">
+<date>2016-01-13T09:21:52Z</date>
+<msg>Fix PDF-Archivierung fuer alle Versionen freigegeben
+</msg>
+</logentry>
+<logentry revision="f54df72">
+<date>2016-01-13T09:20:17Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="3e53353">
+<date>2016-01-13T09:20:12Z</date>
+<msg>Add Cronjob fuer PDF-Archivierung
+</msg>
+</logentry>
+<logentry revision="2f83a4f">
+<date>2016-01-12T19:50:52Z</date>
+<msg>Change Template Ticket create hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="2e12af0">
+<date>2016-01-12T17:50:37Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="9887d60">
+<date>2016-01-12T17:50:32Z</date>
+<msg>Fix POS Ort Feld bei Kunde neu
+</msg>
+</logentry>
+<logentry revision="94278fa">
+<date>2016-01-12T17:40:29Z</date>
+<msg>Change Ticket Aenderung Erstellung neues Tickets
+</msg>
+</logentry>
+<logentry revision="1da5f8a">
+<date>2016-01-12T09:34:15Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="f2c226d">
+<date>2016-01-12T09:34:11Z</date>
+<msg>Fix Korrektur Bestellvorschlag Artikelteste werden in Bestellung uebernommen
+</msg>
+</logentry>
+<logentry revision="2584b91">
+<date>2016-01-12T09:30:57Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="ba9809e">
+<date>2016-01-12T09:30:49Z</date>
+<msg>Change Verbindlichkeiten laden der Zahlungsweise von Bestellung
+</msg>
+</logentry>
+<logentry revision="f5fc0d5">
+<date>2016-01-12T09:07:53Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="a24c1c8">
+<date>2016-01-12T09:07:45Z</date>
+<msg>Fix Import Onlineshop Variantenartikel: Standardlieferant wird uebernommen und Einkaufspreis wird angelegt
+</msg>
+</logentry>
+<logentry revision="81c6063">
+<date>2016-01-12T08:47:48Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="51d67e9">
+<date>2016-01-12T08:47:41Z</date>
+<msg>Change Adresse/Belege Rechnungen Umsatz und Saldo angepasst auf Rechnung nicht Auftrag
+</msg>
+</logentry>
+<logentry revision="d901d25">
+<date>2016-01-12T08:45:16Z</date>
+<msg>Fix Rechte Anpassung Adressfilter Gruppe
+</msg>
+</logentry>
+<logentry revision="502bc24">
+<date>2016-01-12T08:33:28Z</date>
+<msg>Change Geloeschte Mitarbeiter aus Uebersicht Lohnabrechnung ausblenden
+</msg>
+</logentry>
+<logentry revision="997a57b">
+<date>2016-01-12T08:29:03Z</date>
+<msg>Add POS Einstellungen Zahlweisen Rechnung, Bar, Kreditkarter, EC-Karte als bezahlt markieren durch POS
+</msg>
+</logentry>
+<logentry revision="f592659">
+<date>2016-01-11T14:15:02Z</date>
+<msg>Fix Benutzervorlagen Rechte bei Ioncube + fehlerhafter Link in Einstellungen
+</msg>
+</logentry>
+<logentry revision="7e3bf09">
+<date>2016-01-11T14:09:22Z</date>
+<msg>Add Archivierfunktion erweitert in neue Tabelle
+</msg>
+</logentry>
+<logentry revision="2797b27">
+<date>2016-01-11T10:51:53Z</date>
+<msg>Fix Adressfilter Gruppen
+</msg>
+</logentry>
+<logentry revision="c590e42">
+<date>2016-01-11T10:48:53Z</date>
+<msg>Add Erweiterung Adressfilter Gruppen
+</msg>
+</logentry>
+<logentry revision="e0fd53b">
+<date>2016-01-11T10:26:36Z</date>
+<msg>Fix Artikelimport Name fuer Variantenartikel
+</msg>
+</logentry>
+<logentry revision="9dae498">
+<date>2016-01-11T09:05:35Z</date>
+<msg>Fix Vertriebname nicht mehr bei aendern wenn er im Beleg gesetzt ist
+</msg>
+</logentry>
+<logentry revision="93d548b">
+<date>2016-01-11T08:10:08Z</date>
+<msg>Change Meldung wenn keine Datei bei Korrespondenzen vorhanden
+</msg>
+</logentry>
+<logentry revision="9bd4afd">
+<date>2016-01-10T17:57:29Z</date>
+<msg>Add Auftragspositions weitergeben an Rechnung, Gutschrift und Lieferschein
+</msg>
+</logentry>
+<logentry revision="86b6c26">
+<date>2016-01-10T15:04:59Z</date>
+<msg>Fix Live Mahnwesen Update deaktiviert
+</msg>
+</logentry>
+<logentry revision="169e42c">
+<date>2016-01-10T14:28:51Z</date>
+<msg>Change Layout Finanzbuchhaltungs Tabellen fuer Pruefungen
+</msg>
+</logentry>
+<logentry revision="9b44d08">
+<date>2016-01-10T14:12:40Z</date>
+<msg>Fix Nach aufloesen von Zahlung Auftrag Rechnungen auf komplett offen setzten
+</msg>
+</logentry>
+<logentry revision="1c48091">
+<date>2016-01-10T14:09:07Z</date>
+<msg>Fix Zahlungs auf Auftrag aufloesen auch alle Rechnungen auf Zahlungsstatus offen setzten
+</msg>
+</logentry>
+<logentry revision="fe073c6">
+<date>2016-01-10T14:01:10Z</date>
+<msg>Fix Anzeige Saldo Auftag in rot wenn negativ
+</msg>
+</logentry>
+<logentry revision="7cf87a1">
+<date>2016-01-10T13:54:35Z</date>
+<msg>Fix Anzeige Finanzbuchhaltung Differenzen Konto / Kontorahmen + Index fuer Beschleunigung
+</msg>
+</logentry>
+<logentry revision="4d87375">
+<date>2016-01-10T13:43:48Z</date>
+<msg>Fix Kontoauszugszeile verbuchen Datev Betrag aendern
+</msg>
+</logentry>
+<logentry revision="5b63384">
+<date>2016-01-10T13:35:37Z</date>
+<msg>Fix Anzeige Einzelner Mails in Webmail fuer Admins freigeschalten
+</msg>
+</logentry>
+<logentry revision="59e77df">
+<date>2016-01-10T13:14:14Z</date>
+<msg>Fix Aufgaben Startseite
+</msg>
+</logentry>
+<logentry revision="7f48944">
+<date>2016-01-10T08:33:46Z</date>
+<msg>Dateien bei Anhang versenden im Standard aktiviert
+</msg>
+</logentry>
+<logentry revision="15c2816">
+<date>2016-01-09T18:18:02Z</date>
+<msg>Formatierung Dateien bei Korrespondenzen
+</msg>
+</logentry>
+<logentry revision="76f59b3">
+<date>2016-01-09T17:56:52Z</date>
+<msg>Formatierung Anhang bei Dokument versenden
+</msg>
+</logentry>
+<logentry revision="6b79dc8">
+<date>2016-01-09T11:36:21Z</date>
+<msg>Breite Lagertabelle angepasst
+</msg>
+</logentry>
+<logentry revision="8d91c38">
+<date>2016-01-08T13:04:35Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="38f943d">
+<date>2016-01-08T13:04:28Z</date>
+<msg>Schreibschutzmeldung gruen
+</msg>
+</logentry>
+<logentry revision="69baa98">
+<date>2016-01-08T12:21:38Z</date>
+<msg>mlm Cronjob shopwarepartner hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="3b96942">
+<date>2016-01-08T11:11:06Z</date>
+<msg>Korrektur Lagerinventur
+</msg>
+</logentry>
+<logentry revision="1594b3c">
+<date>2016-01-08T10:44:22Z</date>
+<msg>Korrekturen Userrechte
+</msg>
+</logentry>
+<logentry revision="7081dcb">
+<date>2016-01-08T10:40:12Z</date>
+<msg>Korrekturen Layoutvorlage fuer Rechte
+</msg>
+</logentry>
+<logentry revision="02ec488">
+<date>2016-01-08T08:40:58Z</date>
+<msg>Formatierung Quelltext firmendaten.php
+</msg>
+</logentry>
+<logentry revision="d35a78a">
+<date>2016-01-08T08:39:09Z</date>
+<msg>NEU: Land eigener Firmensitz einstellbar
+</msg>
+</logentry>
+<logentry revision="441d9a9">
+<date>2016-01-08T08:07:48Z</date>
+<msg>Einstellbar pro Adresse ob Geburtstag im Kalender steht
+</msg>
+</logentry>
+<logentry revision="c25a6c9">
+<date>2016-01-07T14:28:54Z</date>
+<msg>Anpassung Anahanglink Versand
+</msg>
+</logentry>
+<logentry revision="464d0c0">
+<date>2016-01-07T14:02:49Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="4efc7c8">
+<date>2016-01-07T14:02:43Z</date>
+<msg>MLM Anzeige Lizenz bezahlt bis in Downline
+</msg>
+</logentry>
+<logentry revision="661addf">
+<date>2016-01-07T12:20:36Z</date>
+<msg>Korrekturen Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="ca0e707">
+<date>2016-01-07T11:36:53Z</date>
+<msg>Adresse Korrespodenz Anhang herunterladbar
+</msg>
+</logentry>
+<logentry revision="8fa3909">
+<date>2016-01-07T10:54:55Z</date>
+<msg>Adresse Korrektur Rechte Serienbriefe
+</msg>
+</logentry>
+<logentry revision="aa7586c">
+<date>2016-01-07T10:49:46Z</date>
+<msg>Beschriftung Serienbrief
+</msg>
+</logentry>
+<logentry revision="efad1d0">
+<date>2016-01-07T10:24:56Z</date>
+<msg>Korerktur Serienbrief
+</msg>
+</logentry>
+<logentry revision="d170013">
+<date>2016-01-07T10:00:59Z</date>
+<msg>Mitarbeiterzeiterfassung Korrektur Statistiktabelle
+</msg>
+</logentry>
+<logentry revision="49280c6">
+<date>2016-01-07T09:54:00Z</date>
+<msg>Serienbrief Erweitert auf Auftrag
+</msg>
+</logentry>
+<logentry revision="9919c41">
+<date>2016-01-07T09:17:15Z</date>
+<msg>Serienbrief erweitert
+</msg>
+</logentry>
+<logentry revision="741b70a">
+<date>2016-01-07T06:01:14Z</date>
+<msg>NEU: Geburtstage im Kalender
+</msg>
+</logentry>
+<logentry revision="0f9f517">
+<date>2016-01-06T12:17:55Z</date>
+<msg>NEU: Artikel bestellbar bei allen Lieferanten
+</msg>
+</logentry>
+<logentry revision="ffc3e93">
+<date>2016-01-05T19:03:30Z</date>
+<msg>Versand Anhang hinzugeguegt
+</msg>
+</logentry>
+<logentry revision="17eeadb">
+<date>2016-01-05T18:40:52Z</date>
+<msg>Korrespodenz Anhang Korrektur
+</msg>
+</logentry>
+<logentry revision="3f21b57">
+<date>2016-01-05T18:22:26Z</date>
+<msg>Koresspodenz Email Anhang hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="337e674">
+<date>2016-01-05T15:30:30Z</date>
+<msg>QR-Login korrektur
+</msg>
+</logentry>
+<logentry revision="79ab3d7">
+<date>2016-01-05T15:09:49Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="d169165">
+<date>2016-01-05T15:09:44Z</date>
+<msg>Mitarbeiterzeiterfassung Erweiterung krumme Urlaubstage
+</msg>
+</logentry>
+<logentry revision="185f047">
+<date>2016-01-05T14:22:17Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="eb623af">
+<date>2016-01-05T14:22:09Z</date>
+<msg>Teillieferung meldet Versand an Shop auf Hauptauftrag
+</msg>
+</logentry>
+<logentry revision="f9dc818">
+<date>2016-01-05T10:01:31Z</date>
+<msg>Korrektur merge
+</msg>
+</logentry>
+<logentry revision="05e62ee">
+<date>2016-01-05T09:52:14Z</date>
+<msg>Erweiterung Shopimport Optionsartikel Magento
+</msg>
+</logentry>
+<logentry revision="244570d">
+<date>2016-01-04T17:29:21Z</date>
+<msg>Zahlungsweise EC Karte hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="20e3014">
+<date>2016-01-04T16:04:09Z</date>
+<msg>Korrespodenzen gleiche Schriftgroesse wie Auftrag
+</msg>
+</logentry>
+<logentry revision="a21ff6a">
+<date>2016-01-04T16:01:21Z</date>
+<msg>Korrespodenzen gleiche Schriftgroesse wie Auftrag
+</msg>
+</logentry>
+<logentry revision="ea80902">
+<date>2016-01-04T14:03:50Z</date>
+<msg>Auftrag Teillieferung auch fuer Nicht-Lagerartikel
+</msg>
+</logentry>
+<logentry revision="f3b5191">
+<date>2016-01-04T12:14:07Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="cc11c3f">
+<date>2016-01-04T12:14:00Z</date>
+<msg>CRM Modul Entwurf
+</msg>
+</logentry>
+<logentry revision="80c1dbf">
+<date>2016-01-04T12:03:28Z</date>
+<msg>Korrespodenz Wiedervorlage Datum auf Wiedervorlge
+</msg>
+</logentry>
+<logentry revision="133082d">
+<date>2016-01-04T11:53:13Z</date>
+<msg>repair_index stuecklisten Index fuer artikel gesetzt
+</msg>
+</logentry>
+<logentry revision="b7c6f51">
+<date>2016-01-04T11:01:52Z</date>
+<msg>Mitarbeiterzeiterfassung Designanpassung
+</msg>
+</logentry>
+<logentry revision="1b6380f">
+<date>2016-01-04T10:27:26Z</date>
+<msg>HTML Korrektur
+</msg>
+</logentry>
+<logentry revision="c4cde5c">
+<date>2016-01-04T08:40:54Z</date>
+<msg>Mitarbeiterzeiterfassung Korrektur Rechtschreibfehler
+</msg>
+</logentry>
+<logentry revision="4f01e1a">
+<date>2016-01-04T08:38:44Z</date>
+<msg>Arbeitsfreie Tage Korrektur Version
+</msg>
+</logentry>
+<logentry revision="ac0427b">
+<date>2016-01-02T09:00:43Z</date>
+<msg>Lager E-Mail Anzeige Pseudomenge
+</msg>
+</logentry>
+<logentry revision="34be057">
+<date>2016-01-02T08:27:27Z</date>
+<msg>Lieferdatum KW auswaehlbar: AN,AB und Positionen AN,AB,RE,GS,LS
+</msg>
+</logentry>
+<logentry revision="69df96c">
+<date>2016-01-02T07:26:31Z</date>
+<msg>BUG: Freifeld3 in Artikelsuche
+</msg>
+</logentry>
+<logentry revision="5902fd8">
+<date>2016-01-02T06:38:39Z</date>
+<msg>Markierung Kaufmodul CRM
+</msg>
+</logentry>
+<logentry revision="d4fa0c8">
+<date>2016-01-02T06:37:34Z</date>
+<msg>Tabelle Artikel Menubreite
+</msg>
+</logentry>
+<logentry revision="7dff8eb">
+<date>2016-01-01T09:32:39Z</date>
+<msg>Projekt: Standardfarbe + Anzeige im Verkaufszahlendiagram
+</msg>
+</logentry>
+<logentry revision="0df47d3">
+<date>2016-01-01T09:23:04Z</date>
+<msg>OSS Installer: Standardprojekt in Verkaufszahlen, Service/Tools Menue entfernen
+</msg>
+</logentry>
+<logentry revision="834f866">
+<date>2016-01-01T09:18:53Z</date>
+<msg>Anzeige Korrespondenzen in Adresse OSS Fehler
+</msg>
+</logentry>
+<logentry revision="a5812f4">
+<date>2015-12-30T14:08:02Z</date>
+<msg>Setup auf 2016 gestellt
+</msg>
+</logentry>
+<logentry revision="4b06679">
+<date>2015-12-30T13:13:26Z</date>
+<msg>Inventur in Enterprise Inkl.
+</msg>
+</logentry>
+<logentry revision="041bd6f">
+<date>2015-12-30T13:11:16Z</date>
+<msg>Speichern bei Betrag mit . und , moeglich z.B. 1.212,21
+</msg>
+</logentry>
+<logentry revision="e1fb821">
+<date>2015-12-30T12:58:55Z</date>
+<msg>Lagerinventur Datei fuer Modul hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="c4af288">
+<date>2015-12-30T12:57:01Z</date>
+<msg>Inventur in Extra Modul
+</msg>
+</logentry>
+<logentry revision="aaffd15">
+<date>2015-12-30T11:42:17Z</date>
+<msg>Hotfix Menu zuklappen Safari, Chrome
+</msg>
+</logentry>
+<logentry revision="14615b2">
+<date>2015-12-30T11:18:57Z</date>
+<msg>Stechuhr MitarbeitererfassungIst ab FREE
+</msg>
+</logentry>
+<logentry revision="930667a">
+<date>2015-12-30T11:05:13Z</date>
+<msg>OSS Version Freifelder fehlen
+</msg>
+</logentry>
+<logentry revision="5a49c1d">
+<date>2015-12-28T18:38:56Z</date>
+<msg>Produktion abschliessen nur wenn bereits ausgelagert
+</msg>
+</logentry>
+<logentry revision="71ed0c8">
+<date>2015-12-28T11:44:17Z</date>
+<msg>Aufgaben / Wochenplan OSS sichtbar
+</msg>
+</logentry>
+<logentry revision="ff192d9">
+<date>2015-12-28T08:34:48Z</date>
+<msg>Anpassung OSS 16.1
+</msg>
+</logentry>
+<logentry revision="5f31964">
+<date>2015-12-25T17:40:07Z</date>
+<msg>Gleiche Bezeichnung wenn Modul ab Version x verfuegbar
+</msg>
+</logentry>
+<logentry revision="3a1245e">
+<date>2015-12-25T17:30:17Z</date>
+<msg>Anzeige Deckungsbeitrag erst ab Professional
+</msg>
+</logentry>
+<logentry revision="fc95a1e">
+<date>2015-12-25T17:06:55Z</date>
+<msg>Layoutpassungen
+</msg>
+</logentry>
+<logentry revision="4e8b76b">
+<date>2015-12-25T15:13:38Z</date>
+<msg>News Anzeige Startseite
+</msg>
+</logentry>
+<logentry revision="7624a3c">
+<date>2015-12-25T12:01:49Z</date>
+<msg>Anzeige falsches Standardbild bei einlagern angepasst
+</msg>
+</logentry>
+<logentry revision="d9394c5">
+<date>2015-12-24T08:56:53Z</date>
+<msg>Anzeigefehler Deckungsbeitrag im Angebot
+</msg>
+</logentry>
+<logentry revision="2987ae6">
+<date>2015-12-23T18:42:32Z</date>
+<msg>Versionsanpassung und PHP-Notice
+</msg>
+</logentry>
+<logentry revision="ea5c231">
+<date>2015-12-23T18:29:39Z</date>
+<msg>Einstellungen Module in OSS raus
+</msg>
+</logentry>
+<logentry revision="ade689a">
+<date>2015-12-23T18:26:16Z</date>
+<msg>yui Korrektur Zeiterfassungstabelle
+</msg>
+</logentry>
+<logentry revision="a798189">
+<date>2015-12-23T18:16:50Z</date>
+<msg>CSS Startseite Links
+</msg>
+</logentry>
+<logentry revision="92fbb7a">
+<date>2015-12-23T17:19:01Z</date>
+<msg>Layout Startseite
+</msg>
+</logentry>
+<logentry revision="3c6c678">
+<date>2015-12-23T17:05:06Z</date>
+<msg>Layout Startseite
+</msg>
+</logentry>
+<logentry revision="a8c1978">
+<date>2015-12-23T15:54:20Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="dacb080">
+<date>2015-12-23T15:54:14Z</date>
+<msg>Cursorverzoegerung bei Klick auf Positionen verkuerzt
+</msg>
+</logentry>
+<logentry revision="4aa5da7">
+<date>2015-12-23T13:26:01Z</date>
+<msg>Lagersync nur mit aktiven shops mit aktivierten lagersync ohne demomodus
+</msg>
+</logentry>
+<logentry revision="fe69ba5">
+<date>2015-12-23T12:57:05Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="dab4bf9">
+<date>2015-12-23T12:57:01Z</date>
+<msg>Menubreiten fuer diverse Uebersichten angepasst
+</msg>
+</logentry>
+<logentry revision="21fa562">
+<date>2015-12-23T12:56:23Z</date>
+<msg>Versionsanpassungen Einstellungen / Appstore / Versionshinweis OSS raus
+</msg>
+</logentry>
+<logentry revision="64b063b">
+<date>2015-12-23T12:44:22Z</date>
+<msg>Setup Prozessstarter werden immer eingerichtet
+</msg>
+</logentry>
+<logentry revision="a3e794f">
+<date>2015-12-23T12:36:33Z</date>
+<msg>Versionskorretkur Artikeleigenschaften
+</msg>
+</logentry>
+<logentry revision="19ec10a">
+<date>2015-12-23T12:19:32Z</date>
+<msg>News und Handbuchinfos auf Startseite mit Timeout
+</msg>
+</logentry>
+<logentry revision="bff044a">
+<date>2015-12-23T11:19:04Z</date>
+<msg>Versionsanpassung Module in Appstore uebertragen
+</msg>
+</logentry>
+<logentry revision="36bb82f">
+<date>2015-12-23T10:10:36Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="d031f88">
+<date>2015-12-23T10:10:25Z</date>
+<msg>Anpassung Beispieldaten Aufgaben
+</msg>
+</logentry>
+<logentry revision="36b265d">
+<date>2015-12-23T09:58:56Z</date>
+<msg>Hinweis Lizenz im Footer
+</msg>
+</logentry>
+<logentry revision="b562499">
+<date>2015-12-23T09:35:41Z</date>
+<msg>Ueberschrift vergebene Aufgaben auf Startseite
+</msg>
+</logentry>
+<logentry revision="c2d376e">
+<date>2015-12-23T09:30:49Z</date>
+<msg>Ausblenden Update Button im Updatedialog
+</msg>
+</logentry>
+<logentry revision="5437e10">
+<date>2015-12-23T09:28:13Z</date>
+<msg>Online Hilfe Box auf Startseite
+</msg>
+</logentry>
+<logentry revision="38e8342">
+<date>2015-12-23T08:13:10Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="bd18c84">
+<date>2015-12-23T08:12:58Z</date>
+<msg>Layoutanpassungen Startseite
+</msg>
+</logentry>
+<logentry revision="99a6fdb">
+<date>2015-12-22T20:27:50Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="40d7446">
+<date>2015-12-22T20:27:45Z</date>
+<msg>Lieznztest
+</msg>
+</logentry>
+<logentry revision="c6a82a8">
+<date>2015-12-22T20:21:10Z</date>
+<msg>Anpassung CLI Upgradeclient
+</msg>
+</logentry>
+<logentry revision="356ec07">
+<date>2015-12-22T19:32:05Z</date>
+<msg>Korrekturen Versionen
+</msg>
+</logentry>
+<logentry revision="3d6e223">
+<date>2015-12-22T18:45:41Z</date>
+<msg>Ioncube Anzahl aktiver user zaehlt nun
+</msg>
+</logentry>
+<logentry revision="b35d934">
+<date>2015-12-22T18:23:53Z</date>
+<msg>Anpassung Versionen
+</msg>
+</logentry>
+<logentry revision="205e440">
+<date>2015-12-22T16:39:56Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="273b155">
+<date>2015-12-22T16:39:48Z</date>
+<msg>Korrekturen Wiki und OSS
+</msg>
+</logentry>
+<logentry revision="2b0e988">
+<date>2015-12-22T16:17:54Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="a6ec73a">
+<date>2015-12-22T16:17:48Z</date>
+<msg>Layoutanpassungen Startseite
+</msg>
+</logentry>
+<logentry revision="6421689">
+<date>2015-12-22T16:15:06Z</date>
+<msg>Versionsanpassungen Einstellungen ausgrauen von inaktiven Modulen
+</msg>
+</logentry>
+<logentry revision="a493a08">
+<date>2015-12-22T16:14:07Z</date>
+<msg>Setup pruefen ob openssl installiert
+</msg>
+</logentry>
+<logentry revision="92c4bab">
+<date>2015-12-22T15:29:08Z</date>
+<msg>User: QR-Code wird zurueckgesetzt, wenn username nicht dazu passt
+</msg>
+</logentry>
+<logentry revision="57c68b0">
+<date>2015-12-22T14:27:14Z</date>
+<msg>Anpassungen Versionen
+</msg>
+</logentry>
+<logentry revision="67757fd">
+<date>2015-12-22T13:31:44Z</date>
+<msg>Anpassung Versionen
+</msg>
+</logentry>
+<logentry revision="fb583f7">
+<date>2015-12-22T12:55:37Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="7260762">
+<date>2015-12-22T12:55:29Z</date>
+<msg>Lizenzhinweis in Logindialog
+</msg>
+</logentry>
+<logentry revision="3f6568a">
+<date>2015-12-22T11:45:03Z</date>
+<msg>Korrektur _position-Tabellen
+</msg>
+</logentry>
+<logentry revision="885ecd7">
+<date>2015-12-21T19:57:35Z</date>
+<msg>Korrektur Importvorlage
+</msg>
+</logentry>
+<logentry revision="93b07b1">
+<date>2015-12-21T17:22:26Z</date>
+<msg>Shopimport explodierte Artikel
+</msg>
+</logentry>
+<logentry revision="4be413a">
+<date>2015-12-21T12:37:03Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="576a897">
+<date>2015-12-21T12:36:56Z</date>
+<msg>Adresse / Bearbeiter / Vertrieb Projektsensitiv
+</msg>
+</logentry>
+<logentry revision="d6c0fd1">
+<date>2015-12-21T11:22:44Z</date>
+<msg>Korrektur OSS artikel.php
+</msg>
+</logentry>
+<logentry revision="d605d76">
+<date>2015-12-18T13:40:03Z</date>
+<msg>Tippfehler Meldung Enterprise Version
+</msg>
+</logentry>
+<logentry revision="8661251">
+<date>2015-12-17T20:13:16Z</date>
+<msg>Versionen angepasst
+</msg>
+</logentry>
+<logentry revision="092a711">
+<date>2015-12-17T20:03:38Z</date>
+<msg>Korrektur Versionen
+</msg>
+</logentry>
+<logentry revision="005afd2">
+<date>2015-12-17T19:48:27Z</date>
+<msg>Korrektur Versionen
+</msg>
+</logentry>
+<logentry revision="80f6c2c">
+<date>2015-12-17T19:33:30Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="b90a56b">
+<date>2015-12-17T19:33:19Z</date>
+<msg>Anpassung Versionen
+</msg>
+</logentry>
+<logentry revision="898232b">
+<date>2015-12-17T12:04:40Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="e845525">
+<date>2015-12-17T12:04:33Z</date>
+<msg>Adresse / Belege Saldo Berechnung korrigiert
+</msg>
+</logentry>
+<logentry revision="6cd6d1b">
+<date>2015-12-17T11:50:01Z</date>
+<msg>Anpassung OSS
+</msg>
+</logentry>
+<logentry revision="19f622c">
+<date>2015-12-16T19:48:56Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="c40d315">
+<date>2015-12-16T19:48:33Z</date>
+<msg>Reisekosten Positonen Edit Steuersatz Fehler
+</msg>
+</logentry>
+<logentry revision="a9ee7f8">
+<date>2015-12-16T19:31:04Z</date>
+<msg>Anpassung OSS
+</msg>
+</logentry>
+<logentry revision="927c994">
+<date>2015-12-16T18:54:23Z</date>
+<msg>Anpassung OSS
+</msg>
+</logentry>
+<logentry revision="24e33cb">
+<date>2015-12-16T18:36:31Z</date>
+<msg>Chat QR-Stechuhrmitarbeiter werden ausgeblendet
+</msg>
+</logentry>
+<logentry revision="634ec79">
+<date>2015-12-16T18:24:00Z</date>
+<msg>Anpassung OSS2
+</msg>
+</logentry>
+<logentry revision="44ae5d9">
+<date>2015-12-16T14:02:45Z</date>
+<msg>Produktionszentrum Abschluss korrigiert
+</msg>
+</logentry>
+<logentry revision="d07c431">
+<date>2015-12-16T13:45:53Z</date>
+<msg>Inventur Erweiterung CSV
+</msg>
+</logentry>
+<logentry revision="18cf172">
+<date>2015-12-16T13:01:13Z</date>
+<msg>Mitarbeiterzeiterfassung Korrektur Statistik
+</msg>
+</logentry>
+<logentry revision="2fc5580">
+<date>2015-12-16T11:36:31Z</date>
+<msg>Korrektur Loeschen Arbeitsfreietage
+</msg>
+</logentry>
+<logentry revision="df9e629">
+<date>2015-12-16T11:02:49Z</date>
+<msg>Anpassung Versionen
+</msg>
+</logentry>
+<logentry revision="b4620ed">
+<date>2015-12-16T10:47:28Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="2e099ef">
+<date>2015-12-16T10:47:22Z</date>
+<msg>Aktionscode Position angepasst
+</msg>
+</logentry>
+<logentry revision="a44f7d0">
+<date>2015-12-16T10:16:47Z</date>
+<msg>Mitarbeiterzeiterfassung Urlaubs- und Krankheitstage werden soll-Stunden in ist-Stunden uebernommen
+</msg>
+</logentry>
+<logentry revision="97b563a">
+<date>2015-12-15T20:02:32Z</date>
+<msg>Anpassung OSS
+</msg>
+</logentry>
+<logentry revision="63ce343">
+<date>2015-12-15T19:28:02Z</date>
+<msg>Importvorlage Artikelbezeichnung2 Lieferant hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="75da91e">
+<date>2015-12-15T19:19:52Z</date>
+<msg>Importvorlage Artikelbezeichnung Lieferant hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="5ea233f">
+<date>2015-12-15T18:50:56Z</date>
+<msg>Erweiterung Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="dca4011">
+<date>2015-12-15T17:55:29Z</date>
+<msg>Mitarbeiterzeiterfassung Erweiterung unbezahlter Urlaub
+</msg>
+</logentry>
+<logentry revision="3c74d04">
+<date>2015-12-15T17:09:06Z</date>
+<msg>Anpassung OSS
+</msg>
+</logentry>
+<logentry revision="6eb5613">
+<date>2015-12-15T15:39:03Z</date>
+<msg>Produktion Delete und Copy erweitert
+</msg>
+</logentry>
+<logentry revision="32a9f65">
+<date>2015-12-15T15:11:00Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="6107cfa">
+<date>2015-12-15T15:10:52Z</date>
+<msg>Inventur Hinweis bei Starten
+</msg>
+</logentry>
+<logentry revision="70f09e4">
+<date>2015-12-15T14:03:50Z</date>
+<msg>Lager Inventur Meldung bei fehlende Rechte
+</msg>
+</logentry>
+<logentry revision="72c069e">
+<date>2015-12-15T13:33:46Z</date>
+<msg>Lager Inventur Update bei Eingabe
+</msg>
+</logentry>
+<logentry revision="912ec99">
+<date>2015-12-15T13:16:06Z</date>
+<msg>Inventur Button Lager anpassen bei Lager Platz entfertn
+</msg>
+</logentry>
+<logentry revision="930fe70">
+<date>2015-12-15T13:14:08Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="a9e2afb">
+<date>2015-12-15T13:14:00Z</date>
+<msg>Inventur: Button Inventur durchfuehren nur in der Hauptoberflaeche sichtbar
+</msg>
+</logentry>
+<logentry revision="f95fa01">
+<date>2015-12-15T11:11:34Z</date>
+<msg>Korrekturen Importvorlage
+</msg>
+</logentry>
+<logentry revision="3f3d2b5">
+<date>2015-12-15T10:46:01Z</date>
+<msg>Auftrag / Minidetail korrekte Anzeige Belegnummern mit Buchstaben
+</msg>
+</logentry>
+<logentry revision="d5cfa9a">
+<date>2015-12-14T20:06:28Z</date>
+<msg>Stechuhrdevice Loeschen hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="e0efb63">
+<date>2015-12-14T19:57:38Z</date>
+<msg>Produktion Widgetliste Ausschluss core.php
+</msg>
+</logentry>
+<logentry revision="0b68c0e">
+<date>2015-12-14T19:56:37Z</date>
+<msg>Anpassung Loginprozess
+</msg>
+</logentry>
+<logentry revision="5daba31">
+<date>2015-12-14T19:01:30Z</date>
+<msg>Korrektur Importvorlage
+</msg>
+</logentry>
+<logentry revision="ca794b2">
+<date>2015-12-14T17:59:13Z</date>
+<msg>Korrekturen Importvorlage
+</msg>
+</logentry>
+<logentry revision="cadf6ac">
+<date>2015-12-14T17:18:30Z</date>
+<msg>Produktion Kopieren erweitert
+</msg>
+</logentry>
+<logentry revision="13e2e11">
+<date>2015-12-14T16:43:04Z</date>
+<msg>Stechuhrlogin erweitert
+</msg>
+</logentry>
+<logentry revision="2f5ee8a">
+<date>2015-12-14T11:43:24Z</date>
+<msg>Korrespodenz Korrektur Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="5a75839">
+<date>2015-12-14T11:20:26Z</date>
+<msg>Korrespodenz Korrektur Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="5315194">
+<date>2015-12-14T10:50:45Z</date>
+<msg>Wiedervorlage Weiterleitung zu Adresse aus Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="cb3f8b6">
+<date>2015-12-11T14:14:22Z</date>
+<msg>Artikel in Beleg anlegen (Lagerartikel, Umsatzsteuer, Beschriftungen)
+</msg>
+</logentry>
+<logentry revision="cf0cf3d">
+<date>2015-12-11T13:39:30Z</date>
+<msg>Angebot / Position Tippfehler Herkunftsland
+</msg>
+</logentry>
+<logentry revision="1c906dd">
+<date>2015-12-11T13:32:49Z</date>
+<msg>NEU: Eigene Artikelnummer, Liefertermin, Zolltarifnummer, Herkunftsland in allen Kundenbelegen AN,AB,RE,GS,LS
+</msg>
+</logentry>
+<logentry revision="514a05a">
+<date>2015-12-11T11:34:05Z</date>
+<msg>Abolauf Datum fuer Basis darf nicht in Zukunft sein
+</msg>
+</logentry>
+<logentry revision="7dc1c98">
+<date>2015-12-11T11:06:18Z</date>
+<msg>Neuer Name fuer Standard Versand: Sonstige
+</msg>
+</logentry>
+<logentry revision="215f849">
+<date>2015-12-11T10:59:29Z</date>
+<msg>Versandarten Auswahl um GLS erweitert
+</msg>
+</logentry>
+<logentry revision="b69f4e5">
+<date>2015-12-10T19:13:52Z</date>
+<msg>Korrektur Importvorlage
+</msg>
+</logentry>
+<logentry revision="b6629b2">
+<date>2015-12-10T13:21:29Z</date>
+<msg>Korrekturen Login escaped password
+</msg>
+</logentry>
+<logentry revision="31949eb">
+<date>2015-12-10T11:20:53Z</date>
+<msg>Produktion auslagern erst Lager in denen am wenigsten ist
+</msg>
+</logentry>
+<logentry revision="9f1242f">
+<date>2015-12-09T17:36:21Z</date>
+<msg>Korrektur Sonderzeichn
+</msg>
+</logentry>
+<logentry revision="cd618ef">
+<date>2015-12-09T14:40:20Z</date>
+<msg>Erweiterung Shopimport Artikeldaten erweitert
+</msg>
+</logentry>
+<logentry revision="e98a390">
+<date>2015-12-09T11:57:37Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="9c5424c">
+<date>2015-12-09T11:57:31Z</date>
+<msg>Stechuhr Buttons kleiner gemacht fuer Tablet
+</msg>
+</logentry>
+<logentry revision="d96d009">
+<date>2015-12-09T11:24:37Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="f5e84d3">
+<date>2015-12-09T11:24:31Z</date>
+<msg>Hotfix: Jahrespreis-Abolauf-richtige-Berechnung
+</msg>
+</logentry>
+<logentry revision="8bb197b">
+<date>2015-12-08T18:08:51Z</date>
+<msg>Produktion Funtkionsteststatus wird beim Speichern neu gesetzt
+</msg>
+</logentry>
+<logentry revision="496b2fe">
+<date>2015-12-08T16:28:35Z</date>
+<msg>Mitarbeiterzeiterfassung: Anpassung Kalender
+</msg>
+</logentry>
+<logentry revision="6a61727">
+<date>2015-12-08T16:15:02Z</date>
+<msg>alte Dateien herausgenommen
+</msg>
+</logentry>
+<logentry revision="abcaebf">
+<date>2015-12-08T16:08:03Z</date>
+<msg>Versionskorrekturen
+</msg>
+</logentry>
+<logentry revision="745d690">
+<date>2015-12-08T15:47:36Z</date>
+<msg>Versionskorrekturen
+</msg>
+</logentry>
+<logentry revision="c429585">
+<date>2015-12-08T13:56:10Z</date>
+<msg>Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="a41fb9f">
+<date>2015-12-08T10:21:59Z</date>
+<msg>Korrektur Produktionszentrum Unterseriennummern
+</msg>
+</logentry>
+<logentry revision="233a7d6">
+<date>2015-12-08T10:12:31Z</date>
+<msg>Version auf pre-alpha geaendert
+</msg>
+</logentry>
+<logentry revision="c5ea2dc">
+<date>2015-12-08T10:11:06Z</date>
+<msg>Merge 15.4
+</msg>
+</logentry>
+<logentry revision="7dbfdc8">
+<date>2015-12-08T10:07:16Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="8f50618">
+<date>2015-12-08T10:07:10Z</date>
+<msg>Hinweis Betaversion angepasst
+</msg>
+</logentry>
+<logentry revision="1ecfe4c">
+<date>2015-12-08T10:06:31Z</date>
+<msg>Merge 15.3
+</msg>
+</logentry>
+<logentry revision="43ceff1">
+<date>2015-12-08T10:03:15Z</date>
+<msg>Anpassung Login Hinweis Lizenz
+</msg>
+</logentry>
+<logentry revision="a306049">
+<date>2015-12-07T20:19:24Z</date>
+<msg>Importvorlage erweitert fuer Stuecklisten
+</msg>
+</logentry>
+<logentry revision="a9c4ed1">
+<date>2015-12-07T20:18:52Z</date>
+<msg>Produktionszentrum Fehlermeldung bei fehlende Haken, Boxen im Produktionzentrum angepasst sowie Focus
+</msg>
+</logentry>
+<logentry revision="22870bd">
+<date>2015-12-07T17:33:28Z</date>
+<msg>PHP 7 Korrekturen
+</msg>
+</logentry>
+<logentry revision="9918c82">
+<date>2015-12-07T17:12:04Z</date>
+<msg>Versionsanpassung yui
+</msg>
+</logentry>
+<logentry revision="52adec1">
+<date>2015-12-07T14:07:08Z</date>
+<msg>Korrektur GPS-Stechuhr Kalender ICS
+</msg>
+</logentry>
+<logentry revision="3690a7f">
+<date>2015-12-07T14:06:44Z</date>
+<msg>Korrektur GPS-Stechuhr Kalender ICS
+</msg>
+</logentry>
+<logentry revision="fa49f08">
+<date>2015-12-07T14:06:04Z</date>
+<msg>Korrektur GPS-Stechuhr Kalender ICS
+</msg>
+</logentry>
+<logentry revision="f08e21a">
+<date>2015-12-07T13:47:30Z</date>
+<msg>Sicherheit Userfunktion
+</msg>
+</logentry>
+<logentry revision="ea41928">
+<date>2015-12-07T13:47:09Z</date>
+<msg>Sicherheit Userfunktion
+</msg>
+</logentry>
+<logentry revision="b7ce6f1">
+<date>2015-12-07T13:46:44Z</date>
+<msg>Sicherheit Userfunktion
+</msg>
+</logentry>
+<logentry revision="f6a9bce">
+<date>2015-12-07T12:36:48Z</date>
+<msg>Login Sicherheitskorrektur
+</msg>
+</logentry>
+<logentry revision="ae7dfe5">
+<date>2015-12-07T12:31:48Z</date>
+<msg>Login Sicherheitskorrektur
+</msg>
+</logentry>
+<logentry revision="5ac4e61">
+<date>2015-12-07T12:28:03Z</date>
+<msg>Login Sicherheitskorrektur
+</msg>
+</logentry>
+<logentry revision="362ef74">
+<date>2015-12-07T11:43:18Z</date>
+<msg>DB real_escape_string hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="485bbd3">
+<date>2015-12-07T11:26:26Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="2ff0684">
+<date>2015-12-07T11:25:56Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="6ab2af4">
+<date>2015-12-07T11:25:34Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="e64472b">
+<date>2015-12-07T11:22:40Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="ecc1b54">
+<date>2015-12-07T11:22:20Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="e631f71">
+<date>2015-12-07T11:21:40Z</date>
+<msg>Sicherheitsupdate welcome poll
+</msg>
+</logentry>
+<logentry revision="1b94e7f">
+<date>2015-12-03T19:23:04Z</date>
+<msg>Paketmarke Gewicht runden auf 2 Stellen
+</msg>
+</logentry>
+<logentry revision="78ec7f3">
+<date>2015-12-03T19:20:06Z</date>
+<msg>Paketmarke Gewicht runden auf 2 Stellen
+</msg>
+</logentry>
+<logentry revision="306a345">
+<date>2015-12-03T19:01:06Z</date>
+<msg>Mitarbeiterzeiterfassung Urlaubsuebersicht fuer alle Mitarbeiter hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="6488146">
+<date>2015-12-02T17:12:09Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="3b45287">
+<date>2015-12-02T17:11:20Z</date>
+<msg>Inventur wenn leer alten Bestand uebernehmen
+</msg>
+</logentry>
+<logentry revision="a9bd6bc">
+<date>2015-12-02T17:05:04Z</date>
+<msg>Inventur Formatierung
+</msg>
+</logentry>
+<logentry revision="d6c9b59">
+<date>2015-12-02T16:55:16Z</date>
+<msg>Merge Inventur von 15.4
+</msg>
+</logentry>
+<logentry revision="07a3d52">
+<date>2015-12-02T16:42:03Z</date>
+<msg>Anpassung Inventuralgorithmus
+</msg>
+</logentry>
+<logentry revision="0c6fc72">
+<date>2015-12-02T16:29:19Z</date>
+<msg>Produktion Korrekturen Unterseriennummernerfassung
+</msg>
+</logentry>
+<logentry revision="97cb010">
+<date>2015-12-02T15:23:11Z</date>
+<msg>Produktion Funktionstest erweitert
+</msg>
+</logentry>
+<logentry revision="ee521ca">
+<date>2015-12-02T15:09:28Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="7154033">
+<date>2015-12-02T15:09:23Z</date>
+<msg>Korrektur Importvorlage
+</msg>
+</logentry>
+<logentry revision="714b324">
+<date>2015-12-02T13:54:37Z</date>
+<msg>Anpassung Inventur mit Lagerplatz Differenzen Uebersicht und Verbrauchslagern
+</msg>
+</logentry>
+<logentry revision="5b1ecef">
+<date>2015-12-02T13:00:06Z</date>
+<msg>Inventur Button umbenannt
+</msg>
+</logentry>
+<logentry revision="00dab37">
+<date>2015-12-02T12:49:46Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="ef9a7dc">
+<date>2015-12-02T12:49:16Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="492d31e">
+<date>2015-12-02T12:48:00Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="e8fe382">
+<date>2015-12-02T12:47:52Z</date>
+<msg>Hotfix: OTP Token Auswertun Counter
+</msg>
+</logentry>
+<logentry revision="aa0d12c">
+<date>2015-12-02T12:29:01Z</date>
+<msg>Login Autocomplete in OTP abgeschaltet
+</msg>
+</logentry>
+<logentry revision="3a07c7a">
+<date>2015-12-02T12:27:08Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c10c580">
+<date>2015-12-02T12:26:30Z</date>
+<msg>Login Autocomplete in OTP abgeschaltet
+</msg>
+</logentry>
+<logentry revision="beebae2">
+<date>2015-12-02T12:24:05Z</date>
+<msg>Login Autocomplete in OTP abgeschaltet
+</msg>
+</logentry>
+<logentry revision="10eaa24">
+<date>2015-12-02T12:01:57Z</date>
+<msg>Mitarbeiterstatistik Anwesenheitsstatsitik hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="3e8e671">
+<date>2015-12-02T11:19:35Z</date>
+<msg>Anzeige Adresse Minidetail Telefon, Fax, etc.
+</msg>
+</logentry>
+<logentry revision="196b10a">
+<date>2015-12-02T08:08:24Z</date>
+<msg>Setup: Passwortfeld fuer DB Passwort nicht mehr lesbar
+</msg>
+</logentry>
+<logentry revision="28f1a60">
+<date>2015-12-01T18:52:14Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="ca0d836">
+<date>2015-12-01T18:52:08Z</date>
+<msg>Hotfix: Lieferscheindatum auf Rechnung wenn kein LS verknuepft
+</msg>
+</logentry>
+<logentry revision="af6fae3">
+<date>2015-12-01T18:35:48Z</date>
+<msg>Merge durchgefuehrt
+</msg>
+</logentry>
+<logentry revision="2a768fe">
+<date>2015-12-01T18:10:14Z</date>
+<msg>PHP Korrekturen
+</msg>
+</logentry>
+<logentry revision="734f3b1">
+<date>2015-12-01T18:09:19Z</date>
+<msg>Cronjob Partner_shop hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="5da8753">
+<date>2015-12-01T18:03:20Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="a451d3c">
+<date>2015-12-01T18:03:14Z</date>
+<msg>Partner erweitert Shop
+</msg>
+</logentry>
+<logentry revision="9b648b8">
+<date>2015-12-01T17:09:02Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="12833c2">
+<date>2015-12-01T17:08:57Z</date>
+<msg>Anpassungen Layout Produktionszentrum
+</msg>
+</logentry>
+<logentry revision="8f070f3">
+<date>2015-12-01T17:08:21Z</date>
+<msg>Lagerbestandswert Anzeige Lagerplatz
+</msg>
+</logentry>
+<logentry revision="8bf1c0b">
+<date>2015-12-01T13:19:10Z</date>
+<msg>Meldung bei doppelten Artikelnummern
+</msg>
+</logentry>
+<logentry revision="d8d31fd">
+<date>2015-12-01T12:58:12Z</date>
+<msg>Korrespodenz Wiedervorlage korrigiert
+</msg>
+</logentry>
+<logentry revision="c1ed23b">
+<date>2015-12-01T12:56:10Z</date>
+<msg>Korrespodenz Wiedervorlage korrigiert
+</msg>
+</logentry>
+<logentry revision="19869e6">
+<date>2015-12-01T12:39:13Z</date>
+<msg>Shopimport Meldung bei doppelter Bestellnummer
+</msg>
+</logentry>
+<logentry revision="1560acd">
+<date>2015-12-01T10:37:39Z</date>
+<msg>Anpassungen Betainfo
+</msg>
+</logentry>
+<logentry revision="221f376">
+<date>2015-12-01T10:35:00Z</date>
+<msg>Betainformationen im Footer und Informationen zur Software, PHP Notices2
+</msg>
+</logentry>
+<logentry revision="b2d2e54">
+<date>2015-12-01T10:19:48Z</date>
+<msg>Produktionszentrum Korrektur Ausschuss
+</msg>
+</logentry>
+<logentry revision="d1c6a59">
+<date>2015-11-30T19:59:22Z</date>
+<msg>Zahlungseingang Anpassungen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="c698e24">
+<date>2015-11-30T19:01:43Z</date>
+<msg>Versionsanpasungen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="22d83a7">
+<date>2015-11-30T18:47:35Z</date>
+<msg>Hotfix: Auftrag zu Rechnung, abweichende Rechnungsadresse in Adresse UST ID verwenden
+</msg>
+</logentry>
+<logentry revision="adec2d3">
+<date>2015-11-30T12:40:06Z</date>
+<msg>Hotfix: Auftrag zu Rechnung mit abweichender Adresse nochmal angepasst
+</msg>
+</logentry>
+<logentry revision="4d338e6">
+<date>2015-11-30T18:38:52Z</date>
+<msg>Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="bd1461f">
+<date>2015-11-30T12:31:26Z</date>
+<msg>Hotfix: USTID bei Auftrag zu Rechnung mit abweichender Rechnungsadresse in Adresse
+</msg>
+</logentry>
+<logentry revision="9e1b0bd">
+<date>2015-11-30T18:01:58Z</date>
+<msg>Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="d4f45a2">
+<date>2015-11-30T17:46:21Z</date>
+<msg>Korrektur Login Barcodescanner
+</msg>
+</logentry>
+<logentry revision="dedcb6f">
+<date>2015-11-30T17:33:54Z</date>
+<msg>Produktionszentrale Icons geaendert
+</msg>
+</logentry>
+<logentry revision="cc0cdc7">
+<date>2015-11-30T14:56:44Z</date>
+<msg>Wiedervorlage erst ab PRO bzw. Kaufmodul
+</msg>
+</logentry>
+<logentry revision="3828ae6">
+<date>2015-11-30T14:37:55Z</date>
+<msg>Import/Export Intranet Versionsanpassung
+</msg>
+</logentry>
+<logentry revision="9c13740">
+<date>2015-11-30T14:29:33Z</date>
+<msg>Inventur Anpassung Versionen/PHP
+</msg>
+</logentry>
+<logentry revision="5587af5">
+<date>2015-11-30T14:17:00Z</date>
+<msg>Lager Anpassunge Versionen
+</msg>
+</logentry>
+<logentry revision="c5e8957">
+<date>2015-11-30T14:13:02Z</date>
+<msg>Uebersetzungen erweitert
+</msg>
+</logentry>
+<logentry revision="17d46a4">
+<date>2015-11-30T14:04:41Z</date>
+<msg>Einstellungen Anpassungen Tabs
+</msg>
+</logentry>
+<logentry revision="e87a41c">
+<date>2015-11-30T13:16:51Z</date>
+<msg>Loginprozess fuer Barcode erweitert
+</msg>
+</logentry>
+<logentry revision="1cee43f">
+<date>2015-11-30T12:55:07Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="1b9f425">
+<date>2015-11-30T12:53:58Z</date>
+<msg>Hotfix: Artikel fuer Lieferungen
+</msg>
+</logentry>
+<logentry revision="8838e41">
+<date>2015-11-30T10:34:26Z</date>
+<msg>Anpassung Installer user_defined.php.tpl
+</msg>
+</logentry>
+<logentry revision="e6ee219">
+<date>2015-11-26T20:22:00Z</date>
+<msg>PDF UTF8-Erweiterung
+</msg>
+</logentry>
+<logentry revision="cb3f8c8">
+<date>2015-11-26T19:40:18Z</date>
+<msg>Importvorlage erweitert
+</msg>
+</logentry>
+<logentry revision="ed3b9fa">
+<date>2015-11-26T18:40:46Z</date>
+<msg>Multishopimport korrigiert
+</msg>
+</logentry>
+<logentry revision="a4bd124">
+<date>2015-11-26T16:02:48Z</date>
+<msg>Intraship Timeout gesetzt
+</msg>
+</logentry>
+<logentry revision="da658a2">
+<date>2015-11-26T13:59:11Z</date>
+<msg>Produktion Kommaeingaben bei Produktion werden ignoriert
+</msg>
+</logentry>
+<logentry revision="b4c9a69">
+<date>2015-11-26T13:15:15Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="4ba24ad">
+<date>2015-11-26T13:14:39Z</date>
+<msg>Korrektur Importvorlage
+</msg>
+</logentry>
+<logentry revision="71538f1">
+<date>2015-11-25T13:14:04Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="709a8f9">
+<date>2015-11-25T13:13:57Z</date>
+<msg>Rechnungssaldo Skontoanpassung
+</msg>
+</logentry>
+<logentry revision="5fa6a77">
+<date>2015-11-25T19:12:29Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="734b61e">
+<date>2015-11-25T19:12:22Z</date>
+<msg>erpapi Leerzeile entfernt
+</msg>
+</logentry>
+<logentry revision="b8399aa">
+<date>2015-11-25T18:54:14Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="81b0501">
+<date>2015-11-25T18:54:06Z</date>
+<msg>Artikelaufkleber neue Variable LAGER_PLATZ_STANDARD
+</msg>
+</logentry>
+<logentry revision="fcb3b7d">
+<date>2015-11-25T18:22:35Z</date>
+<msg>Korrektur class.secure.php PHP 5.3
+</msg>
+</logentry>
+<logentry revision="60b6f9d">
+<date>2015-11-25T16:02:58Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="4d9eeb8">
+<date>2015-11-25T16:00:08Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="07cc514">
+<date>2015-11-25T15:58:28Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="99836e2">
+<date>2015-11-25T15:51:34Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="27975e3">
+<date>2015-11-25T15:49:58Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="3d84da3">
+<date>2015-11-25T15:45:11Z</date>
+<msg>Korrektur importvorlage
+</msg>
+</logentry>
+<logentry revision="26e790b">
+<date>2015-11-25T15:44:01Z</date>
+<msg>Importvorlage korrigiert
+</msg>
+</logentry>
+<logentry revision="ab7fd97">
+<date>2015-11-25T15:25:55Z</date>
+<msg>erpapi Modulliste nur wenn ioncube vorhanden
+</msg>
+</logentry>
+<logentry revision="637f5e5">
+<date>2015-11-25T15:25:37Z</date>
+<msg>erpapi Modulliste nur wenn ioncube vorhanden
+</msg>
+</logentry>
+<logentry revision="09f4bc2">
+<date>2015-11-25T14:26:40Z</date>
+<msg>Fix Artikelimport
+</msg>
+</logentry>
+<logentry revision="9ed787d">
+<date>2015-11-25T14:26:10Z</date>
+<msg>Fix Artikelimport
+</msg>
+</logentry>
+<logentry revision="3fa3770">
+<date>2015-11-25T13:12:45Z</date>
+<msg>Merge von 15.4
+</msg>
+</logentry>
+<logentry revision="e922b84">
+<date>2015-11-25T13:08:13Z</date>
+<msg>Korrektur PHP 5.3
+</msg>
+</logentry>
+<logentry revision="94e0769">
+<date>2015-11-25T11:42:54Z</date>
+<msg>Stammdatenimport UFT8 abgeschaltet
+</msg>
+</logentry>
+<logentry revision="f0f4d54">
+<date>2015-11-24T14:57:44Z</date>
+<msg>Korrektur erpapi insertupdateadresse
+</msg>
+</logentry>
+<logentry revision="ac717c0">
+<date>2015-11-24T07:55:41Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="6ec76a3">
+<date>2015-11-24T07:55:35Z</date>
+<msg>Anpassungen RMA Prozess
+</msg>
+</logentry>
+<logentry revision="360233d">
+<date>2015-11-23T20:19:53Z</date>
+<msg>Produktionzentrum Unterseriennummern angepasst
+</msg>
+</logentry>
+<logentry revision="1db6ef9">
+<date>2015-11-23T17:01:02Z</date>
+<msg>PHP Notices
+</msg>
+</logentry>
+<logentry revision="e6125d9">
+<date>2015-11-23T16:49:40Z</date>
+<msg>PHP Notices
+</msg>
+</logentry>
+<logentry revision="a4488ab">
+<date>2015-11-23T16:22:23Z</date>
+<msg>Produktion Einrueckung Posliste bei Stueckliste
+</msg>
+</logentry>
+<logentry revision="b5c581b">
+<date>2015-11-23T14:04:46Z</date>
+<msg>Produktion Aktion Positionen loeschen hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="0364eea">
+<date>2015-11-23T13:32:02Z</date>
+<msg>Produktion PDF Einheit hinzugef&amp;uuml;gt
+</msg>
+</logentry>
+<logentry revision="192b267">
+<date>2015-11-23T13:12:35Z</date>
+<msg>Adresse, Korrrespodenz: Korrektur Laenderliste
+</msg>
+</logentry>
+<logentry revision="6e60445">
+<date>2015-11-23T13:05:53Z</date>
+<msg>Artikelliste Filter erweitert
+</msg>
+</logentry>
+<logentry revision="c46937c">
+<date>2015-11-23T12:12:21Z</date>
+<msg>Adresse Filter mit Vertrieb und Innendiest erweitert
+</msg>
+</logentry>
+<logentry revision="945b7c6">
+<date>2015-11-23T11:53:32Z</date>
+<msg>Korrektur CSS Lupe
+</msg>
+</logentry>
+<logentry revision="6e1a530">
+<date>2015-11-23T11:37:36Z</date>
+<msg>RMA Aktionen im gleichen Fenster
+</msg>
+</logentry>
+<logentry revision="e473c90">
+<date>2015-11-19T23:14:13Z</date>
+<msg>EK Preis Uebersicht
+</msg>
+</logentry>
+<logentry revision="d327099">
+<date>2015-11-19T19:38:35Z</date>
+<msg>Korrekturen Produktionszentrum Funktionstest
+</msg>
+</logentry>
+<logentry revision="951fc4d">
+<date>2015-11-19T18:28:44Z</date>
+<msg>Korrektur Produktion Funktionsprotokoll
+</msg>
+</logentry>
+<logentry revision="ee84e09">
+<date>2015-11-19T18:14:59Z</date>
+<msg>Erweiterung Produktionserfassung
+</msg>
+</logentry>
+<logentry revision="fd768af">
+<date>2015-11-19T16:56:11Z</date>
+<msg>Hotfix: Suche Wiedervorlage nach Name
+</msg>
+</logentry>
+<logentry revision="22b588b">
+<date>2015-11-19T15:41:14Z</date>
+<msg>Hotfix: Anpassungen Belegnummern
+</msg>
+</logentry>
+<logentry revision="0392082">
+<date>2015-11-19T15:35:25Z</date>
+<msg>Hotfix: Belegnr fuer GS im Minidetail Anzeige mit Buchstaben
+</msg>
+</logentry>
+<logentry revision="c1f6a76">
+<date>2015-11-19T09:34:09Z</date>
+<msg>Hotfix: Standardlieferant setzten bei EK Preis Bearbeiten
+</msg>
+</logentry>
+<logentry revision="c0752a4">
+<date>2015-11-19T14:38:17Z</date>
+<msg>erpapi Weiterfuehrung Auftrag/Gutschrift/Rechnung: status wird nun auf angelegt gesetzt
+</msg>
+</logentry>
+<logentry revision="77f5446">
+<date>2015-11-19T14:15:38Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="48b42b5">
+<date>2015-11-19T14:15:32Z</date>
+<msg>RMA-Prozess erweitert
+</msg>
+</logentry>
+<logentry revision="a1b839b">
+<date>2015-11-19T12:54:23Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="78d0821">
+<date>2015-11-19T12:53:51Z</date>
+<msg>Hotfix: PDF Archiv
+</msg>
+</logentry>
+<logentry revision="3e45f73">
+<date>2015-11-19T12:10:09Z</date>
+<msg>Wareneingang Annahme stornierbar + Tabellenbreite angepasst
+</msg>
+</logentry>
+<logentry revision="4fb1010">
+<date>2015-11-19T11:37:21Z</date>
+<msg>Bug: RMA Suche nach Artikelname behoben
+</msg>
+</logentry>
+<logentry revision="3d2dfbc">
+<date>2015-11-18T19:42:19Z</date>
+<msg>Produktionszentrum Neue Icons hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="ea8a91c">
+<date>2015-11-18T19:34:59Z</date>
+<msg>Ertweiterung Produktionszentrum
+</msg>
+</logentry>
+<logentry revision="9afc384">
+<date>2015-11-18T19:25:48Z</date>
+<msg>Ertweiterung Produktionszentrum2
+</msg>
+</logentry>
+<logentry revision="69b530e">
+<date>2015-11-18T19:01:59Z</date>
+<msg>Produktion Funktionstest erweitert
+</msg>
+</logentry>
+<logentry revision="6c967ae">
+<date>2015-11-18T17:50:39Z</date>
+<msg>Erweiterung Produktion
+</msg>
+</logentry>
+<logentry revision="1a3fcd5">
+<date>2015-11-18T17:12:45Z</date>
+<msg>RMA erweiterung
+</msg>
+</logentry>
+<logentry revision="2e3d3d1">
+<date>2015-11-18T17:12:03Z</date>
+<msg>RMA-Prozess erweitert
+</msg>
+</logentry>
+<logentry revision="e4b165e">
+<date>2015-11-18T17:07:06Z</date>
+<msg>Korrektur PHP Notices
+</msg>
+</logentry>
+<logentry revision="3c567a3">
+<date>2015-11-18T10:55:53Z</date>
+<msg>Produktion Minidetails hinzugefuegt und neue Tabellen
+</msg>
+</logentry>
+<logentry revision="130cfcc">
+<date>2015-11-17T20:02:29Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="8bcb69b">
+<date>2015-11-17T19:51:18Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="5ed3110">
+<date>2015-11-17T19:41:40Z</date>
+<msg>Produktionzentrum errenen von Ausschuss und Erfolgreichen Mengen
+</msg>
+</logentry>
+<logentry revision="d13fb13">
+<date>2015-11-17T19:29:47Z</date>
+<msg>Produktionszentrum Stueckliste generieren
+</msg>
+</logentry>
+<logentry revision="3538d36">
+<date>2015-11-17T18:09:06Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="8d00be7">
+<date>2015-11-17T18:08:59Z</date>
+<msg>Produktionszentrum Funktionstest
+</msg>
+</logentry>
+<logentry revision="4303845">
+<date>2015-11-17T17:47:55Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="68882ec">
+<date>2015-11-17T17:47:44Z</date>
+<msg>Barcode Etiketten mit Minuszeichen jetzt moeglich
+</msg>
+</logentry>
+<logentry revision="05aa42d">
+<date>2015-11-17T13:37:51Z</date>
+<msg>Korrektur PHP
+</msg>
+</logentry>
+<logentry revision="dae7437">
+<date>2015-11-17T13:35:36Z</date>
+<msg>Korrektur PHP
+</msg>
+</logentry>
+<logentry revision="8ac24da">
+<date>2015-11-17T12:33:22Z</date>
+<msg>Mitarbeiterzeiterfassung Korrektur Anzeige
+</msg>
+</logentry>
+<logentry revision="c081b18">
+<date>2015-11-17T11:21:32Z</date>
+<msg>Korrektur Zeitberechnung
+</msg>
+</logentry>
+<logentry revision="1247a0d">
+<date>2015-11-17T11:08:25Z</date>
+<msg>Mitarbeiterzeiterfassung: Korrektur Kalender, und Mitarbeiterliste
+</msg>
+</logentry>
+<logentry revision="0a8dbef">
+<date>2015-11-17T10:38:44Z</date>
+<msg>Adresse PHP-Korrekturen
+</msg>
+</logentry>
+<logentry revision="dd61010">
+<date>2015-11-17T10:09:27Z</date>
+<msg>Arbeitsfreie Tage Korrekturen PHP
+</msg>
+</logentry>
+<logentry revision="63f2102">
+<date>2015-11-17T08:19:13Z</date>
+<msg>Gruppen Projektsensitiv
+</msg>
+</logentry>
+<logentry revision="42b334f">
+<date>2015-11-17T07:41:25Z</date>
+<msg>MLM Anpassungen
+</msg>
+</logentry>
+<logentry revision="22b918e">
+<date>2015-11-17T07:40:37Z</date>
+<msg>Produktion Freigabe + Starten + Abschliessen entsprechend Status im Selectfeld
+</msg>
+</logentry>
+<logentry revision="e32c3a0">
+<date>2015-11-16T19:55:40Z</date>
+<msg>Produktion Funktionsprotokoll hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="9ab9f4b">
+<date>2015-11-16T18:41:07Z</date>
+<msg>Lager Noticeskorrekturen
+</msg>
+</logentry>
+<logentry revision="6ca4c35">
+<date>2015-11-16T18:22:15Z</date>
+<msg>Produktion Erweiterung Etiketten drucken
+</msg>
+</logentry>
+<logentry revision="9baf657">
+<date>2015-11-16T18:20:34Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="e505566">
+<date>2015-11-16T18:20:27Z</date>
+<msg>auftrag Noticeskorrekturen
+</msg>
+</logentry>
+<logentry revision="5d0618b">
+<date>2015-11-16T16:57:54Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="512e3fb">
+<date>2015-11-16T16:57:48Z</date>
+<msg>MLM Anpassung
+</msg>
+</logentry>
+<logentry revision="678919f">
+<date>2015-11-16T16:22:45Z</date>
+<msg>Erweiterung Produktionszentrum
+</msg>
+</logentry>
+<logentry revision="eb623d6">
+<date>2015-11-16T11:00:05Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="9835ebd">
+<date>2015-11-16T10:46:55Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="5a17507">
+<date>2015-11-13T09:03:17Z</date>
+<msg>Beschriftung Beta Testversion
+</msg>
+</logentry>
+<logentry revision="cae5f3e">
+<date>2015-11-13T08:37:50Z</date>
+<msg>Weitere Anpassungen Layout Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="f6d6dc8">
+<date>2015-11-13T08:32:53Z</date>
+<msg>Weitere Anpassungen Layout Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="139e3f7">
+<date>2015-11-13T08:20:04Z</date>
+<msg>Layout Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="fb895f0">
+<date>2015-11-12T19:49:02Z</date>
+<msg>Anpassungen Farbe Urlaub
+</msg>
+</logentry>
+<logentry revision="19ceec2">
+<date>2015-11-12T19:41:08Z</date>
+<msg>Farbe Urlaub
+</msg>
+</logentry>
+<logentry revision="45dcc63">
+<date>2015-11-12T19:37:19Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="f36f25c">
+<date>2015-11-12T19:37:15Z</date>
+<msg>Reihenfolge Buttons Produktion
+</msg>
+</logentry>
+<logentry revision="66f7ee4">
+<date>2015-11-12T19:36:09Z</date>
+<msg>Produktions Arbeitsanweisungen Anzeige auch wenn noch keine Artikelposition
+</msg>
+</logentry>
+<logentry revision="0fe565f">
+<date>2015-11-12T19:26:41Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="de28185">
+<date>2015-11-12T19:24:41Z</date>
+<msg>Mitarbeiterzeiterfassung Korrektur Kalender
+</msg>
+</logentry>
+<logentry revision="8576d1f">
+<date>2015-11-12T19:15:33Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="da3ce45">
+<date>2015-11-12T19:15:27Z</date>
+<msg>Mitarbeiterzeitenerfassung: Anpassung Farben
+</msg>
+</logentry>
+<logentry revision="4aa9451">
+<date>2015-11-12T19:10:26Z</date>
+<msg>Link vom Produktionszentrum zur Produktion
+</msg>
+</logentry>
+<logentry revision="19256da">
+<date>2015-11-12T19:08:03Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="635811b">
+<date>2015-11-12T19:07:58Z</date>
+<msg>Anpassungen Produktion
+</msg>
+</logentry>
+<logentry revision="5248c03">
+<date>2015-11-12T19:06:29Z</date>
+<msg>Korrektur Produktion Arbeitsanweisungen Editor
+</msg>
+</logentry>
+<logentry revision="67603c2">
+<date>2015-11-12T18:42:14Z</date>
+<msg>Produktion
+</msg>
+</logentry>
+<logentry revision="05880f6">
+<date>2015-11-12T18:35:58Z</date>
+<msg>Neuberechnen AN,AB,RE,GS bei einfuegen Position
+</msg>
+</logentry>
+<logentry revision="4c7aec0">
+<date>2015-11-12T18:20:01Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="dc0f8af">
+<date>2015-11-12T18:19:46Z</date>
+<msg>Produktion Layout
+</msg>
+</logentry>
+<logentry revision="d8f1885">
+<date>2015-11-12T18:15:00Z</date>
+<msg>Mitarbeiterzeiterfassung springen auf Kalender des ersten Users
+</msg>
+</logentry>
+<logentry revision="ac8553e">
+<date>2015-11-12T18:08:53Z</date>
+<msg>Anpassungen Layout
+</msg>
+</logentry>
+<logentry revision="f36b267">
+<date>2015-11-12T18:05:38Z</date>
+<msg>Fehlende Templates eingefuegt
+</msg>
+</logentry>
+<logentry revision="0c3d3b8">
+<date>2015-11-12T18:01:21Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="7d3fdea">
+<date>2015-11-12T18:01:13Z</date>
+<msg>Produktion PDF erweitert
+</msg>
+</logentry>
+<logentry revision="8a652dd">
+<date>2015-11-12T17:41:20Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="0cfc75d">
+<date>2015-11-12T17:41:02Z</date>
+<msg>MLM Anpassungen
+</msg>
+</logentry>
+<logentry revision="55a2289">
+<date>2015-11-12T17:12:33Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="bf1aa54">
+<date>2015-11-12T17:12:18Z</date>
+<msg>Merge
+</msg>
+</logentry>
+<logentry revision="390c64d">
+<date>2015-11-12T17:11:54Z</date>
+<msg>MLM Anpassungen
+</msg>
+</logentry>
+<logentry revision="d365d38">
+<date>2015-11-12T17:04:42Z</date>
+<msg>Lager Reihenfolge 2. Stufe
+</msg>
+</logentry>
+<logentry revision="1e2f62b">
+<date>2015-11-12T16:42:06Z</date>
+<msg>LagerCheck Fehler bei mehr Reservierungen in AB
+</msg>
+</logentry>
+<logentry revision="c9bf791">
+<date>2015-11-12T16:16:29Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="526048b">
+<date>2015-11-12T16:16:19Z</date>
+<msg>MLM Anpassung LN aktiv
+</msg>
+</logentry>
+<logentry revision="84f145c">
+<date>2015-11-12T16:10:16Z</date>
+<msg>Mitarbeiterzeiterfassung erweitert und korrigiert
+</msg>
+</logentry>
+<logentry revision="52f52e3">
+<date>2015-11-12T10:14:12Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="137dfc8">
+<date>2015-11-12T10:14:05Z</date>
+<msg>Erweiterungen Mitarbeiterzeiterfassung
+</msg>
+</logentry>
+<logentry revision="8122e9a">
+<date>2015-11-11T20:01:31Z</date>
+<msg>Anzeige Name Produktion in Bestellvorschlag
+</msg>
+</logentry>
+<logentry revision="298f65b">
+<date>2015-11-11T19:34:35Z</date>
+<msg>Automatisch Standardlieferant bei Artikel setzten wenn erster Einkaufspreis angelegt wird
+</msg>
+</logentry>
+<logentry revision="4123458">
+<date>2015-11-11T16:29:46Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="303e4f0">
+<date>2015-11-11T16:29:41Z</date>
+<msg>Reisekosten ist Kaufmodul
+</msg>
+</logentry>
+<logentry revision="2616269">
+<date>2015-11-11T13:15:19Z</date>
+<msg>Reisekosten Kaufmodul
+</msg>
+</logentry>
+<logentry revision="d88926d">
+<date>2015-11-11T11:57:22Z</date>
+<msg>AppStore im Menu Administration
+</msg>
+</logentry>
+<logentry revision="f3e1e5e">
+<date>2015-11-11T11:49:20Z</date>
+<msg>Layout AppStore
+</msg>
+</logentry>
+<logentry revision="1fc76cb">
+<date>2015-11-11T11:40:54Z</date>
+<msg>Exportvorlage Belege Positonen mit neuen Feldern Bearbeiter, Vertieb und Rabatt
+</msg>
+</logentry>
+<logentry revision="613e73d">
+<date>2015-11-11T10:56:27Z</date>
+<msg>Anpassungen fuer OSS
+</msg>
+</logentry>
+<logentry revision="b57e12a">
+<date>2015-11-11T10:09:48Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="23c4535">
+<date>2015-11-10T21:29:17Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="07e22fa">
+<date>2015-11-10T21:29:12Z</date>
+<msg>Mitarbeiterzeiterfassung erweitert
+</msg>
+</logentry>
+<logentry revision="a3ad1fe">
+<date>2015-11-10T14:26:37Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="5d0428c">
+<date>2015-11-10T14:26:31Z</date>
+<msg>Anpassungen Produktion
+</msg>
+</logentry>
+<logentry revision="ce4557b">
+<date>2015-11-10T14:21:52Z</date>
+<msg>BUG: Paketmarke mit Komma fuer Easylog
+</msg>
+</logentry>
+<logentry revision="50079db">
+<date>2015-11-10T12:58:41Z</date>
+<msg>Korrektur Arbeitsanweisung Tabelle
+</msg>
+</logentry>
+<logentry revision="70ccaec">
+<date>2015-11-10T12:55:56Z</date>
+<msg>Produktion Arbeitsanweisung hinzugefuegt, Lagerbestand in Produktion hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="56a83cd">
+<date>2015-11-10T12:46:07Z</date>
+<msg>Angebot MiniDetail Sortierung Positionen
+</msg>
+</logentry>
+<logentry revision="15275cf">
+<date>2015-11-09T18:28:09Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="557059d">
+<date>2015-11-09T18:28:04Z</date>
+<msg>Produktion Arbeitsanweisungen
+</msg>
+</logentry>
+<logentry revision="87ef4b8">
+<date>2015-11-09T15:57:23Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="8de67a5">
+<date>2015-11-09T15:57:17Z</date>
+<msg>Selbsabholer Mail
+</msg>
+</logentry>
+<logentry revision="807fd75">
+<date>2015-11-09T14:00:16Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="5bbc78f">
+<date>2015-11-09T14:00:07Z</date>
+<msg>Module in Appstore eingefuegt
+</msg>
+</logentry>
+<logentry revision="35e0f50">
+<date>2015-11-09T13:45:59Z</date>
+<msg>AppStore Anpassung
+</msg>
+</logentry>
+<logentry revision="6437571">
+<date>2015-11-09T13:39:27Z</date>
+<msg>Menu Aufgaben
+</msg>
+</logentry>
+<logentry revision="8873b08">
+<date>2015-11-09T13:35:33Z</date>
+<msg>Menu Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="ad92fc9">
+<date>2015-11-09T13:35:09Z</date>
+<msg>Menu Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="c73d97c">
+<date>2015-11-09T13:33:51Z</date>
+<msg>Produktion Feld Auftrag entfernt
+</msg>
+</logentry>
+<logentry revision="9c5d4cb">
+<date>2015-11-09T13:22:33Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="c2a369f">
+<date>2015-11-09T13:22:25Z</date>
+<msg>Barzahlung heisst im Select Feld jetzt Bar
+</msg>
+</logentry>
+<logentry revision="d8a01b0">
+<date>2015-11-09T13:07:21Z</date>
+<msg>Korrekuren Appstore
+</msg>
+</logentry>
+<logentry revision="261f82f">
+<date>2015-11-09T12:56:28Z</date>
+<msg>Servicetools in Apptstore geaendert
+</msg>
+</logentry>
+<logentry revision="7c15685">
+<date>2015-11-09T11:41:26Z</date>
+<msg>Chat fuer OSS hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="b68f840">
+<date>2015-11-09T11:35:13Z</date>
+<msg>Wiedervorlage Versionsanpassung
+</msg>
+</logentry>
+<logentry revision="d795d5a">
+<date>2015-11-09T10:56:20Z</date>
+<msg>Produktion PDF
+</msg>
+</logentry>
+<logentry revision="b1e3406">
+<date>2015-11-08T22:19:04Z</date>
+<msg>Produktion Ende als neues Feld
+</msg>
+</logentry>
+<logentry revision="9b1c5ad">
+<date>2015-11-08T22:01:58Z</date>
+<msg>Produktion Anpassungen
+</msg>
+</logentry>
+<logentry revision="fcbad19">
+<date>2015-11-08T17:28:23Z</date>
+<msg>Lupe Abstand rechts vergroessert
+</msg>
+</logentry>
+<logentry revision="17e2ad0">
+<date>2015-11-08T17:05:47Z</date>
+<msg>Produktionszentrum Entwurf Oberflaechen
+</msg>
+</logentry>
+<logentry revision="c270bc8">
+<date>2015-11-08T13:54:49Z</date>
+<msg>Produktion Layout und Ablaufanpassungen
+</msg>
+</logentry>
+<logentry revision="51dcba5">
+<date>2015-11-08T13:28:32Z</date>
+<msg>Kontoabgleich Anpassung SQL Statement parent IS NULL
+</msg>
+</logentry>
+<logentry revision="82cfc42">
+<date>2015-11-08T12:35:10Z</date>
+<msg>Auftrag zu Produktion weiterfuehren
+</msg>
+</logentry>
+<logentry revision="b6b84b8">
+<date>2015-11-08T11:01:07Z</date>
+<msg>Aufgaben neuer Filter abgeschlossene
+</msg>
+</logentry>
+<logentry revision="dfdda69">
+<date>2015-11-08T10:50:05Z</date>
+<msg>Aufgaben neu angeordnet
+</msg>
+</logentry>
+<logentry revision="34406eb">
+<date>2015-11-06T20:20:24Z</date>
+<msg>Mahnwesen Layout
+</msg>
+</logentry>
+<logentry revision="b90bd9e">
+<date>2015-11-06T20:18:03Z</date>
+<msg>Bestellvorschlag Layout
+</msg>
+</logentry>
+<logentry revision="7799b35">
+<date>2015-11-06T20:15:30Z</date>
+<msg>Mahnwesen Layout
+</msg>
+</logentry>
+<logentry revision="bc9b39f">
+<date>2015-11-06T20:05:25Z</date>
+<msg>Artikelwizard aus Hauptversion entfernt
+</msg>
+</logentry>
+<logentry revision="6c14493">
+<date>2015-11-06T20:02:54Z</date>
+<msg>Produktion: Einheitenanzeige
+</msg>
+</logentry>
+<logentry revision="0891820">
+<date>2015-11-06T19:34:57Z</date>
+<msg>Layoutanpassungen Standardformulare
+</msg>
+</logentry>
+<logentry revision="001ad90">
+<date>2015-11-06T17:23:11Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="c638c65">
+<date>2015-11-06T14:21:37Z</date>
+<msg>Belege Rechnung Zolltarifnummer + Herkunftsland
+</msg>
+</logentry>
+<logentry revision="1a658b7">
+<date>2015-11-05T18:15:14Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="16c8a80">
+<date>2015-11-05T18:14:56Z</date>
+<msg>Hotfix: Copy Paste HTML Felder Zeilenumbrueche
+</msg>
+</logentry>
+<logentry revision="76140b2">
+<date>2015-11-05T10:08:00Z</date>
+<msg>Korrektur Autocompletelupe Adress Rollen
+</msg>
+</logentry>
+<logentry revision="9096816">
+<date>2015-11-05T10:05:14Z</date>
+<msg>Korrektur Autocompletelupe Adress Rollen
+</msg>
+</logentry>
+<logentry revision="f59d3e3">
+<date>2015-11-04T14:49:35Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="33f2b5f">
+<date>2015-11-04T14:48:04Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="1413603">
+<date>2015-11-04T14:47:56Z</date>
+<msg>Korrektur Ioncube
+</msg>
+</logentry>
+<logentry revision="53ad703">
+<date>2015-11-04T12:36:58Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c72696d">
+<date>2015-11-04T12:36:49Z</date>
+<msg>Neu Wiedervorlage fest in Enterprise Version
+</msg>
+</logentry>
+<logentry revision="43d8734">
+<date>2015-11-04T10:46:10Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="7223020">
+<date>2015-11-04T10:44:59Z</date>
+<msg>Multishopimport: Nur Shops ohne Demomodus
+</msg>
+</logentry>
+<logentry revision="e5a04dd">
+<date>2015-11-03T20:17:25Z</date>
+<msg>Lager Reihenfolge zurueckgestellt
+</msg>
+</logentry>
+<logentry revision="91e7220">
+<date>2015-11-03T19:10:50Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="5dd0de5">
+<date>2015-11-03T19:07:40Z</date>
+<msg>Korrekturen PHP-Notices
+</msg>
+</logentry>
+<logentry revision="3e47566">
+<date>2015-11-03T17:01:11Z</date>
+<msg>class.secure Deprecated Funktionen ersetzt
+</msg>
+</logentry>
+<logentry revision="ac88c79">
+<date>2015-11-03T15:59:25Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="07219a4">
+<date>2015-11-03T15:59:18Z</date>
+<msg>Buchhaltung Export
+</msg>
+</logentry>
+<logentry revision="4e9e99c">
+<date>2015-11-03T14:57:11Z</date>
+<msg>Korrektur Stechuhr
+</msg>
+</logentry>
+<logentry revision="15f982b">
+<date>2015-11-03T14:02:15Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="3483936">
+<date>2015-11-03T14:02:09Z</date>
+<msg>Artikel Zertifikatliste
+</msg>
+</logentry>
+<logentry revision="5792c2e">
+<date>2015-11-03T13:37:57Z</date>
+<msg>Kommentar Quelltext Artikelkategorie
+</msg>
+</logentry>
+<logentry revision="b503622">
+<date>2015-11-03T13:36:27Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="4ffc002">
+<date>2015-11-03T13:34:48Z</date>
+<msg>Artikelnummern pro Kategorie Beschriftung
+</msg>
+</logentry>
+<logentry revision="eb265b6">
+<date>2015-11-03T13:30:57Z</date>
+<msg>Artikelnummern bei Kategorien Prefix + Zentralernummernkreis
+</msg>
+</logentry>
+<logentry revision="7c27f4f">
+<date>2015-11-03T13:26:33Z</date>
+<msg>Shopimort Prozesslock
+</msg>
+</logentry>
+<logentry revision="9cd7c45">
+<date>2015-11-03T13:04:16Z</date>
+<msg>Stechuhr Rechte angepasst
+</msg>
+</logentry>
+<logentry revision="07355d5">
+<date>2015-11-03T12:56:57Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="952799b">
+<date>2015-11-03T12:54:06Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="7cb41aa">
+<date>2015-11-03T12:53:58Z</date>
+<msg>Korrektur Paketmarke Gewicht, Multishopimport aktiviert und korrigiert
+</msg>
+</logentry>
+<logentry revision="f488883">
+<date>2015-11-03T12:14:43Z</date>
+<msg>Intraship URL angepasst
+</msg>
+</logentry>
+<logentry revision="2cc999c">
+<date>2015-11-03T11:30:47Z</date>
+<msg>Prozessstarter Oberflaeche Mutex geaendert
+</msg>
+</logentry>
+<logentry revision="5010d4b">
+<date>2015-11-03T06:05:02Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="2a4904b">
+<date>2015-11-03T05:56:41Z</date>
+<msg>Anzeige Nummernkreise im Projekt
+</msg>
+</logentry>
+<logentry revision="5ca3c09">
+<date>2015-11-03T05:52:57Z</date>
+<msg>Stechuhranzeige
+</msg>
+</logentry>
+<logentry revision="f96c335">
+<date>2015-11-03T05:45:47Z</date>
+<msg>Stechuhr in OSS und PRO
+</msg>
+</logentry>
+<logentry revision="854a525">
+<date>2015-11-03T05:35:35Z</date>
+<msg>Anpassungen fuer Versionsgenerator
+</msg>
+</logentry>
+<logentry revision="14010b2">
+<date>2015-11-02T22:56:15Z</date>
+<msg>Wiedervorlage in Enterprise Version
+</msg>
+</logentry>
+<logentry revision="b08860e">
+<date>2015-11-02T22:52:27Z</date>
+<msg>Kalenderbreite
+</msg>
+</logentry>
+<logentry revision="d782710">
+<date>2015-11-02T22:47:50Z</date>
+<msg>Anpassungen Layout Projekt
+</msg>
+</logentry>
+<logentry revision="3d95fe8">
+<date>2015-11-02T22:43:50Z</date>
+<msg>Anpassungen Projekteinstellungen
+</msg>
+</logentry>
+<logentry revision="cc479a2">
+<date>2015-11-02T22:26:46Z</date>
+<msg>Lieferschein Seriennumern erfassen Layout
+</msg>
+</logentry>
+<logentry revision="0fda7bf">
+<date>2015-11-02T20:09:23Z</date>
+<msg>Korrektur Versionierung Uservorlage
+</msg>
+</logentry>
+<logentry revision="ae173a0">
+<date>2015-11-02T19:35:59Z</date>
+<msg>Verkaufsstatistik: Geschwindigkeitsoptimierung
+</msg>
+</logentry>
+<logentry revision="f3b36dd">
+<date>2015-11-02T19:28:58Z</date>
+<msg>Installer prueft ob upload-Eigentuemer gleich Webservereigentuemer
+</msg>
+</logentry>
+<logentry revision="922e4e7">
+<date>2015-11-02T19:20:00Z</date>
+<msg>Dokumente Bestellungen Textanpassung
+</msg>
+</logentry>
+<logentry revision="a3db019">
+<date>2015-11-02T19:06:54Z</date>
+<msg>Stechuhr und Nachrichtenboxen angepasst
+</msg>
+</logentry>
+<logentry revision="7ae4832">
+<date>2015-11-02T17:52:25Z</date>
+<msg>Korrektur Projekt.tpl
+</msg>
+</logentry>
+<logentry revision="818c877">
+<date>2015-11-02T17:44:01Z</date>
+<msg>Korrektur Projekt.tpl
+</msg>
+</logentry>
+<logentry revision="c58af5b">
+<date>2015-11-02T17:30:09Z</date>
+<msg>Uservorlage Versionskorrektur
+</msg>
+</logentry>
+<logentry revision="26cd938">
+<date>2015-11-02T16:39:21Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="f868a5f">
+<date>2015-11-02T16:39:13Z</date>
+<msg>Lieferschenseriennummern Korrektur
+</msg>
+</logentry>
+<logentry revision="7b95453">
+<date>2015-11-02T14:27:49Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="c1c9858">
+<date>2015-11-02T14:25:09Z</date>
+<msg>Hotfix Modul Stammdatenbereinigung
+</msg>
+</logentry>
+<logentry revision="681be1a">
+<date>2015-11-02T13:40:33Z</date>
+<msg>Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="9232399">
+<date>2015-11-02T13:37:28Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="3ef4c76">
+<date>2015-11-02T13:37:18Z</date>
+<msg>pygen _ in dbname hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="bdf4192">
+<date>2015-11-02T12:27:59Z</date>
+<msg>FIX: Tippfehler Variable behoben
+</msg>
+</logentry>
+<logentry revision="ec671b7">
+<date>2015-11-02T09:51:52Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="100c321">
+<date>2015-11-02T09:51:43Z</date>
+<msg>Zeitlogfuntkion hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="1ec5c4f">
+<date>2015-11-01T08:18:52Z</date>
+<msg>Button Ok zu Weiter umbenannt
+</msg>
+</logentry>
+<logentry revision="36d296d">
+<date>2015-11-01T08:16:16Z</date>
+<msg>Anzeige Auftrag Abschluss bei Lieferscheinlager ohne Versandzentrum
+</msg>
+</logentry>
+<logentry revision="ec77ebd">
+<date>2015-11-01T08:10:23Z</date>
+<msg>Installer Hoehe angepasst
+</msg>
+</logentry>
+<logentry revision="1144ccf">
+<date>2015-10-30T17:16:51Z</date>
+<msg>Beschriftung Seriennummern erfassen
+</msg>
+</logentry>
+<logentry revision="36ed2a1">
+<date>2015-10-30T17:05:11Z</date>
+<msg>Auftrag Menu Barcode ausgeblendet
+</msg>
+</logentry>
+<logentry revision="90e46ea">
+<date>2015-10-30T15:41:22Z</date>
+<msg>Hotfix Projektrechte
+</msg>
+</logentry>
+<logentry revision="d488a30">
+<date>2015-10-30T13:27:04Z</date>
+<msg>Anzeige Seriennummerneingabe im Auftrag nur wenn im Projekt kein Versandzentrum genutzt wird
+</msg>
+</logentry>
+<logentry revision="8890a91">
+<date>2015-10-30T10:12:56Z</date>
+<msg>Hotfix Bereinigung Kundennummern, Lieferantennummern
+</msg>
+</logentry>
+<logentry revision="4558e6d">
+<date>2015-10-29T17:27:54Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="b4f151d">
+<date>2015-10-29T17:24:54Z</date>
+<msg>Verkaufszahlen etwas beschleunigt
+</msg>
+</logentry>
+<logentry revision="bc831aa">
+<date>2015-10-29T16:51:27Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="da5d7d6">
+<date>2015-10-29T16:48:09Z</date>
+<msg>Installer Korrektur
+</msg>
+</logentry>
+<logentry revision="fbf9020">
+<date>2015-10-29T16:41:42Z</date>
+<msg>PDF Archiv in Minidetails
+</msg>
+</logentry>
+<logentry revision="59a5dfb">
+<date>2015-10-29T15:53:58Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="fcbdbbc">
+<date>2015-10-29T15:53:24Z</date>
+<msg>Installer: Pruefen von Schreibrechten in conf/userdata/backup
+</msg>
+</logentry>
+<logentry revision="cbd7cf0">
+<date>2015-10-29T13:49:38Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="e838a3f">
+<date>2015-10-29T07:40:53Z</date>
+<msg>Hotfix Bereinigung Kundennummern, Lieferantennummern
+</msg>
+</logentry>
+<logentry revision="89bbc53">
+<date>2015-10-29T07:39:51Z</date>
+<msg>Fehlendes GenMod bei Kassierer + Produktion
+</msg>
+</logentry>
+<logentry revision="a9fe377">
+<date>2015-10-28T15:01:09Z</date>
+<msg>Aufgaben Templates aktiviert
+</msg>
+</logentry>
+<logentry revision="9eb6837">
+<date>2015-10-28T14:41:57Z</date>
+<msg>Aufgaben Modul aktiviert
+</msg>
+</logentry>
+<logentry revision="96c1789">
+<date>2015-10-28T14:38:06Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="e82718a">
+<date>2015-10-28T14:38:00Z</date>
+<msg>Pinwand in OSS Menu
+</msg>
+</logentry>
+<logentry revision="2b0e8b4">
+<date>2015-10-28T18:54:19Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="6a45357">
+<date>2015-10-28T18:53:36Z</date>
+<msg>Korrektur Ordner anlegen Userdata
+</msg>
+</logentry>
+<logentry revision="3d01119">
+<date>2015-10-28T18:40:34Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="f8282fa">
+<date>2015-10-28T18:40:08Z</date>
+<msg>Pinwand OSS hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="caa2ddd">
+<date>2015-10-28T18:25:28Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="9b00fdd">
+<date>2015-10-28T18:24:27Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="6e666c0">
+<date>2015-10-28T18:24:16Z</date>
+<msg>Korrektur: Lagerbewegungen Doppelte Buchungen verhindern
+</msg>
+</logentry>
+<logentry revision="b76f709">
+<date>2015-10-28T17:58:42Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="6098f0a">
+<date>2015-10-28T12:58:33Z</date>
+<msg>Pinwand in Open-Source Version aufgenommen
+</msg>
+</logentry>
+<logentry revision="11b1093">
+<date>2015-10-28T12:05:30Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="4ae3d71">
+<date>2015-10-28T12:05:25Z</date>
+<msg>Layoutanpassungen Installer
+</msg>
+</logentry>
+<logentry revision="68551a5">
+<date>2015-10-28T16:57:47Z</date>
+<msg>Setup korrigiert Beispieldaten
+</msg>
+</logentry>
+<logentry revision="4d0a757">
+<date>2015-10-28T16:38:57Z</date>
+<msg>Wareneingang: Doppelbuchung verhindern
+</msg>
+</logentry>
+<logentry revision="abaf1db">
+<date>2015-10-28T16:34:34Z</date>
+<msg>Verand gelieferte Artikel Anzeige korrigiert
+</msg>
+</logentry>
+<logentry revision="d440b78">
+<date>2015-10-28T07:57:24Z</date>
+<msg>Merge branch '16.1' of 192.168.0.21:wawision/wawision into 16.1
+</msg>
+</logentry>
+<logentry revision="34979e6">
+<date>2015-10-28T07:57:17Z</date>
+<msg>Briefpapier Produktion angepasst
+</msg>
+</logentry>
+<logentry revision="726647e">
+<date>2015-10-28T12:57:12Z</date>
+<msg>Insert Update Fehler korrigiert
+</msg>
+</logentry>
+<logentry revision="766ef25">
+<date>2015-10-28T12:23:28Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="0e8754b">
+<date>2015-10-28T12:19:38Z</date>
+<msg>Installer korrigiert
+</msg>
+</logentry>
+<logentry revision="e6b4fb7">
+<date>2015-10-28T11:51:03Z</date>
+<msg>Fehler Rechnugn.php bei Version korrigert
+</msg>
+</logentry>
+<logentry revision="cb34831">
+<date>2015-10-28T06:09:47Z</date>
+<msg>Anzeige Cronjob angepasst
+</msg>
+</logentry>
+<logentry revision="253191b">
+<date>2015-10-28T10:12:40Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="a05d8bc">
+<date>2015-10-28T04:20:41Z</date>
+<msg>Anpassungen Installer
+</msg>
+</logentry>
+<logentry revision="e60421c">
+<date>2015-10-28T04:11:03Z</date>
+<msg>Anpassung Layout Fehlermeldung rechts oben
+</msg>
+</logentry>
+<logentry revision="30a3dc7">
+<date>2015-10-28T03:59:48Z</date>
+<msg>Farbe Fehlermeldung
+</msg>
+</logentry>
+<logentry revision="b043462">
+<date>2015-10-27T19:23:57Z</date>
+<msg>Korrektur Shopexport
+</msg>
+</logentry>
+<logentry revision="338cc04">
+<date>2015-10-27T17:09:44Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="a2e8941">
+<date>2015-10-27T17:09:36Z</date>
+<msg>Korrekturen Autocomplete
+</msg>
+</logentry>
+<logentry revision="d25e47a">
+<date>2015-10-27T11:29:03Z</date>
+<msg>Reihenfolge Backupliste
+</msg>
+</logentry>
+<logentry revision="2c1033b">
+<date>2015-10-27T11:05:26Z</date>
+<msg>Lieferschein Etiketten Lagername mit meisten Artikel wenn kein Standardlager vorhanden
+</msg>
+</logentry>
+<logentry revision="fc75b6f">
+<date>2015-10-27T10:31:52Z</date>
+<msg>Version angepasst
+</msg>
+</logentry>
+<logentry revision="eea012a">
+<date>2015-10-27T10:31:28Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="ae5cee2">
+<date>2015-10-27T10:31:01Z</date>
+<msg>Merge auf 15.3
+</msg>
+</logentry>
+<logentry revision="e73d16f">
+<date>2015-10-27T10:28:48Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="6309129">
+<date>2015-10-27T10:25:11Z</date>
+<msg>EU Laenderliste
+</msg>
+</logentry>
+<logentry revision="c100bff">
+<date>2015-10-27T09:42:36Z</date>
+<msg>Standard Versand bei Adresse Import Modul
+</msg>
+</logentry>
+<logentry revision="298fd85">
+<date>2015-10-27T09:35:47Z</date>
+<msg>Produktion anlegen Standardprojekt
+</msg>
+</logentry>
+<logentry revision="a1a3f44">
+<date>2015-10-27T09:16:04Z</date>
+<msg>Auftrag abschliessen nur wenn Anzahl Positionen &gt; 0
+</msg>
+</logentry>
+<logentry revision="ccab69f">
+<date>2015-10-27T08:38:27Z</date>
+<msg>Shopimport Umsatzsteuerklasse fuer Versand aus Artikel verwenden
+</msg>
+</logentry>
+<logentry revision="d17c85f">
+<date>2015-10-27T12:37:15Z</date>
+<msg>Korrekturen Go und Intraship
+</msg>
+</logentry>
+<logentry revision="679cae1">
+<date>2015-10-27T11:07:19Z</date>
+<msg>Tablesearch Rechte fuer mehrere Abfragen gesetzt
+</msg>
+</logentry>
+<logentry revision="9413d19">
+<date>2015-10-27T10:41:19Z</date>
+<msg>Cronjobhinweis im Installer hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="22bf498">
+<date>2015-10-27T10:28:03Z</date>
+<msg>Autocomplete Korrekturen
+</msg>
+</logentry>
+<logentry revision="c92b4e1">
+<date>2015-10-26T19:43:18Z</date>
+<msg>Setup erweitert mit Beispieldaten
+</msg>
+</logentry>
+<logentry revision="2844d84">
+<date>2015-10-26T19:25:20Z</date>
+<msg>Korrekturen Pinwand und Autocomplete
+</msg>
+</logentry>
+<logentry revision="c68aeb0">
+<date>2015-10-26T17:29:53Z</date>
+<msg>Usertemplates herausgenommen
+</msg>
+</logentry>
+<logentry revision="913ade7">
+<date>2015-10-26T17:24:50Z</date>
+<msg>PHP Notices Korrigiert
+</msg>
+</logentry>
+<logentry revision="58db77c">
+<date>2015-10-26T16:43:16Z</date>
+<msg>Fehlerkorrektur nach Versionsanpassung
+</msg>
+</logentry>
+<logentry revision="155ffd5">
+<date>2015-10-26T15:40:46Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="66496c0">
+<date>2015-10-26T15:40:39Z</date>
+<msg>Icon Vorschauliste bei Autocomplete
+</msg>
+</logentry>
+<logentry revision="b183c2d">
+<date>2015-10-26T10:31:23Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="88d0a95">
+<date>2015-10-26T10:31:16Z</date>
+<msg>Projektrecht Projektleiter angepasst
+</msg>
+</logentry>
+<logentry revision="f7412d4">
+<date>2015-10-26T14:05:15Z</date>
+<msg>weitere Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="7c3c550">
+<date>2015-10-26T13:50:50Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="ab7d704">
+<date>2015-10-26T13:50:43Z</date>
+<msg>Versionsanpassung
+</msg>
+</logentry>
+<logentry revision="1f91e69">
+<date>2015-10-26T08:46:37Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="fb5e7a8">
+<date>2015-10-26T08:46:31Z</date>
+<msg>Automatisches anpassen Stuecklisten nur wenn Projekt vorhanden
+</msg>
+</logentry>
+<logentry revision="efc347d">
+<date>2015-10-26T13:36:19Z</date>
+<msg>Versionsanpassungen
+</msg>
+</logentry>
+<logentry revision="af6bc8e">
+<date>2015-10-26T13:19:39Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="ea0340d">
+<date>2015-10-26T13:19:30Z</date>
+<msg>Versionen angepasst
+</msg>
+</logentry>
+<logentry revision="034fbaa">
+<date>2015-10-26T07:06:16Z</date>
+<msg>Bild OnlyVersio mittig
+</msg>
+</logentry>
+<logentry revision="f4c783f">
+<date>2015-10-26T07:04:28Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="65d13db">
+<date>2015-10-26T07:04:10Z</date>
+<msg>Bild bei Infobox Only Version
+</msg>
+</logentry>
+<logentry revision="bea3d34">
+<date>2015-10-26T10:24:46Z</date>
+<msg>Anpassung config.inc.php fuer Windows
+</msg>
+</logentry>
+<logentry revision="a87e9a8">
+<date>2015-10-23T16:16:26Z</date>
+<msg>Weitere Anpassungen Mahnwesen
+</msg>
+</logentry>
+<logentry revision="a74136d">
+<date>2015-10-23T16:13:24Z</date>
+<msg>Zahlungseingang mit Skonto + Zeitraum erkennen + automatisch gruen
+</msg>
+</logentry>
+<logentry revision="fca74b8">
+<date>2015-10-23T15:37:04Z</date>
+<msg>Mahnwesen Felder unbenannt
+</msg>
+</logentry>
+<logentry revision="ec03154">
+<date>2015-10-23T15:21:41Z</date>
+<msg>Anpassung Mahnwesen
+</msg>
+</logentry>
+<logentry revision="47431d1">
+<date>2015-10-23T11:02:25Z</date>
+<msg>Anpassung: Anzeige Text Auftrag abschliessen wenn kein LS erstellt wird
+</msg>
+</logentry>
+<logentry revision="2380531">
+<date>2015-10-23T10:56:38Z</date>
+<msg>GO Anpassung Wunschlieferdatum aus Auftrag nehmen
+</msg>
+</logentry>
+<logentry revision="4b01247">
+<date>2015-10-22T19:37:24Z</date>
+<msg>Installer Testfunktionen eingefuegt
+</msg>
+</logentry>
+<logentry revision="815d3a4">
+<date>2015-10-22T17:47:02Z</date>
+<msg>Archiv-PDF bei Schreibschutz, Angebot, Auftrag, Lieferschein
+</msg>
+</logentry>
+<logentry revision="59d3c9a">
+<date>2015-10-22T17:39:12Z</date>
+<msg>Textvorlagen JS-Fehler korrigiert
+</msg>
+</logentry>
+<logentry revision="adb412f">
+<date>2015-10-22T17:36:36Z</date>
+<msg>Projekt Nummernkreis gesichert
+</msg>
+</logentry>
+<logentry revision="3e09213">
+<date>2015-10-22T16:06:45Z</date>
+<msg>Bei Schreibschutz wird archivierte PDF-Version geholt
+</msg>
+</logentry>
+<logentry revision="895ef10">
+<date>2015-10-22T13:07:35Z</date>
+<msg>Ioncube Benutzerrechte Korrektur
+</msg>
+</logentry>
+<logentry revision="65b6089">
+<date>2015-10-22T12:57:17Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="25fa206">
+<date>2015-10-22T12:57:11Z</date>
+<msg>Ioncube Benutzerrechte
+</msg>
+</logentry>
+<logentry revision="7fb9c33">
+<date>2015-10-22T05:21:49Z</date>
+<msg>Secupay Zahlungsinformation ergaenzt um Name von Secupay
+</msg>
+</logentry>
+<logentry revision="bed73ea">
+<date>2015-10-22T05:03:04Z</date>
+<msg>Wiedervorlage Tabellenbreite
+</msg>
+</logentry>
+<logentry revision="d19a0ce">
+<date>2015-10-22T04:54:17Z</date>
+<msg>Zahlungeingang Erkennung auch von Nummern mit Minuszeichen
+</msg>
+</logentry>
+<logentry revision="a1e88bb">
+<date>2015-10-22T02:45:49Z</date>
+<msg>Formatierung Modul Benutzer
+</msg>
+</logentry>
+<logentry revision="06246b2">
+<date>2015-10-22T02:26:35Z</date>
+<msg>Fehler bei GetSelectEmailMitName
+</msg>
+</logentry>
+<logentry revision="b63e488">
+<date>2015-10-22T02:16:35Z</date>
+<msg>Fehler bei GetSelectEmailMitName
+</msg>
+</logentry>
+<logentry revision="2443de7">
+<date>2015-10-22T02:09:40Z</date>
+<msg>Fehler bei GetSelectEmailMitName
+</msg>
+</logentry>
+<logentry revision="1e3f62a">
+<date>2015-10-22T02:01:21Z</date>
+<msg>Fehler bei GetSelectEmailMitName
+</msg>
+</logentry>
+<logentry revision="402b64e">
+<date>2015-10-22T01:53:25Z</date>
+<msg>Fehler bei GetSelectEmailMitName
+</msg>
+</logentry>
+<logentry revision="07bfbd2">
+<date>2015-10-22T01:39:12Z</date>
+<msg>E-Mailadresse bei Korrespondenzen
+</msg>
+</logentry>
+<logentry revision="4bdd784">
+<date>2015-10-22T01:24:48Z</date>
+<msg>Standard Firmenemailadresse fuer Mailversand einstellbar in Einstellungen
+</msg>
+</logentry>
+<logentry revision="4b53bd1">
+<date>2015-10-21T11:37:21Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="a3f58aa">
+<date>2015-10-21T11:37:16Z</date>
+<msg>Wiedervorlage verknuepft mit Adresse
+</msg>
+</logentry>
+<logentry revision="8cf57c8">
+<date>2015-10-21T16:18:24Z</date>
+<msg>Artikel Onlineshoptexte hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="4c9a78a">
+<date>2015-10-21T07:44:04Z</date>
+<msg>Anpassungen Felder Steuer im Artikel
+</msg>
+</logentry>
+<logentry revision="0101672">
+<date>2015-10-21T07:12:27Z</date>
+<msg>Artikel / Finanzbuchhaltung neue Optionen fuer Steuer
+</msg>
+</logentry>
+<logentry revision="c881f75">
+<date>2015-10-21T11:15:49Z</date>
+<msg>Lieferschein Seriennummern: Designanpassung
+</msg>
+</logentry>
+<logentry revision="0753174">
+<date>2015-10-21T10:52:44Z</date>
+<msg>Informationen zur Software: Designkorrekturen
+</msg>
+</logentry>
+<logentry revision="d64cecf">
+<date>2015-10-20T15:53:31Z</date>
+<msg>Berichte
+</msg>
+</logentry>
+<logentry revision="b64939e">
+<date>2015-10-20T15:48:23Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="423d46e">
+<date>2015-10-20T15:48:17Z</date>
+<msg>Modul Berichte in ALL
+</msg>
+</logentry>
+<logentry revision="5ecd4cf">
+<date>2015-10-20T20:42:09Z</date>
+<msg>Zeiterfassung Korrektur Template
+</msg>
+</logentry>
+<logentry revision="b21d7d5">
+<date>2015-10-20T18:25:14Z</date>
+<msg>Merge remote-tracking branch 'origin/15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="f006e17">
+<date>2015-10-20T17:09:28Z</date>
+<msg>Ioncube Fehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="51112fa">
+<date>2015-10-20T17:06:40Z</date>
+<msg>Ioncube Fehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="0511f34">
+<date>2015-10-20T17:01:07Z</date>
+<msg>Ioncube Fehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="b73b323">
+<date>2015-10-20T16:53:04Z</date>
+<msg>Ioncube Fehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="00eb2eb">
+<date>2015-10-20T16:19:44Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="3a664b4">
+<date>2015-10-20T16:14:38Z</date>
+<msg>Ioncube: Abschalten wenn Lizenz abgelaufen und Flag gesetzt
+</msg>
+</logentry>
+<logentry revision="fa0323a">
+<date>2015-10-20T16:03:33Z</date>
+<msg>Ioncubetest
+</msg>
+</logentry>
+<logentry revision="47ad679">
+<date>2015-10-20T15:06:10Z</date>
+<msg>Ioncube Versionshinweis
+</msg>
+</logentry>
+<logentry revision="987631d">
+<date>2015-10-20T15:00:44Z</date>
+<msg>Versionshinweis
+</msg>
+</logentry>
+<logentry revision="da2c0f6">
+<date>2015-10-20T13:54:32Z</date>
+<msg>PHP Meldungen nur bei Fehlern
+</msg>
+</logentry>
+<logentry revision="e855224">
+<date>2015-10-20T13:33:57Z</date>
+<msg>Versionsanpasungen
+</msg>
+</logentry>
+<logentry revision="5124a4b">
+<date>2015-10-20T13:05:37Z</date>
+<msg>Versionsanspassung
+</msg>
+</logentry>
+<logentry revision="ce630c6">
+<date>2015-10-20T12:47:45Z</date>
+<msg>Secupay Korrektur Text
+</msg>
+</logentry>
+<logentry revision="41b9557">
+<date>2015-10-19T19:35:53Z</date>
+<msg>Go! Abholdatum aus Versanddatum vorbelegen
+</msg>
+</logentry>
+<logentry revision="5f92d13">
+<date>2015-10-19T19:24:39Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="a6a8c08">
+<date>2015-10-19T19:24:33Z</date>
+<msg>Go! Zustelldatum Vorbelegung
+</msg>
+</logentry>
+<logentry revision="46357ac">
+<date>2015-10-19T12:51:14Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="424fee4">
+<date>2015-10-19T12:51:06Z</date>
+<msg>Auftrag PDF Faxnummer fuer PDF
+</msg>
+</logentry>
+<logentry revision="9cd54f3">
+<date>2015-10-19T18:50:28Z</date>
+<msg>Wunschzustelldatum hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="20b8959">
+<date>2015-10-19T18:34:25Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="9e47c51">
+<date>2015-10-19T18:34:18Z</date>
+<msg>PHP 5.3 Korrekturen fuer Ioncube
+</msg>
+</logentry>
+<logentry revision="945e9fb">
+<date>2015-10-19T12:27:32Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c1c71d2">
+<date>2015-10-19T12:27:21Z</date>
+<msg>Menue Etiketten
+</msg>
+</logentry>
+<logentry revision="5d8a7a8">
+<date>2015-10-19T17:56:35Z</date>
+<msg>Ioncube Korrektur
+</msg>
+</logentry>
+<logentry revision="021bf67">
+<date>2015-10-19T17:00:42Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="2fb9bf8">
+<date>2015-10-19T16:53:09Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="907ae23">
+<date>2015-10-19T16:30:27Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="217fff5">
+<date>2015-10-19T16:28:16Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="611256d">
+<date>2015-10-19T16:26:23Z</date>
+<msg>Ioncube Korrekturen
+</msg>
+</logentry>
+<logentry revision="5bc5e00">
+<date>2015-10-19T15:58:19Z</date>
+<msg>Ioncubeabfragen hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="dd0b4cf">
+<date>2015-10-19T13:43:20Z</date>
+<msg>Deckungsbeitragberechnung korrigiert
+</msg>
+</logentry>
+<logentry revision="795ee03">
+<date>2015-10-16T12:21:36Z</date>
+<msg>Layout Mahnwesen
+</msg>
+</logentry>
+<logentry revision="0d28002">
+<date>2015-10-16T11:13:10Z</date>
+<msg>Berichte: Angepasst auf neues Layout + CSV Download Option
+</msg>
+</logentry>
+<logentry revision="d2eae6f">
+<date>2015-10-16T08:30:00Z</date>
+<msg>Patch Versand erzeugen
+</msg>
+</logentry>
+<logentry revision="f7adfd0">
+<date>2015-10-16T08:12:25Z</date>
+<msg>Kein Anhang loeschen bei Uebergabe an Versand
+</msg>
+</logentry>
+<logentry revision="749633b">
+<date>2015-10-16T08:02:40Z</date>
+<msg>Hotfix: Anhang von Auftrag loeschen bei Druckvorgang bei Auftrag abschliessen
+</msg>
+</logentry>
+<logentry revision="833838a">
+<date>2015-10-16T07:45:06Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="dac0b75">
+<date>2015-10-16T07:44:43Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="2677e66">
+<date>2015-10-16T07:44:38Z</date>
+<msg>Versandzentrum Anhang per Mail
+</msg>
+</logentry>
+<logentry revision="b405d54">
+<date>2015-10-16T07:15:44Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="9dfc4dd">
+<date>2015-10-16T07:15:36Z</date>
+<msg>Hotfix Mobile Oberflaeche Erkennung Herstellernummern
+</msg>
+</logentry>
+<logentry revision="7b2b3a2">
+<date>2015-10-15T19:41:26Z</date>
+<msg>Secupay wird nicht mehr ausgefuehrt wenn keine Projektkonfiguration
+</msg>
+</logentry>
+<logentry revision="ff4cfc3">
+<date>2015-10-15T19:32:33Z</date>
+<msg>Doppelids fuer Minidetails
+</msg>
+</logentry>
+<logentry revision="84e37fe">
+<date>2015-10-15T19:20:57Z</date>
+<msg>Secupay Korrekturen
+</msg>
+</logentry>
+<logentry revision="d48f794">
+<date>2015-10-15T19:18:23Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="b6670b8">
+<date>2015-10-15T19:18:16Z</date>
+<msg>Secupay Korrektur
+</msg>
+</logentry>
+<logentry revision="ba36706">
+<date>2015-10-15T12:28:07Z</date>
+<msg>Entfernen LIEFERTERMIN und LIEFERWOCHE aus Gutschrift
+</msg>
+</logentry>
+<logentry revision="88a1c98">
+<date>2015-10-15T12:26:05Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="6eac1b9">
+<date>2015-10-15T12:25:58Z</date>
+<msg>Anzeige LIEFERTERMIN LIEFERWOCHE auch in GS,RE und LS
+</msg>
+</logentry>
+<logentry revision="e3f0aaf">
+<date>2015-10-15T16:10:04Z</date>
+<msg>Ioncube Testfunktionen eingebaut
+</msg>
+</logentry>
+<logentry revision="40d8a74">
+<date>2015-10-14T19:16:20Z</date>
+<msg>ioncube Test
+</msg>
+</logentry>
+<logentry revision="a29c7e2">
+<date>2015-10-14T19:09:18Z</date>
+<msg>Ioncube Versuch
+</msg>
+</logentry>
+<logentry revision="82df5aa">
+<date>2015-10-14T18:57:39Z</date>
+<msg>Ioncubetest
+</msg>
+</logentry>
+<logentry revision="e670ec3">
+<date>2015-10-14T18:37:41Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="ae960a2">
+<date>2015-10-14T18:37:29Z</date>
+<msg>Ioncube Lizenzcheck
+</msg>
+</logentry>
+<logentry revision="3ce5225">
+<date>2015-10-14T12:17:43Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="456571c">
+<date>2015-10-14T12:17:38Z</date>
+<msg>Importvorlage Markierung von Index fuer Adresse (kundennummer, lieferantennummer)
+</msg>
+</logentry>
+<logentry revision="5af0165">
+<date>2015-10-14T18:15:57Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="7dd0387">
+<date>2015-10-14T18:15:51Z</date>
+<msg>Auftrag: Manuelle Seriennummerneingabe Lieferschein
+</msg>
+</logentry>
+<logentry revision="725e131">
+<date>2015-10-14T10:46:56Z</date>
+<msg>Reihenfolge bei Adresse / Korrespondenz nach Datum
+</msg>
+</logentry>
+<logentry revision="1071b3c">
+<date>2015-10-14T10:20:13Z</date>
+<msg>Anpassungen MLM
+</msg>
+</logentry>
+<logentry revision="4f36731">
+<date>2015-10-14T09:55:34Z</date>
+<msg>Auftrag zu Rechnung nur weiterfuehren wenn Betrag &gt;= 0.01 Cent ist
+</msg>
+</logentry>
+<logentry revision="8b66301">
+<date>2015-10-14T08:35:58Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c375a8b">
+<date>2015-10-14T08:35:48Z</date>
+<msg>Kontoimport: Vorzeichen bei Haben entfernen
+</msg>
+</logentry>
+<logentry revision="6474338">
+<date>2015-10-14T13:34:20Z</date>
+<msg>Serienbrief Monate korrigiert
+</msg>
+</logentry>
+<logentry revision="ff34add">
+<date>2015-10-14T13:33:15Z</date>
+<msg>Serienbrief Landfilter herausgenommen
+</msg>
+</logentry>
+<logentry revision="f8b9608">
+<date>2015-10-14T13:01:46Z</date>
+<msg>Versandzentrum Ubersicht ueber gelieferte Artikel
+</msg>
+</logentry>
+<logentry revision="76e5d38">
+<date>2015-10-14T12:31:54Z</date>
+<msg>Serienbrief Variablen nun Caseinsensitiv
+</msg>
+</logentry>
+<logentry revision="82bc3e3">
+<date>2015-10-14T05:59:57Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="d28529c">
+<date>2015-10-14T05:59:51Z</date>
+<msg>Anpassungen MLM
+</msg>
+</logentry>
+<logentry revision="f17e14b">
+<date>2015-10-14T11:54:09Z</date>
+<msg>Lagermindestmenge: Eingefuegt Anzahl lagernd
+</msg>
+</logentry>
+<logentry revision="be90b44">
+<date>2015-10-14T05:40:42Z</date>
+<msg>Mergeconflict
+</msg>
+</logentry>
+<logentry revision="66b1881">
+<date>2015-10-14T05:39:28Z</date>
+<msg>Merge Anpassungen
+</msg>
+</logentry>
+<logentry revision="0a38fd4">
+<date>2015-10-14T05:38:03Z</date>
+<msg>Vorbereitung Lieferschein Seriennummern Tab
+</msg>
+</logentry>
+<logentry revision="724a7df">
+<date>2015-10-14T09:47:30Z</date>
+<msg>Vorbereitung Lieferschein Seriennummern scannen
+</msg>
+</logentry>
+<logentry revision="94f9f79">
+<date>2015-10-13T19:38:34Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="6ed703d">
+<date>2015-10-13T19:38:27Z</date>
+<msg>HTML Syntaxfehler korrigert
+</msg>
+</logentry>
+<logentry revision="055a797">
+<date>2015-10-13T13:14:17Z</date>
+<msg>Mahnpdf: Anpassung Anzeige Datum
+</msg>
+</logentry>
+<logentry revision="a5820f8">
+<date>2015-10-13T12:42:28Z</date>
+<msg>Adresse: Neues Feld lieferantennummerbeikunde
+</msg>
+</logentry>
+<logentry revision="faa9f39">
+<date>2015-10-13T12:27:31Z</date>
+<msg>Briefpapier: Infobox mit Spaltenbreite einstellbar
+</msg>
+</logentry>
+<logentry revision="0045617">
+<date>2015-10-13T12:11:39Z</date>
+<msg>Stammdaten Import Artikel um Felder: mindestlager, umsatztsteuer erweitert
+</msg>
+</logentry>
+<logentry revision="7bb84ab">
+<date>2015-10-13T17:25:55Z</date>
+<msg>Secupay: Fehler korrigert
+</msg>
+</logentry>
+<logentry revision="e2806f3">
+<date>2015-10-13T17:10:53Z</date>
+<msg>Secupay: Betrag bei Textausgabe korrigert
+</msg>
+</logentry>
+<logentry revision="f900c17">
+<date>2015-10-13T16:53:03Z</date>
+<msg>Secupay Korrekturen
+</msg>
+</logentry>
+<logentry revision="42467aa">
+<date>2015-10-13T10:25:20Z</date>
+<msg>Angebot anlegen Fehler behoben wegen neuer Spalte Abweichende Infosbeschriftung
+</msg>
+</logentry>
+<logentry revision="7f6a427">
+<date>2015-10-13T10:07:00Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="69906dc">
+<date>2015-10-13T10:06:52Z</date>
+<msg>Fehler im Angebot anlegen behoben (direkte Uebernahme nach anlegen)
+</msg>
+</logentry>
+<logentry revision="762a35d">
+<date>2015-10-13T15:26:40Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="53b0ff4">
+<date>2015-10-13T15:26:31Z</date>
+<msg>Serienbrief: Marketingsperre angepasst
+</msg>
+</logentry>
+<logentry revision="ada3bf4">
+<date>2015-10-13T09:17:51Z</date>
+<msg>Startseite Kalender Hoehe
+</msg>
+</logentry>
+<logentry revision="2763e27">
+<date>2015-10-13T15:09:17Z</date>
+<msg>Serienbrief Filteranpassung an mlmvertragsbegin
+</msg>
+</logentry>
+<logentry revision="8db746a">
+<date>2015-10-13T08:09:04Z</date>
+<msg>Aufruf Billsafe und Secupay bereits im Auftrag
+</msg>
+</logentry>
+<logentry revision="c0c81b6">
+<date>2015-10-13T13:37:24Z</date>
+<msg>Secupay Freitextfehler korrigiert
+</msg>
+</logentry>
+<logentry revision="53ae73f">
+<date>2015-10-13T13:13:40Z</date>
+<msg>Serienbrief: Vorschau eingefuegt
+</msg>
+</logentry>
+<logentry revision="503efeb">
+<date>2015-10-13T11:36:41Z</date>
+<msg>Marketingsperrefilter angepasst
+</msg>
+</logentry>
+<logentry revision="ebc3796">
+<date>2015-10-13T11:10:59Z</date>
+<msg>Serienbrief Korrekturen
+</msg>
+</logentry>
+<logentry revision="ea9f1b1">
+<date>2015-10-12T18:45:53Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="19cfa78">
+<date>2015-10-12T18:45:46Z</date>
+<msg>Serienbriefe
+</msg>
+</logentry>
+<logentry revision="417cc77">
+<date>2015-10-12T12:45:12Z</date>
+<msg>Abolauf: Anzeige aller Aboartikel (auch mit abgerechnet bis in Vergangenheit)
+</msg>
+</logentry>
+<logentry revision="49e75da">
+<date>2015-10-12T12:43:46Z</date>
+<msg>Abolauf: Anzeige Abos (auch abgelaufene)
+</msg>
+</logentry>
+<logentry revision="211bb6b">
+<date>2015-10-12T09:27:01Z</date>
+<msg>Stuecklisten: Automatisch Menge anpassen einstellbar im Projekt
+</msg>
+</logentry>
+<logentry revision="85646a8">
+<date>2015-10-12T06:57:30Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="65961fe">
+<date>2015-10-12T06:57:24Z</date>
+<msg>Projekt: Einstellbar Differenz Tage zwischen Wunsch und ab Lager
+</msg>
+</logentry>
+<logentry revision="3bcd09c">
+<date>2015-10-12T11:53:07Z</date>
+<msg>Wiedervorlage Projekt und Kunde hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="abb7ffc">
+<date>2015-10-12T11:42:09Z</date>
+<msg>Secupay und Billsafe fuer ENT, PRE
+</msg>
+</logentry>
+<logentry revision="1d9819a">
+<date>2015-10-12T03:52:07Z</date>
+<msg>Startseite: Anzeigefehler (Ganzen Tag)
+</msg>
+</logentry>
+<logentry revision="4e8a051">
+<date>2015-10-12T03:42:39Z</date>
+<msg>Anpassung Layout Kalender Startseite
+</msg>
+</logentry>
+<logentry revision="8d9e8f8">
+<date>2015-10-11T06:25:59Z</date>
+<msg>Startseite: Anpassung Layout
+</msg>
+</logentry>
+<logentry revision="cbf053c">
+<date>2015-10-09T11:55:32Z</date>
+<msg>Shopimport: Zahlungsmethode amazoncba hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="434412f">
+<date>2015-10-09T11:45:11Z</date>
+<msg>Neues Datenbankfeld Matrixprodukt
+</msg>
+</logentry>
+<logentry revision="8b7c046">
+<date>2015-10-09T11:10:30Z</date>
+<msg>Briefpapier: Tausenderpunkt
+</msg>
+</logentry>
+<logentry revision="6487d1f">
+<date>2015-10-09T07:09:04Z</date>
+<msg>Import Auftrag: Abweichende Lieferadresse uebernehmen Name einen Wert hat. Alte Regel mehr als 3 Zeichen gibt es nicht mehr
+</msg>
+</logentry>
+<logentry revision="bed4fb8">
+<date>2015-10-09T06:34:26Z</date>
+<msg>Zahlungsmail: Anpassung Zeiten erste Mail nach 6 Tagen, Buchhaltungsmail nach 11 Tagen
+</msg>
+</logentry>
+<logentry revision="d983326">
+<date>2015-10-09T06:21:14Z</date>
+<msg>Artikel fuer Lieferungen: Feste Reihenfolge von Artikel im gleichen Regal
+</msg>
+</logentry>
+<logentry revision="e190dd2">
+<date>2015-10-09T06:18:41Z</date>
+<msg>Funktion CreateAdresse: Versandart aus Firma nehmen
+</msg>
+</logentry>
+<logentry revision="e750988">
+<date>2015-10-09T04:55:15Z</date>
+<msg>Adresse Neu: Standardversand uebernehmen aus Grundeinstellungen
+</msg>
+</logentry>
+<logentry revision="65227f7">
+<date>2015-10-08T14:53:27Z</date>
+<msg>Neue Variable TRANSAKTIONSNUMMER / INTERNET in Gutschrift
+</msg>
+</logentry>
+<logentry revision="f59cb8a">
+<date>2015-10-08T14:46:21Z</date>
+<msg>Neue Variablen fuer Texte INTERNET und TRANSAKTIONSNUMMER in AB,RE,LS,GS
+</msg>
+</logentry>
+<logentry revision="593b4b4">
+<date>2015-10-08T14:26:01Z</date>
+<msg>Grundeinstellungen / E-Mailaccount: Ausblenden Name (wird aktuell nicht verwendet)
+</msg>
+</logentry>
+<logentry revision="20d62da">
+<date>2015-10-08T14:13:30Z</date>
+<msg>Importvorlage Ansprechpartner fuer Lieferanten
+</msg>
+</logentry>
+<logentry revision="cfdb785">
+<date>2015-10-08T14:12:23Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="2d3aff7">
+<date>2015-10-08T14:12:11Z</date>
+<msg>Zahlungsdifferenz Mail: Besserer Betreff fuer Buchhaltung
+</msg>
+</logentry>
+<logentry revision="dfbe7ac">
+<date>2015-10-08T13:42:59Z</date>
+<msg>Service/Support speichern von Artikel
+</msg>
+</logentry>
+<logentry revision="1b27526">
+<date>2015-10-08T19:02:43Z</date>
+<msg>Provisionsartikel Projekt in 3. CSV hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="1192732">
+<date>2015-10-08T18:50:01Z</date>
+<msg>Provisionsartikel Datum verkauft sowie Projekt hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="d65bdf0">
+<date>2015-10-08T17:30:35Z</date>
+<msg>Fehlerausgabe falls Intraship nicht klappt
+</msg>
+</logentry>
+<logentry revision="a621112">
+<date>2015-10-08T17:01:44Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c17eee4">
+<date>2015-10-08T17:01:40Z</date>
+<msg>Korrektur
+</msg>
+</logentry>
+<logentry revision="48a7ccc">
+<date>2015-10-08T16:56:36Z</date>
+<msg>Fehler abfangen Intraship
+</msg>
+</logentry>
+<logentry revision="800705b">
+<date>2015-10-08T09:22:44Z</date>
+<msg>Rechnungslauf angepasst (Datum aus Vergangenheit)
+</msg>
+</logentry>
+<logentry revision="c80bec9">
+<date>2015-10-08T07:14:05Z</date>
+<msg>Lager ausbuchen immer Lager mit kleinsten Mengen leeren
+</msg>
+</logentry>
+<logentry revision="6d2f72c">
+<date>2015-10-08T12:41:22Z</date>
+<msg>Bestellungen Minidetail: Fertig gelieferte Artikel werden schwarz angezeigt sonst rot
+</msg>
+</logentry>
+<logentry revision="2caf0fc">
+<date>2015-10-08T12:37:24Z</date>
+<msg>Bestellungen Minidetail: Fertig gelieferte Artikel werden Fett angzeigt
+</msg>
+</logentry>
+<logentry revision="474985f">
+<date>2015-10-08T12:15:11Z</date>
+<msg>Abolauf Link Kundennummer
+</msg>
+</logentry>
+<logentry revision="bef241b">
+<date>2015-10-08T12:09:17Z</date>
+<msg>Datum AN, AB, BE wieder editierbar
+</msg>
+</logentry>
+<logentry revision="a682c03">
+<date>2015-10-08T12:00:11Z</date>
+<msg>Angebotersatztext hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="e9dd00b">
+<date>2015-10-07T12:35:38Z</date>
+<msg>Anzeige Revision Nummer angepasst
+</msg>
+</logentry>
+<logentry revision="22f078b">
+<date>2015-10-07T12:07:22Z</date>
+<msg>Anpassung Import/Export Zentrale importieren von Ansprechpartner fuer Lieferanten
+</msg>
+</logentry>
+<logentry revision="b7ea52c">
+<date>2015-10-07T12:02:47Z</date>
+<msg>Anpassung Lieferant Ansprechpartner importieren
+</msg>
+</logentry>
+<logentry revision="6f610d9">
+<date>2015-10-07T11:54:47Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="cc4358f">
+<date>2015-10-07T11:54:43Z</date>
+<msg>Ansprechpartner bei Lieferanten ueber Import-/Exportzentrale importieren
+</msg>
+</logentry>
+<logentry revision="126f96f">
+<date>2015-10-07T17:23:17Z</date>
+<msg>Email korrektur
+</msg>
+</logentry>
+<logentry revision="b206219">
+<date>2015-10-07T17:21:19Z</date>
+<msg>Nachrichtenboxen ausblenden falls Rechte nicht vorhanden
+</msg>
+</logentry>
+<logentry revision="9c51765">
+<date>2015-10-07T16:51:38Z</date>
+<msg>erpapi Versionsfehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="aab479c">
+<date>2015-10-07T10:34:57Z</date>
+<msg>Syntax Fehler bei GeneratePreisliste
+</msg>
+</logentry>
+<logentry revision="ad26cdd">
+<date>2015-10-07T10:33:33Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="9336bea">
+<date>2015-10-07T10:33:31Z</date>
+<msg>Syntax Fehler bei GeneratePreisliste
+</msg>
+</logentry>
+<logentry revision="9fa590b">
+<date>2015-10-07T16:30:05Z</date>
+<msg>Importvorlage UTF-8 Anpassung
+</msg>
+</logentry>
+<logentry revision="a868fd7">
+<date>2015-10-07T16:22:34Z</date>
+<msg>erpAPI Checkdate Funktion geaendert
+</msg>
+</logentry>
+<logentry revision="4d3a4db">
+<date>2015-10-07T16:13:51Z</date>
+<msg>Ubersetzungen Versionskontrolle
+</msg>
+</logentry>
+<logentry revision="97366d8">
+<date>2015-10-07T16:08:10Z</date>
+<msg>PHP 5.3 Kompatibilitaet Zertifikatgenerator
+</msg>
+</logentry>
+<logentry revision="8db0720">
+<date>2015-10-07T15:52:17Z</date>
+<msg>Menue OSS angepasst
+</msg>
+</logentry>
+<logentry revision="324c076">
+<date>2015-10-07T15:46:36Z</date>
+<msg>Versionshinweis bei OSS
+</msg>
+</logentry>
+<logentry revision="5ab2581">
+<date>2015-10-07T15:22:34Z</date>
+<msg>Secupay Korrektur
+</msg>
+</logentry>
+<logentry revision="2d59873">
+<date>2015-10-07T15:12:37Z</date>
+<msg>Secupay und Billsafe nur fuer ENTERPRISE und PREMIUM
+</msg>
+</logentry>
+<logentry revision="3c7ddd9">
+<date>2015-10-07T13:30:51Z</date>
+<msg>Benutzer Typ in Liste anzeigen
+</msg>
+</logentry>
+<logentry revision="2553992">
+<date>2015-10-07T13:26:45Z</date>
+<msg>Wiki: Fehlerkorrektur Sonderzeichen
+</msg>
+</logentry>
+<logentry revision="e6e64d7">
+<date>2015-10-07T13:08:38Z</date>
+<msg>div aus tinymce rausgenommen
+</msg>
+</logentry>
+<logentry revision="b4cdd19">
+<date>2015-10-07T12:52:55Z</date>
+<msg>Korrespondentzen korrigert
+</msg>
+</logentry>
+<logentry revision="16fb96c">
+<date>2015-10-07T12:44:01Z</date>
+<msg>Wiedervorlage mysqlgen korrigiert
+</msg>
+</logentry>
+<logentry revision="02853b0">
+<date>2015-10-07T12:26:00Z</date>
+<msg>Versandbestaetigung Secupay eingefuegt
+</msg>
+</logentry>
+<logentry revision="a81ffe0">
+<date>2015-10-06T17:03:33Z</date>
+<msg>Go! Fehler Abfangen Inhalt
+</msg>
+</logentry>
+<logentry revision="0360432">
+<date>2015-10-06T16:28:56Z</date>
+<msg>Go! Inhalt setzen falls nicht vorhanden
+</msg>
+</logentry>
+<logentry revision="9652630">
+<date>2015-10-06T16:12:38Z</date>
+<msg>Projekt Erweiterung Secupay
+</msg>
+</logentry>
+<logentry revision="0cf8510">
+<date>2015-10-06T15:51:27Z</date>
+<msg>Secupay mit HTTP-Client erweitert
+</msg>
+</logentry>
+<logentry revision="120b2ef">
+<date>2015-10-06T08:07:06Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="5ee1fd1">
+<date>2015-10-06T08:06:59Z</date>
+<msg>Anzeige nicht in Arbeit Position verbessert
+</msg>
+</logentry>
+<logentry revision="0c7060f">
+<date>2015-10-06T11:19:58Z</date>
+<msg>Moeglichkeit zum belassen von br-Tags in TinyMCE hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="5f90821">
+<date>2015-10-06T10:19:08Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="0e84bdb">
+<date>2015-10-06T10:19:02Z</date>
+<msg>secupay Tabellenspalten hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="4e08709">
+<date>2015-10-05T13:32:14Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="5728b31">
+<date>2015-10-05T13:32:03Z</date>
+<msg>Merge remote-tracking branch 'origin/15.3' into 15.4
+</msg>
+</logentry>
+<logentry revision="01ddb27">
+<date>2015-10-05T19:19:20Z</date>
+<msg>Secupay in Projekteinstellungen hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="d857bed">
+<date>2015-10-05T19:03:16Z</date>
+<msg>Coface Edisonliste erstellt
+</msg>
+</logentry>
+<logentry revision="722794d">
+<date>2015-10-05T19:00:40Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c8ab8f5">
+<date>2015-10-05T19:00:31Z</date>
+<msg>Secupay hinzugefuegt aber noch nicht getestet
+</msg>
+</logentry>
+<logentry revision="c63e51c">
+<date>2015-10-05T12:25:43Z</date>
+<msg>Sortierung Lieferschein Positionsaufkleber genauso wie auf Lieferschein
+</msg>
+</logentry>
+<logentry revision="2986825">
+<date>2015-10-05T09:21:27Z</date>
+<msg>EventAPI Patch 2 ENT,PRE
+</msg>
+</logentry>
+<logentry revision="5fddb12">
+<date>2015-10-05T09:14:40Z</date>
+<msg>EventAPI nur in ENT und PRE
+</msg>
+</logentry>
+<logentry revision="a436a4a">
+<date>2015-10-02T10:55:22Z</date>
+<msg>Uebernahme aller Felder bei abweichender Rechnungsadresse
+</msg>
+</logentry>
+<logentry revision="385c2d0">
+<date>2015-10-02T10:04:26Z</date>
+<msg>Anpassung Importvorlage name nur mit vorname zusammenfuegen wenn nachnahme leer ist
+</msg>
+</logentry>
+<logentry revision="8d81805">
+<date>2015-10-02T05:33:21Z</date>
+<msg>Auswahl Belegart in Statistik/Artikel dynamisch
+</msg>
+</logentry>
+<logentry revision="70ef386">
+<date>2015-10-02T04:53:47Z</date>
+<msg>Auswahl Beleg in Statistik Artikel
+</msg>
+</logentry>
+<logentry revision="b1773f9">
+<date>2015-10-02T01:30:57Z</date>
+<msg>Icon Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="a880c85">
+<date>2015-10-02T01:15:24Z</date>
+<msg>Anpassung Adapterbox Test Webcam Aufloesung
+</msg>
+</logentry>
+<logentry revision="40156dc">
+<date>2015-10-02T01:15:05Z</date>
+<msg>Anpassungen Statistik Artikel
+</msg>
+</logentry>
+<logentry revision="5a9b043">
+<date>2015-10-02T00:55:55Z</date>
+<msg>Neues Statistikmodul Artikel
+</msg>
+</logentry>
+<logentry revision="e8524b4">
+<date>2015-10-01T10:56:38Z</date>
+<msg>Neue Rolle Mitglied
+</msg>
+</logentry>
+<logentry revision="ddd835d">
+<date>2015-10-01T10:15:56Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="a00be2c">
+<date>2015-10-01T10:15:50Z</date>
+<msg>RMA Formular im Versandprozess
+</msg>
+</logentry>
+<logentry revision="4e6e9ed">
+<date>2015-10-01T14:12:14Z</date>
+<msg>Anpassungen Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="abc95a1">
+<date>2015-10-01T13:03:53Z</date>
+<msg>Wiedervorlage Angepasst
+</msg>
+</logentry>
+<logentry revision="d5ece97">
+<date>2015-10-01T02:41:27Z</date>
+<msg>Wiedervorlage nach loeschen Weiterleitung
+</msg>
+</logentry>
+<logentry revision="b95b0d6">
+<date>2015-09-30T21:12:26Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="8f4576f">
+<date>2015-09-30T21:12:15Z</date>
+<msg>Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="0e309ff">
+<date>2015-09-30T14:46:38Z</date>
+<msg>Datumsformat in Korrespondenzen PDF
+</msg>
+</logentry>
+<logentry revision="a88daaf">
+<date>2015-09-30T13:23:21Z</date>
+<msg>Anpassungen Wiedervorlage
+</msg>
+</logentry>
+<logentry revision="a450b45">
+<date>2015-09-30T18:56:45Z</date>
+<msg>Angebot Wiedervorlage Korrektur Groesse
+</msg>
+</logentry>
+<logentry revision="6866884">
+<date>2015-09-30T18:54:26Z</date>
+<msg>Angebot Wiedervorlage Korrektur Groesse
+</msg>
+</logentry>
+<logentry revision="bf3040e">
+<date>2015-09-30T18:49:29Z</date>
+<msg>Angebot Wiedervorlage hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="7ceb153">
+<date>2015-09-30T17:40:22Z</date>
+<msg>userright Korrektur
+</msg>
+</logentry>
+<logentry revision="04a9123">
+<date>2015-09-30T16:22:08Z</date>
+<msg>Korrektur Userrightsabgleich
+</msg>
+</logentry>
+<logentry revision="8c719d7">
+<date>2015-09-30T14:13:48Z</date>
+<msg>Artikel: Downloadartikel hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="62261fe">
+<date>2015-09-29T14:17:08Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="79ff7cc">
+<date>2015-09-29T14:16:59Z</date>
+<msg>Anpassung Adapterbox API Image
+</msg>
+</logentry>
+<logentry revision="c60383a">
+<date>2015-09-29T19:22:56Z</date>
+<msg>Wiedervorlage Erinnerungszeit muss nun nicht vorbelegt sein
+</msg>
+</logentry>
+<logentry revision="7c56c69">
+<date>2015-09-29T19:21:52Z</date>
+<msg>Porto fuer OpenCart hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="18cbfe2">
+<date>2015-09-29T09:39:13Z</date>
+<msg>Vorauswahl Drucken + Mail im Abolauf
+</msg>
+</logentry>
+<logentry revision="f0f8257">
+<date>2015-09-29T08:21:31Z</date>
+<msg>Merge branch '15.4' of gitlab:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="c4ef70d">
+<date>2015-09-29T08:21:26Z</date>
+<msg>Wareneingang mit Kamera und Waage per API
+</msg>
+</logentry>
+<logentry revision="6975184">
+<date>2015-09-29T11:24:24Z</date>
+<msg>Zertifikatgenerator: Hinzufuegung Unterschriftbild
+</msg>
+</logentry>
+<logentry revision="345c7a2">
+<date>2015-09-28T19:57:42Z</date>
+<msg>Wiedervorlage hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="18a94b9">
+<date>2015-09-28T18:38:09Z</date>
+<msg>Layoutvorlagen Fontkorrektur
+</msg>
+</logentry>
+<logentry revision="8aa4ddc">
+<date>2015-09-28T18:37:30Z</date>
+<msg>Merge branch '15.4' of 192.168.0.21:wawision/wawision into 15.4
+</msg>
+</logentry>
+<logentry revision="0286cfc">
+<date>2015-09-28T08:24:53Z</date>
+<msg>Anzeige Chat Mitarbeiter die nicht im Kalender deaktiviert sind
+</msg>
+</logentry>
+<logentry revision="5d65b9d">
+<date>2015-09-28T08:24:24Z</date>
+<msg>Anzeige Chat Mitarbeiter die nicht im Kalender deaktiviert sind
+</msg>
+</logentry>
+<logentry revision="59c2df2">
+<date>2015-09-28T07:06:17Z</date>
+<msg>Merge remote-tracking branch 'origin/15.3' into 15.4
+</msg>
+</logentry>
+<logentry revision="79df07a">
+<date>2015-09-28T06:41:46Z</date>
+<msg>Import/Export Artikelbeschreibungen Umwandlung HTML Sonderzeichen
+</msg>
+</logentry>
+<logentry revision="c3d1be0">
+<date>2015-09-28T11:06:16Z</date>
+<msg>Merge remote-tracking branch 'origin/15.3' into 15.4
+</msg>
+</logentry>
+<logentry revision="e4130f0">
+<date>2015-09-26T05:03:02Z</date>
+<msg>Entfernen von alten 0er Kunden-,Lieferanten und Mitarbeiternummern
+</msg>
+</logentry>
+<logentry revision="16c5b5d">
+<date>2015-09-25T14:47:34Z</date>
+<msg>Korrespodenz Breite angepasst
+</msg>
+</logentry>
+<logentry revision="edad439">
+<date>2015-09-25T14:30:30Z</date>
+<msg>Versionsanpassung
+</msg>
+</logentry>
+<logentry revision="005431d">
+<date>2015-09-24T20:35:23Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="6b1f740">
+<date>2015-09-24T20:35:13Z</date>
+<msg>Korrespodenz Anpassung
+</msg>
+</logentry>
+<logentry revision="e347027">
+<date>2015-09-24T20:32:08Z</date>
+<msg>Frachtbrief Go nur wenn ausserhalb DE
+</msg>
+</logentry>
+<logentry revision="876f1c6">
+<date>2015-09-24T14:12:52Z</date>
+<msg>Abolauf Anzeige Datum bei Jahresrechnung
+</msg>
+</logentry>
+<logentry revision="34825b5">
+<date>2015-09-24T14:05:41Z</date>
+<msg>Anzeige RMA Artikel in Adresse
+</msg>
+</logentry>
+<logentry revision="da052a6">
+<date>2015-09-24T12:30:59Z</date>
+<msg>Fehlermeldung wenn Zahlungsweise nicht vorhanden
+</msg>
+</logentry>
+<logentry revision="eaee466">
+<date>2015-09-24T12:26:28Z</date>
+<msg>Auftrag aus Versandprozess nehmen wieder aktiviert
+</msg>
+</logentry>
+<logentry revision="ae62f0d">
+<date>2015-09-24T17:01:54Z</date>
+<msg>Fehler Go!
+</msg>
+</logentry>
+<logentry revision="48ace58">
+<date>2015-09-24T17:00:48Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="48b616e">
+<date>2015-09-24T17:00:32Z</date>
+<msg>Anpassung fuer Korrespondenz
+</msg>
+</logentry>
+<logentry revision="bf4f4a9">
+<date>2015-09-24T16:56:41Z</date>
+<msg>Go! Schnitstelle Empfangsbestaetigung und frei + Nachnahme Ausschluss
+</msg>
+</logentry>
+<logentry revision="3691da2">
+<date>2015-09-24T08:38:48Z</date>
+<msg>Projekt suchbar in Lagermindestmengen
+</msg>
+</logentry>
+<logentry revision="ee5fe35">
+<date>2015-09-24T08:28:08Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="348dc10">
+<date>2015-09-24T08:28:02Z</date>
+<msg>Anpassung Intraship Paketmarke
+</msg>
+</logentry>
+<logentry revision="52502b6">
+<date>2015-09-24T14:04:02Z</date>
+<msg>Bekannte Zahlungen hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="f62bb30">
+<date>2015-09-24T06:48:52Z</date>
+<msg>Chat Meldung rechts oben bei Benutzername
+</msg>
+</logentry>
+<logentry revision="6c32df9">
+<date>2015-09-24T12:11:54Z</date>
+<msg>Paketmarke Go Oberflaechenanpassung
+</msg>
+</logentry>
+<logentry revision="6dfb9c1">
+<date>2015-09-24T12:06:35Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="c31c2b5">
+<date>2015-09-24T12:06:29Z</date>
+<msg>Go! Obeflaeche Anpassung
+</msg>
+</logentry>
+<logentry revision="e452f62">
+<date>2015-09-24T06:00:51Z</date>
+<msg>Stammdatenbereinigung Zusammenfuehren auch Felder Info Auftragerfassung und Sonstiges
+</msg>
+</logentry>
+<logentry revision="a32f41c">
+<date>2015-09-24T05:41:19Z</date>
+<msg>Merge branch 'master' into 15.3
+</msg>
+</logentry>
+<logentry revision="2745d9e">
+<date>2015-09-24T05:25:04Z</date>
+<msg>Stammdatenbereinigung ueberarbeitet
+</msg>
+</logentry>
+<logentry revision="194e6a5">
+<date>2015-09-24T04:27:57Z</date>
+<msg>Menu Bestellvorschlag Filiale komplett integriert
+</msg>
+</logentry>
+<logentry revision="cc0941f">
+<date>2015-09-23T13:01:22Z</date>
+<msg>MLM Anpassung Pfad zu Struktur
+</msg>
+</logentry>
+<logentry revision="207b2f8">
+<date>2015-09-23T12:30:15Z</date>
+<msg>SWP Datei geloescht
+</msg>
+</logentry>
+<logentry revision="7006645">
+<date>2015-09-23T18:29:53Z</date>
+<msg>Layout Uberzahlte Rechnungen/Abos angepasst, Adressensortierung angepasst
+</msg>
+</logentry>
+<logentry revision="6f7022c">
+<date>2015-09-23T12:16:46Z</date>
+<msg>Anzeige Chat nur Mitarbeiter
+</msg>
+</logentry>
+<logentry revision="2128615">
+<date>2015-09-23T17:46:27Z</date>
+<msg>Uberzahlterechnugnen Fehlerkorrektur
+</msg>
+</logentry>
+<logentry revision="dc48b38">
+<date>2015-09-23T17:28:32Z</date>
+<msg>Artikellistenansicht korrigiert
+</msg>
+</logentry>
+<logentry revision="6cad576">
+<date>2015-09-23T17:25:04Z</date>
+<msg>PaketmaGo Zustellhinweise hinzugefuegt und Sendungsstatus geaendert
+</msg>
+</logentry>
+<logentry revision="3483c69">
+<date>2015-09-23T17:11:12Z</date>
+<msg>Uberzahlte Rechnungen nur fuer Version ALL
+</msg>
+</logentry>
+<logentry revision="b6df432">
+<date>2015-09-23T10:19:50Z</date>
+<msg>Merge branch '15.3'
+</msg>
+</logentry>
+<logentry revision="9c9230c">
+<date>2015-09-23T10:07:05Z</date>
+<msg>Manueller Merge von 15.3a
+</msg>
+</logentry>
+<logentry revision="5ae6eb0">
+<date>2015-09-23T09:53:28Z</date>
+<msg>Merge branch '15.3a' of 192.168.0.21:wawision/wawision into 15.3a
+</msg>
+</logentry>
+<logentry revision="bf65dbc">
+<date>2015-09-23T09:53:23Z</date>
+<msg>Hotfix: Mahnwesen Belegnummer mit Buchstaben, POS Ansprechpartner durchsuchbar
+</msg>
+</logentry>
+<logentry revision="79b8370">
+<date>2015-09-23T15:46:25Z</date>
+<msg>Zertifikatgeneratorkorrektur
+</msg>
+</logentry>
+<logentry revision="259f247">
+<date>2015-09-23T15:43:57Z</date>
+<msg>Revert &quot;Artikel Laden im Zertifikatgenerator korrigiert&quot;
+</msg>
+</logentry>
+<logentry revision="792648d">
+<date>2015-09-23T15:40:27Z</date>
+<msg>Zertifikatgernerator Artikeltexte laden korrigiert
+</msg>
+</logentry>
+<logentry revision="0593f7c">
+<date>2015-09-23T15:38:08Z</date>
+<msg>Artikel Laden im Zertifikatgenerator korrigiert
+</msg>
+</logentry>
+<logentry revision="fde5f39">
+<date>2015-09-23T09:08:56Z</date>
+<msg>Merge branch '15.3' into 'master'
+</msg>
+</logentry>
+<logentry revision="6af02f7">
+<date>2015-09-23T14:22:00Z</date>
+<msg>Umsatzstatistik Fix: Deckungsbeitrag
+</msg>
+</logentry>
+<logentry revision="63f8afb">
+<date>2015-09-23T07:21:05Z</date>
+<msg>Modul Lock fuer Waage
+</msg>
+</logentry>
+<logentry revision="117952a">
+<date>2015-09-23T07:20:37Z</date>
+<msg>Anpassung Anzeige Belegnummern mit Buchstaben im Mahnwesen
+</msg>
+</logentry>
+<logentry revision="767ff20">
+<date>2015-09-23T07:19:27Z</date>
+<msg>Neuer Logistikprozess Lieferschein + Versandzentrum
+</msg>
+</logentry>
+<logentry revision="2e75455">
+<date>2015-09-23T07:18:50Z</date>
+<msg>Anzeige Zahlungsweiseneinstellungen (Tage, Skonto, Skontotage) gueltig nur fuer Rechnung
+</msg>
+</logentry>
+<logentry revision="413f6f8">
+<date>2015-09-23T07:17:49Z</date>
+<msg>Zeilenabstand im PDF Brief
+</msg>
+</logentry>
+<logentry revision="420a0a7">
+<date>2015-09-23T06:51:08Z</date>
+<msg>Ausblenden von Verbrauchslagern in Lagerliste differenzen
+</msg>
+</logentry>
+<logentry revision="1434bcc">
+<date>2015-09-23T06:01:23Z</date>
+<msg>Merge branch '15.3' into '15.4'
+</msg>
+</logentry>
+<logentry revision="e19c5d0">
+<date>2015-09-23T05:58:31Z</date>
+<msg>Anpassung Player pruefen ob Navigationsfunktion existiert
+</msg>
+</logentry>
+<logentry revision="97d2583">
+<date>2015-09-23T05:50:01Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="87cb6a9">
+<date>2015-09-23T05:49:54Z</date>
+<msg>In Artikel / Lagerbewegungen Lagerplatz suchbar
+</msg>
+</logentry>
+<logentry revision="87a45f6">
+<date>2015-09-23T05:49:05Z</date>
+<msg>Export Gutschriftpositionen neue Variable preis_negativ
+</msg>
+</logentry>
+<logentry revision="01af8f8">
+<date>2015-09-23T11:36:23Z</date>
+<msg>Abos Menue korrigiert
+</msg>
+</logentry>
+<logentry revision="24a7ff1">
+<date>2015-09-23T11:21:23Z</date>
+<msg>Artikelmindetails und Liste Abrechnungsartikel
+</msg>
+</logentry>
+<logentry revision="c489b93">
+<date>2015-09-22T17:21:08Z</date>
+<msg>Ueberzahlte Rechnungen angepasst
+</msg>
+</logentry>
+<logentry revision="6f594e0">
+<date>2015-09-22T16:34:58Z</date>
+<msg>Meldung falls Zahlungsart nicht bekannt
+</msg>
+</logentry>
+<logentry revision="945b91c">
+<date>2015-09-22T15:27:54Z</date>
+<msg>Navigationsfallback bei Upgradeproblemen
+</msg>
+</logentry>
+<logentry revision="37b7f84">
+<date>2015-09-22T07:46:07Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="8024d3e">
+<date>2015-09-22T07:46:01Z</date>
+<msg>Backuppfad in Konfiguration einstellbar
+</msg>
+</logentry>
+<logentry revision="4bf12cb">
+<date>2015-09-22T11:41:19Z</date>
+<msg>Cache der WSDL-Datei deaktivert
+</msg>
+</logentry>
+<logentry revision="f28c4a9">
+<date>2015-09-21T12:56:02Z</date>
+<msg>Neuer Name fuer APIs
+</msg>
+</logentry>
+<logentry revision="b013bdf">
+<date>2015-09-21T10:58:20Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="3e8b7ce">
+<date>2015-09-21T10:42:49Z</date>
+<msg>Auslagerung Artikel wenn Positions oefters in Auftrag bzw. Lieferschein
+</msg>
+</logentry>
+<logentry revision="8a0c191">
+<date>2015-09-21T16:24:44Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="7a3664b">
+<date>2015-09-21T16:24:37Z</date>
+<msg>Uberzahlte Rechnugnen Cronjob und Anzeige
+</msg>
+</logentry>
+<logentry revision="6ad2f24">
+<date>2015-09-21T10:07:32Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="6f2fe71">
+<date>2015-09-21T10:07:25Z</date>
+<msg>Lager Artikelzusammenfassen mit Prozesslock versehen
+</msg>
+</logentry>
+<logentry revision="56182e3">
+<date>2015-09-21T12:34:29Z</date>
+<msg>Abmelden auch nach einem Tag moeglich
+</msg>
+</logentry>
+<logentry revision="bc9be9a">
+<date>2015-09-21T12:33:48Z</date>
+<msg>Fehlerkorrektur Layoutvorlagen
+</msg>
+</logentry>
+<logentry revision="ef332e9">
+<date>2015-09-21T11:54:14Z</date>
+<msg>Zertifikatgenerator Text wird alternativ von Angebotsbeschreibung geholt
+</msg>
+</logentry>
+<logentry revision="7cb2fba">
+<date>2015-09-21T10:40:38Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="b25ebcc">
+<date>2015-09-21T10:40:31Z</date>
+<msg>go Erweiterung
+</msg>
+</logentry>
+<logentry revision="c3ed9d1">
+<date>2015-09-20T15:52:23Z</date>
+<msg>Adapterbox Konfiguration um Waagen Model und Baudrate erweitert
+</msg>
+</logentry>
+<logentry revision="964f4d7">
+<date>2015-09-18T07:02:42Z</date>
+<msg>Anzeigefehler Belege mit Buchstaben in Bearbeitung
+</msg>
+</logentry>
+<logentry revision="3fbaca3">
+<date>2015-09-18T04:25:02Z</date>
+<msg>Anpassung Servicetools Anzeige Icon Ueberzahlungen
+</msg>
+</logentry>
+<logentry revision="585b88d">
+<date>2015-09-17T15:39:12Z</date>
+<msg>Textvorlagen korrigiert fuer TinyMCE
+</msg>
+</logentry>
+<logentry revision="6c32a5f">
+<date>2015-09-17T11:09:26Z</date>
+<msg>Go-Klasse unabhaengig von der WSDL-Datei umprogrammiert
+</msg>
+</logentry>
+<logentry revision="978cc1f">
+<date>2015-09-16T18:50:56Z</date>
+<msg>Ueberzahlte Rechnungen Modul hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="d4e6fca">
+<date>2015-09-16T14:20:52Z</date>
+<msg>Artikelimport Gewicht hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="d74392e">
+<date>2015-09-16T07:04:26Z</date>
+<msg>Anpassung Emailaccount, nicht verwenden wenn geloescht
+</msg>
+</logentry>
+<logentry revision="795b29f">
+<date>2015-09-15T12:15:51Z</date>
+<msg>Fehlende Datei fuer Go Schnittstelle
+</msg>
+</logentry>
+<logentry revision="50d2873">
+<date>2015-09-15T12:10:35Z</date>
+<msg>Neue Parameter fuer GO (Format und Ausgabe)
+</msg>
+</logentry>
+<logentry revision="b1f3450">
+<date>2015-09-15T11:19:30Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="0b391e1">
+<date>2015-09-15T11:19:25Z</date>
+<msg>Automatisch setztem des Versandunternehmens bei Import von Auftragene auf den Systemstandard wenn Typ=versandunternehmen
+</msg>
+</logentry>
+<logentry revision="ea447a7">
+<date>2015-09-15T15:11:03Z</date>
+<msg>debuginfo in class.go entfernt
+</msg>
+</logentry>
+<logentry revision="190c075">
+<date>2015-09-15T12:39:27Z</date>
+<msg>Artikelliste: gesperrt Filter korrigiert
+</msg>
+</logentry>
+<logentry revision="8e34e86">
+<date>2015-09-15T12:25:37Z</date>
+<msg>Go Schnittstelle per Template
+</msg>
+</logentry>
+<logentry revision="7e1d1d9">
+<date>2015-09-15T12:04:41Z</date>
+<msg>Matrixprodukt auskommentiert
+</msg>
+</logentry>
+<logentry revision="43256a8">
+<date>2015-09-14T23:14:37Z</date>
+<msg>Ansprechpartner und Adresszusatz direkt ueber Suchfeld suchbar
+</msg>
+</logentry>
+<logentry revision="8d4b0e4">
+<date>2015-09-14T23:07:20Z</date>
+<msg>Adresszusatz in Filter durchsuchbar
+</msg>
+</logentry>
+<logentry revision="bdbd1cf">
+<date>2015-09-14T10:01:06Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="cabcdd9">
+<date>2015-09-14T10:01:02Z</date>
+<msg>Verbandsabrechnung Format 6 und 7 angepasst
+</msg>
+</logentry>
+<logentry revision="c581291">
+<date>2015-09-14T10:00:34Z</date>
+<msg>Versandzentrum mit 2 Schritten
+</msg>
+</logentry>
+<logentry revision="54a751b">
+<date>2015-09-14T09:59:32Z</date>
+<msg>Rechte in LiveTabelle fuer Adresse Import angepasst
+</msg>
+</logentry>
+<logentry revision="0f0b424">
+<date>2015-09-14T15:05:31Z</date>
+<msg>Importmeldung nicht mehr als Fehler ausgegeben
+</msg>
+</logentry>
+<logentry revision="175a071">
+<date>2015-09-14T08:19:19Z</date>
+<msg>Cronjob Tickets nur E-Mail Accounts verwenden die nicht geloescht sind
+</msg>
+</logentry>
+<logentry revision="a6e796b">
+<date>2015-09-11T13:26:00Z</date>
+<msg>Anpassungen GO!
+</msg>
+</logentry>
+<logentry revision="e385359">
+<date>2015-09-11T13:17:53Z</date>
+<msg>Neues Feld Matrixprodukt in DB hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="b8d632a">
+<date>2015-09-11T10:45:44Z</date>
+<msg>Anpassungen GO WSDL
+</msg>
+</logentry>
+<logentry revision="0262512">
+<date>2015-09-11T06:17:45Z</date>
+<msg>Etiketten Bildgenerator
+</msg>
+</logentry>
+<logentry revision="b086e27">
+<date>2015-09-11T05:26:53Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="795b743">
+<date>2015-09-11T05:26:48Z</date>
+<msg>Anpassung das Mahnwesen mit Belegnr die mit Buchstaben beginnen umgehen kann
+</msg>
+</logentry>
+<logentry revision="0247cd4">
+<date>2015-09-11T05:25:30Z</date>
+<msg>Uebergabe an Versandzentrum von Auftraegen wenn Useredit noch leer war
+</msg>
+</logentry>
+<logentry revision="572a7d6">
+<date>2015-09-10T20:29:35Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="e4e3003">
+<date>2015-09-10T20:29:27Z</date>
+<msg>Merge
+</msg>
+</logentry>
+<logentry revision="3713857">
+<date>2015-09-10T20:27:03Z</date>
+<msg>Matrixprodukt Vorschlag
+</msg>
+</logentry>
+<logentry revision="d687f81">
+<date>2015-09-10T12:25:03Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="2643f90">
+<date>2015-09-10T12:23:16Z</date>
+<msg>Lieferscheinpositions Aufkleber mit Lagerplatzname
+</msg>
+</logentry>
+<logentry revision="0392f29">
+<date>2015-09-10T17:47:30Z</date>
+<msg>Lockmodule: IE-Korrektur
+</msg>
+</logentry>
+<logentry revision="6f4dde4">
+<date>2015-09-10T17:16:29Z</date>
+<msg>pygen: Ausrufezeichen in MySQL-Arrays
+</msg>
+</logentry>
+<logentry revision="7189620">
+<date>2015-09-10T17:10:43Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="2d8d4cf">
+<date>2015-09-10T17:10:32Z</date>
+<msg>Modul lockbar fuer mehrere Browserfenster
+</msg>
+</logentry>
+<logentry revision="7af3656">
+<date>2015-09-10T09:37:55Z</date>
+<msg>Waagen Anwendungen in Servicetools verlinkt
+</msg>
+</logentry>
+<logentry revision="71748e2">
+<date>2015-09-10T07:21:13Z</date>
+<msg>Anpassung Timeout sperre fuer Beleg
+</msg>
+</logentry>
+<logentry revision="f524639">
+<date>2015-09-10T06:59:14Z</date>
+<msg>Anzeige Kundennummer mit Buchstaben als Prefix im Adressdialog
+</msg>
+</logentry>
+<logentry revision="da3f6ca">
+<date>2015-09-10T06:53:03Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="2fc016e">
+<date>2015-09-10T06:52:58Z</date>
+<msg>BUG: Einzelne Uebergabe an Versandzentrum jetzt wieder im Beleg moeglich (neue Sperre das nur nicht bearbeitete uebergeben werden)
+</msg>
+</logentry>
+<logentry revision="44c1daa">
+<date>2015-09-10T06:47:43Z</date>
+<msg>Neuer Kommissionierprozess Einfache Lagerbuchung + scannen im Versandzentrum
+</msg>
+</logentry>
+<logentry revision="ae9aa54">
+<date>2015-09-10T11:58:33Z</date>
+<msg>Benutzervorlage abgeleichen beschleunigt
+</msg>
+</logentry>
+<logentry revision="1cb2fca">
+<date>2015-09-10T11:01:17Z</date>
+<msg>Stechuhr: Bugfix Anzeige
+</msg>
+</logentry>
+<logentry revision="4e0db7f">
+<date>2015-09-09T16:26:35Z</date>
+<msg>Textvorlagen: Einfuegen bei aktuellen Textcursor
+</msg>
+</logentry>
+<logentry revision="18f1f9c">
+<date>2015-09-09T07:16:58Z</date>
+<msg>Test fuer Generator
+</msg>
+</logentry>
+<logentry revision="5637587">
+<date>2015-09-09T07:12:56Z</date>
+<msg>Anpassung Paketmarkeneinstellungen im Projekt nur fuer Enterprise Version (Go, Intraship)
+</msg>
+</logentry>
+<logentry revision="175a3ef">
+<date>2015-09-09T05:47:42Z</date>
+<msg>Anpassung Generator fuer DB Namen mit Punkt und Strich
+</msg>
+</logentry>
+<logentry revision="8286f9c">
+<date>2015-09-09T05:38:44Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="1899560">
+<date>2015-09-09T05:37:05Z</date>
+<msg>Intraship Anpassung immer Anzeige LS auf Label
+</msg>
+</logentry>
+<logentry revision="d4712a8">
+<date>2015-09-08T19:49:22Z</date>
+<msg>Korrektur fuer das Parsen in Ioncube
+</msg>
+</logentry>
+<logentry revision="98259ab">
+<date>2015-09-08T19:08:47Z</date>
+<msg>Markierungen PRO-Version hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="e9ea3bd">
+<date>2015-09-08T18:48:08Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="84830a0">
+<date>2015-09-08T18:47:54Z</date>
+<msg>Pos: Bugfix Anfuehrungszeichen in Artikelnamen
+</msg>
+</logentry>
+<logentry revision="0acb759">
+<date>2015-09-08T10:28:10Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="4e65dfe">
+<date>2015-09-08T10:28:03Z</date>
+<msg>Bestellung, automatisch setzten des Lieferdatum wenn nicht vorhanden bei Bestaetigung des Datums
+</msg>
+</logentry>
+<logentry revision="78e3afd">
+<date>2015-09-08T15:48:19Z</date>
+<msg>Mahnwesen zusaetzliche Spalte Projekt, einzekbe Mahnungen als PDF downloadbar
+</msg>
+</logentry>
+<logentry revision="c3a2a01">
+<date>2015-09-08T15:25:47Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="71c83ce">
+<date>2015-09-08T15:25:33Z</date>
+<msg>Stechuhr: Bugfix
+</msg>
+</logentry>
+<logentry revision="bcbac43">
+<date>2015-09-08T08:51:08Z</date>
+<msg>Skonto laden in AN,AB,RE,GS nur bei Zahlungsweise Rechnung aus Grundeinstellungen
+</msg>
+</logentry>
+<logentry revision="85cef94">
+<date>2015-09-08T06:57:05Z</date>
+<msg>Artikeltabelle Sortierung korrekt wenn Bild eingeblendet
+</msg>
+</logentry>
+<logentry revision="3456845">
+<date>2015-09-07T12:40:23Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="337c1dd">
+<date>2015-09-07T12:40:18Z</date>
+<msg>Cronjob Massenartikeluebertragung Shop
+</msg>
+</logentry>
+<logentry revision="e91600e">
+<date>2015-09-07T18:17:00Z</date>
+<msg>Stechuhr Tabelle geaendert
+</msg>
+</logentry>
+<logentry revision="27a0b59">
+<date>2015-09-07T17:49:31Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="74ae1e2">
+<date>2015-09-07T17:49:18Z</date>
+<msg>NavigationOSS fuer alle Versionen verfuegbar um Upgradefehler vorzubeugen
+</msg>
+</logentry>
+<logentry revision="2986f8b">
+<date>2015-09-07T11:05:35Z</date>
+<msg>Etiketten pro Lieferschein drucken
+</msg>
+</logentry>
+<logentry revision="438c221">
+<date>2015-09-07T09:30:46Z</date>
+<msg>Neue Shoptypen eingefuegt OpenCart, xtCommerce
+</msg>
+</logentry>
+<logentry revision="3766e17">
+<date>2015-09-07T09:20:12Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="87762cd">
+<date>2015-09-07T09:20:05Z</date>
+<msg>Online-Shop Schnittstelle Export inkl. variantevon und cronjob Uebertragung aller Artikel
+</msg>
+</logentry>
+<logentry revision="32d3f6d">
+<date>2015-09-07T14:23:00Z</date>
+<msg>Stechuhroberflaeche geaendert
+</msg>
+</logentry>
+<logentry revision="55633d8">
+<date>2015-09-07T14:17:57Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="2205583">
+<date>2015-09-07T14:17:11Z</date>
+<msg>Mahnwesen Fehlbetrag und Skonto hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="b7b0f48">
+<date>2015-09-07T07:56:39Z</date>
+<msg>Verein neues Feld Mitglied aktiv
+</msg>
+</logentry>
+<logentry revision="48643cc">
+<date>2015-09-06T13:56:17Z</date>
+<msg>Anpassungen WaWision LoginKey
+</msg>
+</logentry>
+<logentry revision="e675739">
+<date>2015-09-03T18:38:40Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="5db5bff">
+<date>2015-09-03T18:37:53Z</date>
+<msg>Stechuhr angepasst
+</msg>
+</logentry>
+<logentry revision="ffa9152">
+<date>2015-09-03T06:50:59Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="2ae0f50">
+<date>2015-09-03T06:50:37Z</date>
+<msg>Rechte fuer Verbindlichkeiten laden angepasst
+</msg>
+</logentry>
+<logentry revision="e519549">
+<date>2015-09-03T11:00:32Z</date>
+<msg>Anpassung SEPA Zahlungsverkehr Verbindlichkeiten laden Rechte
+</msg>
+</logentry>
+<logentry revision="833b723">
+<date>2015-09-02T13:56:02Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="9834303">
+<date>2015-09-02T13:55:42Z</date>
+<msg>Stechuhr angepasst
+</msg>
+</logentry>
+<logentry revision="ec5b201">
+<date>2015-09-02T13:45:19Z</date>
+<msg>Merge branch '15.3' of gitlab:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="46b927e">
+<date>2015-09-02T13:45:11Z</date>
+<msg>Neues Feld Verein Mitglied aktiv
+</msg>
+</logentry>
+<logentry revision="781aa33">
+<date>2015-09-02T11:30:24Z</date>
+<msg>Textvorlagen Bugfix
+</msg>
+</logentry>
+<logentry revision="872efcc">
+<date>2015-09-02T11:17:03Z</date>
+<msg>Datenbankoptimiertung: InnoDB
+</msg>
+</logentry>
+<logentry revision="9348560">
+<date>2015-09-02T10:24:59Z</date>
+<msg>Stechuhroberflaeche hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="1657cbd">
+<date>2015-09-01T13:49:33Z</date>
+<msg>Zertifikatgenerator: Zertifikat als Dateistichwort hinzugefuegt, Legende hinzugefuegt, Stuecklisten Anhaenge werden hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="1602277">
+<date>2015-09-01T10:33:28Z</date>
+<msg>Bestellvorschlag: Staffelpreisfehler korrigiert. Filiale: Vorschlag fuer mehrere Monate
+</msg>
+</logentry>
+<logentry revision="01b1d5b">
+<date>2015-09-01T07:44:10Z</date>
+<msg>Layoutgenerator: automatischer Seitenumbruch und Verschiebung nachfolgender Elemente. Verfuegbare Fonts werden aus pdf-Verzeichnis geholt und stehen nun zur Auswahl
+</msg>
+</logentry>
+<logentry revision="9e6c199">
+<date>2015-09-01T04:48:26Z</date>
+<msg>Versionsname in 15.4 angepasst
+</msg>
+</logentry>
+<logentry revision="93b29b6">
+<date>2015-08-31T10:38:42Z</date>
+<msg>Merge branch '15.3' into '15.4'
+</msg>
+</logentry>
+<logentry revision="e44e390">
+<date>2015-08-31T09:21:23Z</date>
+<msg>Database Ordner aus www geloescht
+</msg>
+</logentry>
+<logentry revision="ef4aeed">
+<date>2015-08-31T09:08:31Z</date>
+<msg>Anpassung RSS Feed bei Update
+</msg>
+</logentry>
+<logentry revision="a6fa995">
+<date>2015-08-31T08:13:42Z</date>
+<msg>Anpassung Zugriff RSS Feed fuer UpdateServer
+</msg>
+</logentry>
+<logentry revision="b8e5a46">
+<date>2015-08-31T06:04:38Z</date>
+<msg>Anpassungen fuer neuen BuildServer
+</msg>
+</logentry>
+<logentry revision="86b9aa1">
+<date>2015-08-27T10:28:02Z</date>
+<msg>BuildServer Makros fuer XML API
+</msg>
+</logentry>
+<logentry revision="49514cc">
+<date>2015-08-27T10:15:39Z</date>
+<msg>BuildServer Test im Projekt
+</msg>
+</logentry>
+<logentry revision="7be292a">
+<date>2015-08-27T09:59:55Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="3e4dfbd">
+<date>2015-08-27T09:58:52Z</date>
+<msg>Buildserver Makro Test in Projekt
+</msg>
+</logentry>
+<logentry revision="0737e87">
+<date>2015-08-27T09:41:57Z</date>
+<msg>Anpassung Adapterbox API Drucker koennen immer Auftraege abgeben
+</msg>
+</logentry>
+<logentry revision="d6089f3">
+<date>2015-08-27T09:03:21Z</date>
+<msg>Markierung templates fuer versionsgenerator
+</msg>
+</logentry>
+<logentry revision="4a55cbe">
+<date>2015-08-27T07:49:54Z</date>
+<msg>Markierungen fuer versiongenerator hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="63461c3">
+<date>2015-08-27T10:44:38Z</date>
+<msg>Automatisches abmelden von allen Benutzern mit gleichem Account bei Login
+</msg>
+</logentry>
+<logentry revision="0780cf7">
+<date>2015-08-26T13:28:45Z</date>
+<msg>Merge branch '15.3' of 192.168.0.21:wawision/wawision into 15.3
+</msg>
+</logentry>
+<logentry revision="9811962">
+<date>2015-08-26T13:24:13Z</date>
+<msg>Funktion zum Sperren von modulen eingebaut
+</msg>
+</logentry>
+<logentry revision="8906d74">
+<date>2015-08-26T12:37:28Z</date>
+<msg>Test fuer Build Generator
+</msg>
+</logentry>
+<logentry revision="1341229">
+<date>2015-08-26T06:18:22Z</date>
+<msg>Anpassung der Staffelpreise auf Status der Bestellung, bei Bestellvorschlag filtern von doppelten gueltigen Preisen fuer gleiche ab_menge
+</msg>
+</logentry>
+<logentry revision="dd94b51">
+<date>2015-08-26T05:49:08Z</date>
+<msg>Staffelpreise hinzugefuegt in Bestellvorschlag und Bestellungen Minidetails
+</msg>
+</logentry>
+<logentry revision="ec0f040">
+<date>2015-08-25T13:13:48Z</date>
+<msg>class.erapi.php Funktion zur Pruefeung der object_gen
+</msg>
+</logentry>
+<logentry revision="4570011">
+<date>2015-08-25T12:45:18Z</date>
+<msg>Textvorlagen Neu-Button entfernt und Eingabeelemente auf gleiche Hoehe gebracht
+</msg>
+</logentry>
+<logentry revision="7f3837d">
+<date>2015-08-25T12:08:26Z</date>
+<msg>Moeglichkeit zum wechsel der DB nach Version
+</msg>
+</logentry>
+<logentry revision="ed69b86">
+<date>2015-08-25T09:56:11Z</date>
+<msg>Anzeige abweichende Rechnungs- und Lieferadresse im MiniDetail
+</msg>
+</logentry>
+<logentry revision="0684dfd">
+<date>2015-08-25T09:47:01Z</date>
+<msg>Anzeige Abweichende RE Adresse im Auftrag MiniDetail
+</msg>
+</logentry>
+<logentry revision="9cae54b">
+<date>2015-08-25T11:27:06Z</date>
+<msg>Setup hinzugefuegt
+</msg>
+</logentry>
+<logentry revision="9e211dd">
+<date>2015-08-25T09:30:42Z</date>
+<msg>!
+</msg>
+</logentry>
+<logentry revision="8a9539a">
+<date>2015-08-24T12:21:45Z</date>
+<msg>Tastaturabfrage entfernt
+</msg>
+</logentry>
+<logentry revision="f2a38d6">
+<date>2015-08-24T17:13:12Z</date>
+<msg>Merge branch '15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="ca91dee">
+<date>2015-08-24T17:13:10Z</date>
+<msg>Readme entfernt
+</msg>
+</logentry>
+<logentry revision="b37450d">
+<date>2015-08-24T17:10:55Z</date>
+<msg>Readme aus 15.4 entfernt
+</msg>
+</logentry>
+<logentry revision="a134309">
+<date>2015-08-24T09:56:51Z</date>
+<msg>Neue custom.php um Quelltext auf Spezialversion fuer Kunden zu bringen (aus Dateien fuer Updateserver)
+</msg>
+</logentry>
+<logentry revision="1126495">
+<date>2015-08-20T11:35:22Z</date>
+<msg>Anpassung API PreiseEdit Standardpreis nur wenn keine Adresse und Kundennummer uebergeben wird
+</msg>
+</logentry>
+<logentry revision="79aed5b">
+<date>2015-08-20T11:34:50Z</date>
+<msg>Anpassung automatische Übertragung Lagerzahlen auf neue PHP Versionen
+</msg>
+</logentry>
+<logentry revision="0908c17">
+<date>2015-08-16T10:51:20Z</date>
+<msg>Adapterbox Schnelltestfunktionen
+</msg>
+</logentry>
+<logentry revision="1664215">
+<date>2015-08-16T10:02:06Z</date>
+<msg>Adapterbox API um Kamera erweitert
+</msg>
+</logentry>
+<logentry revision="8148d40">
+<date>2015-08-16T05:30:44Z</date>
+<msg>Status der Adapterbox (connected/disconnected) und Annahme neuer Jobs nur wenn Adapterbox Status: connected
+</msg>
+</logentry>
+<logentry revision="b9b6075">
+<date>2015-08-11T03:48:11Z</date>
+<msg>Anzeigefehler in Verkaufszahlen Diagramme
+</msg>
+</logentry>
+<logentry revision="ccf13db">
+<date>2015-08-11T02:47:00Z</date>
+<msg>Pinwand Breite auf 100% angepasst
+</msg>
+</logentry>
+<logentry revision="883a3b4">
+<date>2015-08-09T14:28:36Z</date>
+<msg>Reihenfolge Quickicons (Drucken, Hilfe, Textvorlagen)
+</msg>
+</logentry>
+<logentry revision="583e11a">
+<date>2015-08-09T13:16:05Z</date>
+<msg>Anzeige neue Versionsbezeichnung in Footer
+</msg>
+</logentry>
+<logentry revision="4dd11ef">
+<date>2015-08-09T16:54:48Z</date>
+<msg>Merge branch '15.4' into 16.1
+</msg>
+</logentry>
+<logentry revision="25db05b">
+<date>2015-08-09T16:54:39Z</date>
+<msg>Merge branch '15.3' into 16.1
+</msg>
+</logentry>
+<logentry revision="7c56482">
+<date>2015-08-09T16:52:44Z</date>
+<msg>Add further comment to README.md
+</msg>
+</logentry>
+<logentry revision="5625e80">
+<date>2015-08-09T16:51:34Z</date>
+<msg>Merge branch '15.3' into 15.4
+</msg>
+</logentry>
+<logentry revision="176a789">
+<date>2015-08-09T16:50:47Z</date>
+<msg>add comment to 15.4
+</msg>
+</logentry>
+<logentry revision="ba914ef">
+<date>2015-08-09T16:41:11Z</date>
+<msg>Missing files from SVN
+</msg>
+</logentry>
+<logentry revision="caa7c31">
+<date>2015-08-09T16:26:37Z</date>
+<msg>Clean up source from subversion
+</msg>
+</logentry>
+<logentry revision="e124c4a">
+<date>2015-08-09T08:09:10Z</date>
+<msg>Merge branch 'develop' into 'master'
+</msg>
+</logentry>
+<logentry revision="d9b0668">
+<date>2015-08-09T12:06:03Z</date>
+<msg>add second row
+</msg>
+</logentry>
+<logentry revision="5999832">
+<date>2015-08-09T07:51:02Z</date>
+<msg>add comment
+</msg>
+</logentry>
+<logentry revision="242675f">
+<date>2015-08-09T08:22:17Z</date>
+<msg>add README</msg>
+</logentry>
+</log>

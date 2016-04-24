@@ -1,0 +1,16 @@
+INSERT INTO `shopexport` (`id`, `bezeichnung`, `typ`, `url`, `passwort`, `token`, `challenge`, `projekt`, `cms`, `firma`, `logdatei`, `geloescht`) VALUES
+(1, 'MusterShop', 'wawision', 'http://127.0.0.1/mustershop/', 'abcdefghijuklmno0123456789012345', '12345', '54321', 2, 1, 2, '0000-00-00 00:00:00', 0);
+
+INSERT INTO `projekt` (`id`, `name`, `abkuerzung`, `verantwortlicher`, `beschreibung`, `sonstiges`, `aktiv`, `farbe`, `autoversand`, `checkok`, `portocheck`, `automailrechnung`, `checkname`, `zahlungserinnerung`, `zahlungsmailbedinungen`, `folgebestaetigung`, `stornomail`, `kundenfreigabe_loeschen`, `autobestellung`, `speziallieferschein`, `lieferscheinbriefpapier`, `speziallieferscheinbeschriftung`, `firma`, `geloescht`, `logdatei`) VALUES
+(2, 'MusterShop', 'MUSTERSHOP', '', '', '', '', '', 0, 0, 0, 0, '', 0, '', 0, 0, 0, 0, 0, 0, 0, 1, 0, '');
+
+INSERT INTO `firmendaten` (`id`, `firma`, `absender`, `sichtbar`, `barcode`, `schriftgroesse`, `betreffszeile`, `dokumententext`, `tabellenbeschriftung`, `tabelleninhalt`, `zeilenuntertext`, `freitext`, `infobox`, `spaltenbreite`, `footer_0_0`, `footer_0_1`, `footer_0_2`, `footer_0_3`, `footer_0_4`, `footer_0_5`, `footer_1_0`, `footer_1_1`, `footer_1_2`, `footer_1_3`, `footer_1_4`, `footer_1_5`, `footer_2_0`, `footer_2_1`, `footer_2_2`, `footer_2_3`, `footer_2_4`, `footer_2_5`, `footer_3_0`, `footer_3_1`, `footer_3_2`, `footer_3_3`, `footer_3_4`, `footer_3_5`, `footersichtbar`, `hintergrund`, `logo`, `logo_type`, `briefpapier`, `briefpapier_type`, `benutzername`, `passwort`, `host`, `port`, `mailssl`, `signatur`, `email`, `absendername`, `bcc1`, `bcc2`, `firmenfarbe`, `name`, `strasse`, `plz`, `ort`, `steuernummer`, `datum`, `projekt`, `brieftext`) VALUES
+(1, 1, 'Musterfirma GmbH | Musterweg 5 | 12345 Musterstadt', 1, 0, 7, 9, 9, 9, 9, 7, 9, 8, 0, 'Sitz der Gesellschaft / Lieferanschrift', 'Musterfirma GmbH', 'Musterweg 5', 'D-12345 Musterstadt', 'Telefon +49 123 12 34 56 7', 'Telefax +49 123 12 34 56 78', 'Bankverbindung', 'Musterbank', 'Konto 123456789', 'BLZ 72012345', '', '', 'IBAN DE1234567891234567891', 'BIC/SWIFT DETSGDBWEMN', 'Ust-IDNr. DE123456789', 'E-Mail: info@musterfirma-gmbh.de', 'Internet: http://www.musterfirma.de', '', 'Geschäftsführer', 'Max Musterman', 'Handelsregister: HRB 12345', 'Amtsgericht: Musterstadt', '', '', 0, 'kein', '', '', '', '', '', '', '', '25', 0, 'LS0NCk11c3RlcmZpcm1hIEdtYkgNCk11c3RlcndlZyA1DQpELTEyMzQ1IE11c3RlcnN0YWR0DQoNClRlbCArNDkgMTIzIDEyIDM0IDU2IDcNCkZheCArNDkgMTIzIDEyIDM0IDU2IDc4DQoNCk5hbWUgZGVyIEdlc2VsbHNjaGFmdDogTXVzdGVyZmlybWEgR21iSA0KU2l0eiBkZXIgR2VzZWxsc2NoYWZ0OiBNdXN0ZXJzdGFkdA0KDQpIYW5kZWxzcmVnaXN0ZXI6IE11c3RlcnN0YWR0LCBIUkIgMTIzNDUNCkdlc2Now6RmdHNmw7xocnVuZzogTWF4IE11c3Rlcm1hbg0KVVN0LUlkTnIuOiBERTEyMzQ1Njc4OQ0KDQpBR0I6IGh0dHA6Ly93d3cubXVzdGVyZmlybWEuZGUvDQo=', '', 'Meine Firma', '', '', '', 'Musterfirma GmbH', 'Musterweg 5', '12345', 'Musterstadt', '111/11111/11111', '0000-00-00 00:00:00', 0, '11');
+
+INSERT INTO `shopnavigation` (`id`, `bezeichnung`, `position`, `parent`, `bezeichnung_en`, `plugin`, `pluginparameter`, `shop`, `target`) VALUES
+(1, 'Willkommen', 1, 0, 'Welcome', 'PageID', 'welcome', 1, ''),
+(2, 'Mein Shop', 2, 0, 'My Shop', 'PageID', 'shop', 1, ''),
+(3, 'Zwiebeln', 1, 1, '', 'gruppe', '1', 1, ''),
+(4, 'Tomaten', 2, 1, '', 'gruppe', '3', 1, ''),
+(5, 'Bananen', 3, 1, '', 'gruppe', '2', 1, '');
+

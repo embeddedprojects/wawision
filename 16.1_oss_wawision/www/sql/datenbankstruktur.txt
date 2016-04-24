@@ -1,0 +1,241 @@
+1. Schreiben einer großen API
+2. Dann muss man verschiedene Menüs bauen
+
+
+ziel der api ist es einzelne prozesse des unternehmens als programm darzustellen
+um diese dann in software abbilden zu können.
+
+KundeAnlegen()
+BestellungAnlegen(ShopImport)
+E-Mail(BestaetungsMail)
+
+
+
+==========================
+Stammdaten
+  - adresse
+  - adresstyp (1:n)
+  - projekt (1:n)
+  - ust id check log (prozess)
+
+Geschäftsfall
+  - Angebot
+  - Auftrag
+  - Rechnung
+  - Gutschrift
+  - Lieferschein (auch einzeln versenden und protokoll!)
+  - Service
+
+Buchhaltung
+  - Zahlungs-Check (Bank, Paypal, Kreditkarte, Nachnahme, Bar)
+  - offene Posten Auftrag
+  - offene Posten Bestellung
+  - Mahnwesen
+  - Zahlungsforecast (sammt journal, sentiplus, etc.)
+
+Service
+  - Ruecklauefer (defekt, nicht angenommen, etc.)
+
+Lager
+  - Wareneingang
+  - offene Bestellungen
+  - Bestellung bei Lieferant
+  - Bestellanfrage bei Lieferant
+  - Entnahmeschein
+  - Etikettendruck
+  - Lieferschein erfassen (scannen)
+
+Versand (ist Queue mit Auftragen die zuvor erzeugt worden sind)
+  - naechste Gruppe zum Versenden Drucken (Lieferung, Versandbestaetigung, Seriennummer?)
+  - RoteKiste Scannen + Teil|Komplett|Nachlieferung und wann ist Nachlieferung
+  - Paketmarken bzw. Briefmarken drucken
+  - Postbote war da Knopf
+  - Tracking Monitor
+  - journal/sentiplus/etc auch hier rein?
+
+Projekte
+  - Sentiplus
+    * versandauftrag von hersteller
+    * seriennummern verwaltung
+    * versandmitteilung
+  - NoT
+  - Journal
+    * aboverwaltung
+    * journal_ausgabe
+    * journal_sponsor
+  - Shop
+    * Import als Auftragsbestaetigung
+    * Export der Artikel
+    * Versandprozess starten
+  - Uni-Shop
+    * Versandprozess starten
+    * Download des PDF-Reports
+
+Support
+  - Alle Tickets Buchhaltung, Projekte, Technik, etc.
+
+
+Mitarbeiter
+  - Zeiterfassung + openPCD
+  - Pruefbericht 
+  - Wareneingang -ausgang
+  - lohnabrechnung + lohn an lecker (indirekt in die kostenstelle)
+  - reisekosten
+
+
+Kostenstellen plan mit Gegenkosten
+  - Lohn
+  - Miete
+  - alles halt
+  - wo ist die Gegenrechnung wurde sie gestellt?
+  - wie sind die gewinne der kostenstellen?
+
+Telefonrueckrufliste
+
+TODO Listen Mitarbeiter
+Terminplan
+
+
+
+
+=========================================================
+adresse
+
+
+artikel
+artikel mit seriennnumern pflicht! bei versand!
+
+bestellung
+bestellung_artikel
+bestellung_kunde
+
+
+projekt
+projekt_abschnitt
+
+
+tracking_monitor
+
+ust_id_pruefung_protokoll
+
+
+unishop_.....
+
+mitarbeiter_zeiterfassung
+
+
+versand
+
+zahlungseingang_paypal
+zahlungseingang_kreditkarte
+
+mahnwesen
+
+termin_plan (automatisch,gruppe,einzeln)
+
+Es gibt eine Adressdatenbank.
+Jede Adresse kann mehrern Gruppen zugewiesen werden.
+
+Es gibt einen Nummernkreis fuer Kunden
+Es gibt einen Nummernkreis fuer Lieferanten
+
+Adresse
+=======
+  id
+  Firma|Person
+  Adresse id (fuer verknuepfung)
+  Lieferadresse|Kontaktadresse|AllgemeineAdresse|Rechnungsadresse |Ansprechpartner (Rollen)
+  Name bzw. Firma
+  Vorname
+  abteilung
+  extraadressfeld
+  Strasse
+  Ort
+  PLZ
+  Land
+  Telefon
+  Telefax
+  E-Mail
+  USTID
+  Sonstiges
+
+  
+
+
+Aktuelle Gruppen:
+=================
+  - Online-Shop-Kunde
+  - Sentiplus-Haendler
+  - Uni-Shop-Kunde
+  - Sponsor
+  - Abonennt
+  - Lieferant
+  - Mitarbeiter EPROO
+  - Mitarbeiter Extern
+  - Projekt A
+  - Projekt B
+
+
+
+
+Warenbestand
+============
+  - Alle Artikel die irgendwie Angeboten werden
+
+
+Interne Warengruppen
+====================
+  - Online-Shop-Artikel
+  - Dienstleistung
+  - Uni-Shop-Artikel
+  - Sonstiges
+
+
+Stuecklisten
+============
+
+
+
+
+
+
+Online-Shop-Artikel
+
+
+
+
+
+**********************
+
+Projekte:
+=========
+Alles sind Projekte. Projekte können indiviuelle Masken bekommen.
+
+  - EPROO-Shop
+  - Uni-Shop
+  - Sentiplus
+  - Journal
+
+
+
+
+Rollen:
+=======
+  Händler (für Projekt X)
+  Kunde (für Projekt X) (z.B. Kunde bei Journal, Kunde bei EPROO-Shop)
+  Provisionsempfänger
+  Mitarbeiter 
+  Lieferant
+
+
+
+
+
+versand:
+========
+
+man geht davon aus das die lager zahlen stimmen.
+system kann sagen was komplett versendet werden kann.
+
+1. macht extra ordner nachlieferungen
+2. oder verzögerte lieferung

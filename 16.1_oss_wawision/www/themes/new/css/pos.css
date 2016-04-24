@@ -1,0 +1,253 @@
+/*
+dark    #3FB9CE
+bright  #B3E4EB
+*/
+  .no-close .ui-dialog-titlebar-close {
+    display: none;
+  }
+
+  #tabs-1, #tabs-2 { padding: 0; }
+
+  #ob1, #ob2, #ob3,#ob4 { height: 119px; }
+  #ob1 {width: 180px; margin-right: 10px;min-height: 144px;  position: relative; } /* height:125px; width:264px */
+  #ob2 {width: 200px; min-height: 144px; } /*height:125px;width:380px*/
+  #ob3 {width: 450px; min-height: 144px; } 
+  #ob4 {width: 210px; min-height: 144px; margin-right: 10px;} 
+  
+  /* -14 padding */
+  #un1 { width: 630px; float: left; margin-right: 10px; }
+  #un2 { width: 460px; overflow: hidden; float: left;}
+
+  .ob3_1 {
+    background: #ececec;
+    margin: -5px -5px 0 -5px;
+    padding: 10px 0;
+  }
+
+  .fcont {
+    overflow: hidden;
+    padding: 10px 10px 0px 10px;
+  }
+  
+  #tabs-1 .fcont:last-child {
+    padding-bottom: 10px;
+  }
+
+  .fcont fieldset {
+    float: left;
+    border-bottom: 0px; 
+    margin: 0; 
+  }
+  #un1 fieldset, #un2 fieldset {  float: none; }
+  
+  .fcont legend {
+    margin-bottom: 6px; 
+  }
+
+  /** GLOBALS **/
+  .fcont #ob3 {
+    border-top: 0px;
+    background: #FFF;
+  }
+  
+  .fcont #ob3 legend {
+    float: left;
+  }
+  .fcont #ob3 input {
+    padding: 1px;
+    font-size: 11px;
+  }
+  
+  #loadkass td {
+    white-space: nowrap;
+  }
+  
+  .fcont legend {
+    padding-top: 5px;
+  }
+  
+  
+  /** OB1 **/
+  #kanr {
+    font-size: 14px;
+  }
+  
+  #storesale {
+    width: 100%;
+    background: #93C119;
+    border-radius: 5px;
+    height: 24px;
+    padding-bottom: 6px;
+  }
+
+  
+  /*.nl { background: #E2E2E2; }
+  
+  #trad, #laufk {
+    padding: 5px;
+    height: 80px;
+  }
+  
+  #laufk {
+    width: 220px;
+    display: none;
+    resize: none;
+    font-size: 11px;
+    background: fuchsia;
+  }
+  */
+  
+  
+  /** UN1, WARENKORB **/
+  #wk {
+    background: #FFF;
+    width: 99%;
+    font-size: 11px;
+  }
+  #wk input {
+    padding: 1px;
+    font-size: 11px;
+  }
+  
+  #wk tbody tr:nth-child(odd) {
+    background: #EEE;
+  }
+  
+  #wk .preis, #wk .gesamt, #wk .rabatt {
+    text-align: right;
+  }
+  #wk .preis {
+    padding-right: 4px;
+  }
+  /** **/
+
+  #un1bottom {
+    padding: 10px 0 0 0;
+  }
+  
+  #un1 #un1bottom fieldset { float: left; }
+  
+  #un1bottom textarea {
+    resize: none;
+    height: 78px;
+  }
+
+  #inbem { width: 340px;}
+  #freit { width: 215px;} 
+  /** **/
+  
+  
+  
+  
+  
+  /** OB3 **/
+  #retyp {
+    margin: 5px -5px 0 -5px;
+    /*margin-top: 5px;*/
+  }
+
+  #payment {
+    margin: 5px -5px 0 -5px;
+    /*margin-top: 5px;*/
+  }
+
+  .rbutton {
+    padding-top: 13px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #retyp input, #payment input, #un2bottom input {
+    display: none;
+  }
+  #retyp label, #payment label, #un2bottom label {
+    background: #B3E4EB;
+    display: inline-block;
+    padding-top: 10px;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #retyp label, #un2bottom label {
+    width: 32%;
+  }
+  
+  #retyp input:checked + label , #payment input:checked + label, #un2bottom input:checked + label {
+    background: #3FB9CE;
+    color: #F2F2F2;
+    font-weight: bold;
+  }
+  
+  
+
+  
+  
+  /** UN2 **/
+  #totals div.of {
+    overflow: hidden;
+    background: #FFF;
+  }
+  
+  
+  #totals > div {
+    border-bottom: 1px solid #333;
+  }
+
+  #totals > div:last-child {
+    border-bottom: 0;
+  }
+
+  #totals div {
+    padding: 4px 4px;
+  }
+  
+  #totals div.rbutton, div.rbutton {
+    padding-top: 8px;
+    height: 26px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #trabatt, #trabatteur {
+    color: #C22;
+  }
+  
+  
+  #totals #totalrow {
+    background: #D4E5A1;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  #abortsale {
+    background: #E73028;
+    width: 47%;
+    border-radius: 5px;
+  }
+  
+  #finsale {
+    width: 47%;
+    background: #93C119;
+    border-radius: 5px;
+  }
+  
+.rechnungsadresse_container {
+  max-height: 80px;
+  overflow: hidden;
+}
+  
+#adjcust {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+  
+input.posNormInput,
+select.posNormInput
+textarea.posNormInput {
+  width: 220px;
+}

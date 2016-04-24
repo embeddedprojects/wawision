@@ -1,0 +1,546 @@
+Index: class.acl.php
+===================================================================
+--- class.acl.php	(revision 3856)
+ 
+ 
+ 
+Index: class.yui.php
+===================================================================
+--- class.yui.php	(revision 3856)
++++ class.yui.php	(revision 3833)
+@@ -1119,9 +1119,9 @@
+         $allowed['lager'] = array('platz');
+ 
+         // headings
+-        $heading = array('Bezeichnung', 'Nachschublager', 'Verbrauchslager', 'Sperrlager','Volumen','Men&uuml;');
+-        $width = array('30%', '15%', '15%','15%','15%','10%');
+-        $findcols = array('kurzbezeichnung', 'autolagersperre', 'verbrauchslager','sperrlager','breite','id');
++        $heading = array('Bezeichnung', 'Nachschublager', 'Verbrauchslager', 'Volumen','Men&uuml;');
++        $width = array('30%', '20%', '20%','15%','10%');
++        $findcols = array('kurzbezeichnung', 'autolagersperre', 'verbrauchslager','breite','id');
+         $searchsql = array('kurzbezeichnung');
+         $defaultorder = 4;
+         $defaultorderdesc = 1;
+@@ -1130,9 +1130,7 @@
+ 
+         // SQL statement
+         $sql = "SELECT SQL_CALC_FOUND_ROWS id, 
+-          kurzbezeichnung, if(autolagersperre,'kein Versand aus diesem Lager','') as autolagersperre, 
+-                if(verbrauchslager,'ja','') as verbrauchslager,
+-                if(sperrlager,'ja','') as sperrlager,
++          kurzbezeichnung, if(autolagersperre,'kein Versand aus diesem Lager','') as autolagersperre, if(verbrauchslager,'ja','') as verbrauchslager,
+               if(laenge!=0.0,CONCAT(laenge,'/',breite,'/',hoehe),'-') as volumen,
+               id as menu FROM lager_platz ";
+         $id = $this->app->Secure->GetGET("id");
+@@ -2478,7 +2476,7 @@
+                   if(a.variante,CONCAT(name_de,' <font color=#848484>(Variante von ',(SELECT tmp.nummer FROM artikel tmp WHERE a.variante_von=tmp.id LIMIT 1),')</font>'),name_de)
+ 
+                     ),'</a>') as name_de, 
+-              (SELECT SUM(l.menge) FROM lager_platz_inhalt l LEFT JOIN lager_platz lp ON lp.id=l.lager_platz WHERE l.artikel=a.id AND lp.sperrlager!=1) as lagerbestand,  
++              (SELECT SUM(l.menge) FROM lager_platz_inhalt l WHERE l.artikel=a.id) as lagerbestand,  
+               p.abkuerzung as projekt, a.id as menu 
+                 FROM  artikel a LEFT JOIN projekt p ON p.id=a.projekt ";
+ 
+@@ -5707,21 +5705,18 @@
+         
+         // headings
+ 
+-        $heading = array('Aufgabe','Dauer','Mitarbeiter', 'Projekt', 'Prio', 'Abgabe-Termin', 'Startseite', 'Status', 'Men&uuml;');
+-        $width = array('35%', '1%','20%', '1%', '1%', '1%', '1%', '1%');
+-        $findcols = array('aufgabe','stunden', 'mitarbeiter', 'projekt', 'prio', 'abgabe', 'status', 'id');
+-        $searchsql = array('a.aufgabe', 'a.dauer','p.abkuerzung', 'adr.name', 'a.status', 'a.abgabe_bis', 'a.id');
++        $heading = array('Aufgabe', 'Mitarbeiter', 'Projekt', 'Prio', 'Abgabe-Termin', 'Startseite', 'Status', 'Men&uuml;');
++        $width = array('35%', '20%', '1%', '1%', '1%', '1%', '1%');
++        $findcols = array('aufgabe', 'mitarbeiter', 'projekt', 'prio', 'abgabe', 'status', 'id');
++        $searchsql = array('a.aufgabe', 'p.abkuerzung', 'adr.name', 'a.status', 'a.abgabe_bis', 'a.id');
+         $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap><a href=\"index.php?module=aufgaben&action=edit&id=%value%#tabs-3\"><img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/edit.png\" border=\"0\"></a>" . "&nbsp;<a href=\"#\" onclick=FinalDialog(\"index.php?module=aufgaben&action=abschluss&id=%value%\");><img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/versand.png\" border=\"0\"></a>" . "&nbsp;<a href=\"#\" onclick=DeleteDialog(\"index.php?module=aufgaben&action=delete&id=%value%\");><img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/delete.gif\" border=\"0\"></a>" . "</td></tr></table>";
+ 
+         //            $menucol=9;
+         
+         // SQL statement
+-        $alignright=array(2);
+ 
+         $sql = "SELECT a.id, 
+               CONCAT(if(a.prio,CONCAT('<b><font color=red>',a.aufgabe,'</font></b>'),a.aufgabe),if(a.intervall_tage>0,' (',''),if(a.intervall_tage=2,'w&ouml;chentlich',if(a.intervall_tage=3,'monatlich',if(a.intervall_tage=4,'j&auml;hrlich',if(a.intervall_tage=1,'t&auml;glich','')))),if(a.intervall_tage>0,')','')) as aufgabe,
+-
+-                if(a.stunden > 0,CONCAT(a.stunden,' h'),'') as stunden, 
+                 adr.name as mitarbeiter,
+                   p.abkuerzung as projekt,
+                   if(a.prio,'<b><font color=red>Prio</font></b>','Normal') as prio, 
+@@ -6073,7 +6068,7 @@
+         $menucol = 10;
+ 
+         // SQL statement
+-        $sql = "SELECT SQL_CALC_FOUND_ROWS a.id,'<img src=./themes/{$this->app->Conf->WFconf[defaulttheme]}/images/details_open.png class=details>' as open, a.belegnr, adr.kundennummer as kunde, CONCAT(" . $this->app->erp->MarkerUseredit("a.name", "a.useredittimestamp") . ",if(a.internebemerkung='','',' <font color=red><strong>*</strong></font>'),if(a.freitext='','',' <font color=blue><strong>*</strong></font>')) as name, DATE_FORMAT(a.datum,'%Y-%m-%d') as vom, 
++        $sql = "SELECT SQL_CALC_FOUND_ROWS a.id,'<img src=./themes/{$this->app->Conf->WFconf[defaulttheme]}/images/details_open.png class=details>' as open, a.belegnr, adr.kundennummer as kunde, CONCAT(" . $this->app->erp->MarkerUseredit("adr.name", "a.useredittimestamp") . ",if(a.internebemerkung='','',' <font color=red><strong>*</strong></font>'),if(a.freitext='','',' <font color=blue><strong>*</strong></font>')) as name, DATE_FORMAT(a.datum,'%Y-%m-%d') as vom, 
+ 
+                                   (SELECT CONCAT(ar.name_de,' (',ar.nummer,')') FROM produktion_position pos LEFT JOIN artikel ar ON ar.id=pos.artikel WHERE pos.produktion=a.id AND pos.explodiert=1 LIMIT 1) as bezeichnung,
+ 
+@@ -6295,7 +6290,7 @@
+         $findcols = array('tn.zeit', 'verfasser', 'tn.betreff', 'tn.id');
+         $searchsql = array('zeit', 'verfasser', 'mail', 'betreff', 'id');
+         $defaultorder = 1;
+-        $defaultorderdesc = 0;
++        $defaultorderdesc = 1;
+         $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap><a href=\"index.php?module=ticket&action=assistent&id=%value%&lesen=1&back=archiv\"><img src=\"./themes/new/images/edit.png\"></a></td></tr></table>";
+ 
+         //<a href=\"index.php?module=ticket&action=assistent&id=%value%&lesen=1\">Lesen</a>&nbsp;<a href=\"index.php?module=ticket&action=assistent&id=%value%\">Bearbeiten</a>
+@@ -6305,7 +6300,7 @@
+         
+         // SQL statement
+ 
+-        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%d.%m.%Y %H:%i') as empfang, CONCAT(tn.verfasser,' ',tn.mail) as verfasser, tn.betreff, tn.id FROM ticket_nachricht tn ";
++        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%Y-%m-%d %H:%i') as empfang, CONCAT(tn.verfasser,' ',tn.mail) as verfasser, tn.betreff, tn.id FROM ticket_nachricht tn ";
+ 
+         // Fester filter
+         $where = " tn.id!=0  ";
+@@ -8828,7 +8823,7 @@
+         // headings
+ 
+         $heading = array('', 'Rechnung', 'Vom', 'KD-Nr.', 'Name', 'Betrag', 'Ist', 'Zahlweise', 'Status nach Mahnlauf', 'Versendet', 'Men&uuml;');
+-        $width = array('20px', '50px', '50px', '50px', '100px', '50px', '50px', '50px', '50px', '50px', '165px');
++        $width = array('20px', '50px', '50px', '50px', '100px', '50px', '50px', '50px', '50px', '50px', '150px');
+         $findcols = array('r.id', 'r.belegnr', "r.datum", 'a.kundennummer', 'a.name', 'r.soll', 'r.ist', 'r.zahlungsweise', 'r.mahnwesen', 'r.versendet_mahnwesen', 'r.id');
+         $searchsql = array('r.belegnr', "DATE_FORMAT(r.datum,'%d.%m.%Y')", 'a.kundennummer', 'a.name', 'r.soll', 'r.ist', 'r.zahlungsweise', 'r.mahnwesen', 'r.versendet_mahnwesen');
+ 
+@@ -8838,10 +8833,6 @@
+ 
+         $defaultorder = 3;
+         $defaultorderdesc = 1;
+-
+-	$alignright = array(6,7);
+-	$sumcol = 6;
+-
+         $menu = "" . "<a href=\"index.php?module=rechnung&action=edit&id=%value%\" title=\"bearbeiten\"><img border=\"0\" src=\"./themes/new/images/edit.png\"></a>&nbsp;" . "<a href=\"index.php?module=mahnwesen&action=mahnpdf&id=%value%\" title=\"aktuelle Mahnstufe\"><img border=\"0\" src=\"./themes/new/images/pdf.png\"></a>&nbsp;" . "<a href=\"index.php?module=rechnung&action=pdf&id=%value%&doppel=1\" title=\"Rechnungskopie\"><img border=\"0\" src=\"./themes/new/images/rechnungpdf.png\"></a>&nbsp;" . "<a title=\"weiterf&uuml;hren als Gutschrift/Stornorechnung\" onclick=DialogGutschrift(\"index.php?module=rechnung&action=gutschrift&id=%value%\")>" . "<img src=\"./themes/new/images/delete.gif\" border=\"0\"></a>&nbsp;" . "<a title=\"Differenz als Skonto buchen\" onclick=DialogDifferenz(\"index.php?module=mahnwesen&action=skonto&id=%value%\")>" . "<img src=\"./themes/new/images/skonto.png\" border=\"0\"></a>&nbsp;" . "<a title=\"Betrag als Forderungsverlust buchen\" onclick=DialogForderungsverlust(\"index.php?module=mahnwesen&action=forderungsverlust&id=%value%\")>" . "<img src=\"./themes/new/images/forderungsverlust.png\" border=\"0\"></a>&nbsp;" . "<a title=\"Im Mahnwesen sperren\" onclick=DialogMahnwesen(\"index.php?module=mahnwesen&action=stop&id=%value%\")>" . "<img src=\"./themes/new/images/stopmahnung.png\" border=\"0\"></a>" . "&nbsp;";
+         
+         if ($enddatum == "") $enddatum = "0000-00-00";
+@@ -8849,7 +8840,7 @@
+         if ($startdatum == "") $startdatum = "9999-99-99";
+ 
+         // SQL statement
+-        $sql = "SELECT SQL_CALC_FOUND_ROWS r.id, if(r.datum < '$enddatum' AND r.datum > '$startdatum' $add_sql,CONCAT('<input class=\"chcktbl\" type=\"checkbox\" value=\"',r.id,'\" name=\"rechnung[]\" >'),CONCAT('<input class=\"chcktbl\" type=\"checkbox\" value=\"',r.id,'\" name=\"rechnung[]\" checked>')) as auswahl, CONCAT('<a href=\"index.php?module=rechnung&action=edit&id=',r.id,'\" target=\"_blank\">',r.belegnr,'</a>') as rechnung, DATE_FORMAT(r.datum,'%d.%m.%Y') as vom, CONCAT('<a href=\"index.php?module=adresse&action=edit&id=',r.adresse,'\" target=\"_blank\">',a.kundennummer,'</a>') as 'kd-Nr.', LEFT(r.name,20) as name, FORMAT(r.soll,2{$extended_mysql55}) as betrag, if(r.ist!=0,FORMAT(r.ist,2{$extended_mysql55}),'0') as ist, r.zahlungsweise, r.mahnwesen as 'Status nach Mahnlauf',if(r.versendet_mahnwesen,'ja','nein') as versendet, r.id
++        $sql = "SELECT SQL_CALC_FOUND_ROWS r.id, if(r.datum < '$enddatum' AND r.datum > '$startdatum' $add_sql,CONCAT('<input class=\"chcktbl\" type=\"checkbox\" value=\"',r.id,'\" name=\"rechnung[]\" >'),CONCAT('<input class=\"chcktbl\" type=\"checkbox\" value=\"',r.id,'\" name=\"rechnung[]\" checked>')) as auswahl, CONCAT('<a href=\"index.php?module=rechnung&action=edit&id=',r.id,'\" target=\"_blank\">',r.belegnr,'</a>') as rechnung, DATE_FORMAT(r.datum,'%d.%m.%Y') as vom, CONCAT('<a href=\"index.php?module=adresse&action=edit&id=',r.adresse,'\" target=\"_blank\">',a.kundennummer,'</a>') as 'kd-Nr.', LEFT(r.name,20) as name, FORMAT(r.soll,2{$extended_mysql55}) as betrag, FORMAT(r.ist,2{$extended_mysql55}) as ist, r.zahlungsweise, r.mahnwesen as 'Status nach Mahnlauf',if(r.versendet_mahnwesen,'ja','nein') as versendet, r.id
+                                            FROM rechnung r LEFT JOIN adresse a ON a.id=r.adresse ";
+         $where = " r.zahlungsstatus='offen' AND r.mahnwesen!='forderungsverlust' AND r.belegnr!=0 AND r.mahnwesen!=''  AND r.versendet_mahnwesen!='1' AND r.mahnwesen_gesperrt='0' AND r.mahnwesenfestsetzen!=1";
+ 
+@@ -8890,25 +8881,21 @@
+ 
+         // headings
+         $heading = array('Rechnung', 'Vom', 'KD-Nr.', 'Name', 'Betrag', 'Ist', 'Zahlweise', 'Status', 'Versendet am', 'Men&uuml;');
+-        $width = array('50px', '50px', '50px', '100px', '50px', '50px', '50px', '50px', '50px', '165px');
++        $width = array('5%', '5%', '5%', '5%', '5%', '5%', '5%', '5%', '5%', '7%');
+         $findcols = array('r.belegnr', "r.datum", 'a.kundennummer', 'a.name', 'r.soll', 'r.ist', 'r.zahlungsweise', 'r.mahnwesen', 'r.versendet_mahnwesen', 'r.id');
+         $searchsql = array('r.belegnr', "DATE_FORMAT(r.datum,'%d.%m.%Y')", 'a.kundennummer', 'a.name', 'r.soll', 'r.ist', 'r.zahlungsweise', 'r.mahnwesen', 'r.versendet_mahnwesen');
+-	$alignright = array(5,6);
+-	$sumcol = 5;
+ 
+  				//$defaultorder = 3;
+         //$defaultorderdesc = 1;
+-/*
++
+         $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap>" . "<a href=\"index.php?module=rechnung&action=edit&id=%value%\"><img border=\"0\" src=\"./themes/new/images/edit.png\"></a>" . "<a href=\"index.php?module=mahnwesen&action=mahnpdf&id=%value%\"><img border=\"0\" src=\"./themes/new/images/pdf.png\"></a>" . "<a href=\"index.php?module=rechnung&action=pdf&id=%value%&doppel=1\"><img border=\"0\" src=\"./themes/new/images/pdf.png\"></a>" . "<a onclick=DialogGutschrift(\"index.php?module=rechnung&action=gutschrift&id=%value%\")>" . "<img src=\"./themes/new/images/lieferung.png\" border=\"0\" alt=\"weiterf&uuml;hren als Gutschrift/Stornorechnung\"></a>" . "<a onclick=DialogDifferenz(\"index.php?module=mahnwesen&action=skonto&id=%value%\")>" . "<img src=\"./themes/new/images/skonto.png\" border=\"0\" alt=\"Differenz als Skonto buchen\"></a>" . "<a onclick=DialogForderungsverlust(\"index.php?module=mahnwesen&action=forderungsverlust&id=%value%\")>" . "<img src=\"./themes/new/images/delete.gif\" border=\"0\" alt=\"Betrag als Forderungsverlust buchen\"></a>" . "<a onclick=DialogMahnwesen(\"index.php?module=mahnwesen&action=stop&id=%value%\")>" . "<img src=\"./themes/new/images/stopmahnung.png\" border=\"0\" alt=\"Aus Mahnwesen nehmen\"></a>" . "&nbsp;</td></tr></table>";
+-*/
+-        $menu = "" . "<a href=\"index.php?module=rechnung&action=edit&id=%value%\" title=\"bearbeiten\"><img border=\"0\" src=\"./themes/new/images/edit.png\"></a>&nbsp;" . "<a href=\"index.php?module=mahnwesen&action=mahnpdf&id=%value%\" title=\"aktuelle Mahnstufe\"><img border=\"0\" src=\"./themes/new/images/pdf.png\"></a>&nbsp;" . "<a href=\"index.php?module=rechnung&action=pdf&id=%value%&doppel=1\" title=\"Rechnungskopie\"><img border=\"0\" src=\"./themes/new/images/rechnungpdf.png\"></a>&nbsp;" . "<a title=\"weiterf&uuml;hren als Gutschrift/Stornorechnung\" onclick=DialogGutschrift(\"index.php?module=rechnung&action=gutschrift&id=%value%\")>" . "<img src=\"./themes/new/images/delete.gif\" border=\"0\"></a>&nbsp;" . "<a title=\"Differenz als Skonto buchen\" onclick=DialogDifferenz(\"index.php?module=mahnwesen&action=skonto&id=%value%\")>" . "<img src=\"./themes/new/images/skonto.png\" border=\"0\"></a>&nbsp;" . "<a title=\"Betrag als Forderungsverlust buchen\" onclick=DialogForderungsverlust(\"index.php?module=mahnwesen&action=forderungsverlust&id=%value%\")>" . "<img src=\"./themes/new/images/forderungsverlust.png\" border=\"0\"></a>&nbsp;" . "<a title=\"Im Mahnwesen sperren\" onclick=DialogMahnwesen(\"index.php?module=mahnwesen&action=stop&id=%value%\")>" . "<img src=\"./themes/new/images/stopmahnung.png\" border=\"0\"></a>" . "&nbsp;";
+         
+         if ($enddatum == "") $enddatum = "0000-00-00";
+         
+         if ($startdatum == "") $startdatum = "9999-99-99";
+ 
+         // SQL statement
+-        $sql = "SELECT SQL_CALC_FOUND_ROWS r.id, CONCAT('<a href=\"index.php?module=rechnung&action=edit&id=',r.id,'\" target=\"_blank\">',r.belegnr,'</a>') as rechnung, DATE_FORMAT(r.datum,'%d.%m.%Y') as vom, CONCAT('<a href=\"index.php?module=adresse&action=edit&id=',r.adresse,'\" target=\"_blank\">',a.kundennummer,'</a>') as 'kd-Nr.', LEFT(r.name,20) as name, FORMAT(r.soll,2{$extended_mysql55}) as betrag, if(r.ist!=0,FORMAT(r.ist,2{$extended_mysql55}),'0') as ist, r.zahlungsweise, r.mahnwesen as 'Status nach Mahnlauf',DATE_FORMAT(r.mahnwesen_datum,'%d.%m.%Y') as versendet, r.id
++        $sql = "SELECT SQL_CALC_FOUND_ROWS r.id, CONCAT('<a href=\"index.php?module=rechnung&action=edit&id=',r.id,'\" target=\"_blank\">',r.belegnr,'</a>') as rechnung, DATE_FORMAT(r.datum,'%d.%m.%Y') as vom, CONCAT('<a href=\"index.php?module=adresse&action=edit&id=',r.adresse,'\" target=\"_blank\">',a.kundennummer,'</a>') as 'kd-Nr.', LEFT(r.name,20) as name, FORMAT(r.soll,2{$extended_mysql55}) as betrag, FORMAT(r.ist,2{$extended_mysql55}) as ist, r.zahlungsweise, r.mahnwesen as 'Status nach Mahnlauf',DATE_FORMAT(r.mahnwesen_datum,'%d.%m.%Y') as versendet, r.id
+                                            FROM rechnung r LEFT JOIN adresse a ON a.id=r.adresse ";
+         $where = " r.belegnr!=0 AND $tmp ";
+ 
+@@ -9549,196 +9536,35 @@
+         ';
+         break;
+ 
+-      case 'provisionenartikel_provision':
++      case 'lagermindestmengen_list':
+ 
+-        $allowed['provisionenartikel'] = array('provision');
++        $allowed['lagermindestmengen'] = array('liste');
+ 
+-        $heading = array('Artikel-Nr','Artikel','Provision', 'gültig von', 'gültig bis', 'Men&uuml;');
++        $heading = array('Artikel-Nr','Artikel','Lagerplatz', 'Menge soll', 'Fehlmenge', 'Men&uuml;');
+         $width = array('10%','30%','10%','10%', '10%', '5%', '10%');
+-        $findcols = array('artikel.nummer','artikel.name_de', 'provisionenartikel_provision.provision', 'provisionenartikel_provision.gueltigvon', 'provisionenartikel_provision.gueltigbis', 'provisionenartikel_provision.id');
+-        $searchsql = array('artikel.nummer','artikel.name_de', 'provisionenartikel_provision.provision', 'provisionenartikel_provision.gueltigvon', 'provisionenartikel_provision.gueltigbis');
++        $findcols = array('artikel.nummer','artikel.name_de', 'lager_platz.kurzbezeichnung', 'mengeSoll', 'mengeIst', 'lagermindestmengen.id');
++        $searchsql = array('artikel.nummer','artikel.name_de', 'lager_platz.kurzbezeichnung', 'mengeSoll', 'mengeIst');
+ 
+         $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
+         $defaultorderdesc = 1; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
+ 
++				$menu ="";
++/*
+         $menu = '<table cellpadding="0" cellspacing="0">';
+           $menu .= '<tr>';
+             $menu .= '<td nowrap>';
+-              $menu .= '<a href="javascript:;" onclick="provisionenartikelEdit(%value%);">';
+-                $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/edit.png" border="0">';
+-              $menu .= '</a>';
+-              $menu .= '<a href="javascript:;" onclick="provisionenartikelDelete(%value%);">';
++              // $menu .= '<a href="index.php?module=lagermindestmengen&action=edit&id=%value%">';
++              //   $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/edit.png" border="0">';
++              // $menu .= '</a>';
++              $menu .= '<a href="#" onclick=lagermindestmengenDelete("%value%");>';
+                 $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/delete.gif" border="0">';
+               $menu .= '</a>';
+             $menu .= '</td>';
+           $menu .= '</tr>';
+         $menu .= '</table>';
+-
++*/
+         $sql = '
+           SELECT
+-            SQL_CALC_FOUND_ROWS provisionenartikel_provision.id,
+-            artikel.nummer,
+-            artikel.name_de,
+-            provisionenartikel_provision.provision,
+-            provisionenartikel_provision.gueltigvon,
+-            provisionenartikel_provision.gueltigbis,
+-            provisionenartikel_provision.id
+-          FROM
+-            provisionenartikel_provision
+-            LEFT JOIN artikel ON provisionenartikel_provision.artikel = artikel.id
+-        ';
+-
+-        //$groupby = '';
+-
+-        //$where = "";
+-        
+-        // gesamt anzahl
+-        $count = '
+-          SELECT
+-            COUNT(provisionenartikel_provision.id)
+-          FROM
+-            provisionenartikel_provision
+-          ';
+-
+-      break;
+-
+-      case 'provisionenartikel_list':
+-
+-        $allowed['provisionenartikel'] = array('list');
+-
+-        $heading = array('', 'Verkäufer','Umsatz-Netto','Provision', 'Men&uuml;');
+-        $width = array('5%', '10%','30%','10%','10%');
+-        $findcols = array('open', 'verkauefer','umsatz', 'provision', 'provisionenartikel_provision.id');
+-        $searchsql = array('verkauefer','umsatz', 'provision');
+-
+-        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
+-        $defaultorderdesc = 1; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
+-        $moreinfo = true;
+-        $menucol = 4;
+-
+-        $menu = '';
+-        $menu = '<table cellpadding="0" cellspacing="0">';
+-          $menu .= '<tr>';
+-            $menu .= '<td nowrap>';
+-              $menu .= '<a href="index.php?module=provisionenartikel&action=listcsv&id=%value%" target="_blank">';
+-                $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/download.png" border="0">';
+-              $menu .= '</a>';
+-            $menu .= '</td>';
+-          $menu .= '</tr>';
+-        $menu .= '</table>';
+-
+-        $sql = '
+-
+-        SELECT
+-          SQL_CALC_FOUND_ROWS pap.id,
+-          "<img src=./themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/details_open.png class=details>" as open,
+-          a.name as verkauefer,
+-          SUM(pap.preis) as umsatz,
+-          SUM(pap.provision) as provision,
+-          pap.adresse
+-        FROM
+-          provisionenartikel_abrechnungen_provisionen pap
+-          LEFT JOIN provisionenartikel_abrechnungen pa ON pa.id = pap.abrechnung
+-          LEFT JOIN adresse a ON pap.adresse = a.id
+-        WHERE
+-          pa.dynamisch = 1
+-        AND
+-          pa.userid = ' . $this->app->User->GetID() . '
+-
+-        GROUP BY pap.adresse
+-
+-        ';
+-
+-        //$groupby = '';
+-
+-        //$where = "";
+-        
+-        // gesamt anzahl
+-        $count = '
+-          SELECT COUNT( id )
+-            FROM provisionenartikel_abrechnungen pa
+-            WHERE pa.dynamisch =1
+-          AND pa.userid ="' . $this->app->User->GetID() . '"
+-        ';
+-
+-      break;
+-
+-      case 'provisionenartikel_abrechnungen':
+-
+-        $allowed['provisionenartikel'] = array('abrechnungen');
+-
+-        $heading = array('', 'Zeitraum von','Zeitraum bis', 'Angelegt von', 'Umsatz netto', 'Provision', 'Men&uuml;');
+-        $width = array('5%','15%','15%','35%','15%', '10%', '5%');
+-        $findcols = array('open', 'pa.datumvon','pa.datumbis', 'pa.angelegt_von', 'pa.umsatz_netto', 'pa.provision', 'pa.id');
+-        $searchsql = array('pa.gueltigvon','pa.gueltigbis', 'pa.umsatz_netto', 'pa.provision');
+-
+-        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
+-        $defaultorderdesc = 1; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
+-        $moreinfo = true;
+-        $menucol = 6;
+-
+-        $menu = '';
+-        $menu = '<table cellpadding="0" cellspacing="0">';
+-          $menu .= '<tr>';
+-            $menu .= '<td nowrap>';
+-              $menu .= '<a href="index.php?module=provisionenartikel&action=abrechnungencsv&id=%value%" target="_blank">';
+-                $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/download.png" border="0">';
+-              $menu .= '</a>';
+-              $menu .= '<a href="javascript:;" onclick="deleteAbrechnung(%value%);">';
+-                $menu .= '<img src="themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/delete.gif" border="0">';
+-              $menu .= '</a>';
+-            $menu .= '</td>';
+-          $menu .= '</tr>';
+-        $menu .= '</table>';
+-
+-        $sql = '
+-
+-        SELECT
+-          SQL_CALC_FOUND_ROWS pa.id,
+-          "<img src=./themes/' . $this->app->Conf->WFconf[defaulttheme] . '/images/details_open.png class=details>" as open,
+-          pa.datumvon,
+-          pa.datumbis,
+-          pa.angelegt_von,
+-          pa.umsatz_netto,
+-          pa.provision,
+-          pa.id
+-        FROM
+-          provisionenartikel_abrechnungen pa
+-        WHERE
+-          pa.dynamisch != 1
+-
+-        ';
+-
+-        //$groupby = '';
+-
+-        //$where = "";
+-        
+-        // gesamt anzahl
+-        $count = '
+-        SELECT
+-          COUNT(pa.id)
+-        FROM
+-          provisionenartikel_abrechnungen pa
+-          ';
+-
+-      break;
+-
+-      case 'lagermindestmengen_list':
+-
+-        $allowed['lagermindestmengen'] = array('liste');
+-
+-        $heading = array('Artikel-Nr','Artikel','Lagerplatz', 'Menge soll', 'Fehlmenge', 'Men&uuml;');
+-        $width = array('10%','30%','10%','10%', '10%', '5%', '10%');
+-        $findcols = array('artikel.nummer','artikel.name_de', 'lager_platz.kurzbezeichnung', 'mengeSoll', 'mengeIst', 'lagermindestmengen.id');
+-        $searchsql = array('artikel.nummer','artikel.name_de', 'lager_platz.kurzbezeichnung', 'mengeSoll', 'mengeIst');
+-
+-        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
+-        $defaultorderdesc = 1; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
+-
+-				$menu ="";
+-
+-        $sql = '
+-          SELECT
+             SQL_CALC_FOUND_ROWS lagermindestmengen.id,
+             artikel.nummer,
+             artikel.name_de,
+@@ -9943,6 +9769,182 @@
+         break;
+ 
+ 
++      case "ticket_offene":
++        $allowed['ticket'] = array('list');
++
++        // START EXTRA checkboxen
++        
++        // ENDE EXTRA checkboxen
++
++        
++        // headings
++
++        $heading = array('Zeit', 'Prio', 'Betreff', 'Verfasser','Wartezeit', 'Men&uuml;');
++        $width = array('10%', '10%', '30%', '30%', '10%','5%');
++        $findcols = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit', 'tn.id');
++        $searchsql = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit');
++
++        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
++        $defaultorderdesc = 0; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
++
++	
++        $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap>" . "<a href=\"index.php?module=ticket&action=assistent&id=%value%&back=zugewiesene&opener=zugewiesene\">" . "<img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/edit.png\" border=\"0\"></a>" . "&nbsp;</td></tr></table>";
++
++        // SQL statement
++        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%Y-%m-%d %H:%i') as zeit, t.prio, CONCAT(if(t.bitteantworten,CONCAT('<b>',LEFT(tn.betreff,30),'...</b>'),CONCAT(LEFT(tn.betreff,30),'...')),if(t.kommentar!='','<b style=\"color:blue\">*</b>','')) as betreff, tn.verfasser, 
++              CONCAT('<font color=\"red\"><b>',TIMEDIFF(NOW(),tn.zeit),'</b></font>') as wartezeit, 
++              tn.id FROM ticket as t, ticket_nachricht as tn";
++
++
++        $where = "t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=0 
++              AND t.inbearbeitung='1'";//d.firma='" . $this->app->User->GetFirma() . "'";
++
++        //$groupby=" GROUP by z.adresse_abrechnung ";
++        
++        // gesamt anzahl
++
++        $count = "SELECT COUNT(tn.id) FROM ticket as t, ticket_nachricht as tn WHERE t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=0
++              AND t.inbearbeitung='0'";
++        break;
++
++      case "ticket_inbearbeitung":
++        $allowed['ticket'] = array('list');
++
++        // START EXTRA checkboxen
++        
++        // ENDE EXTRA checkboxen
++
++        
++        // headings
++
++        $heading = array('Zeit', 'Prio', 'Betreff', 'Verfasser','Wartezeit', 'Men&uuml;');
++        $width = array('10%', '10%', '30%', '30%', '10%','5%');
++        $findcols = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit', 'tn.id');
++        $searchsql = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit');
++
++        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
++        $defaultorderdesc = 0; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
++
++	
++        $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap>" . "<a href=\"index.php?module=ticket&action=assistent&id=%value%&back=zugewiesene&opener=zugewiesene\">" . "<img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/edit.png\" border=\"0\"></a>" . "&nbsp;</td></tr></table>";
++
++        // SQL statement
++        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%Y-%m-%d %H:%i') as zeit, t.prio, CONCAT(if(t.bitteantworten,CONCAT('<b>',LEFT(tn.betreff,30),'...</b>'),CONCAT(LEFT(tn.betreff,30),'...')),if(t.kommentar!='','<b style=\"color:blue\">*</b>','')) as betreff, tn.verfasser, 
++              CONCAT('<font color=\"red\"><b>',TIMEDIFF(NOW(),tn.zeit),'</b></font>') as wartezeit, 
++              tn.id FROM ticket as t, ticket_nachricht as tn";
++
++
++        $where = "t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' 
++              AND t.inbearbeitung='1'";//d.firma='" . $this->app->User->GetFirma() . "'";
++
++        //$groupby=" GROUP by z.adresse_abrechnung ";
++        
++        // gesamt anzahl
++
++        $count = "SELECT COUNT(tn.id) FROM ticket as t, ticket_nachricht as tn WHERE t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' 
++              AND t.inbearbeitung='1'";
++        break;
++
++
++  
++      case "ticket_alle":
++        $allowed['ticket'] = array('list');
++
++        // START EXTRA checkboxen
++        
++        // ENDE EXTRA checkboxen
++
++        
++        // headings
++
++        $heading = array('Zeit', 'Warteschlange','Prio', 'Betreff', 'Verfasser','Wartezeit', 'Men&uuml;');
++        $width = array('10%', '10%','5%', '30%', '15%', '10%','5%');
++        $findcols = array('tn.zeit', 't.warteschlange','t.prio', 'tn.betreff', 'tn.verfasser','wartezeit', 'tn.id');
++        $searchsql = array('tn.zeit', 't.warteschlange','t.prio', 'tn.betreff', 'tn.verfasser');
++
++        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
++        $defaultorderdesc = 0; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
++
++        $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap>" . "<a href=\"index.php?module=ticket&action=assistent&id=%value%&back=zugewiesene&opener=zugewiesene\">" . "<img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/edit.png\" border=\"0\"></a>" . "&nbsp;</td></tr></table>";
++
++        // SQL statement
++        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%Y-%m-%d %H:%i') as zeit, t.warteschlange, t.prio, CONCAT(if(t.bitteantworten,CONCAT('<b>',LEFT(tn.betreff,50),'...</b>'),CONCAT(LEFT(tn.betreff,50),'...')),if(t.kommentar!='','<b style=\"color:blue\">*</b>','')) as betreff, tn.verfasser, 
++              CONCAT('<font color=\"red\"><b>',TIMEDIFF(NOW(),tn.zeit),'</b></font>') as wartezeit, 
++              tn.id FROM ticket as t, ticket_nachricht as tn";
++
++
++        $where = "t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=1 
++              AND t.inbearbeitung!='1'";//d.firma='" . $this->app->User->GetFirma() . "'";
++
++        //$groupby=" GROUP by z.adresse_abrechnung ";
++        
++        // gesamt anzahl
++
++        $count = "SELECT COUNT(tn.id) FROM ticket as t, ticket_nachricht as tn WHERE t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=1 
++              AND t.inbearbeitung!='1'";
++        break;
++
++
++      case "ticket_meine":
++        $allowed['ticket'] = array('list');
++
++        // START EXTRA checkboxen
++        
++        // ENDE EXTRA checkboxen
++
++        
++        // headings
++
++        $heading = array('Zeit', 'Prio', 'Betreff', 'Verfasser','Wartezeit', 'Men&uuml;');
++        $width = array('10%', '10%', '30%', '30%', '10%','5%');
++        $findcols = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit', 'tn.id');
++        $searchsql = array('tn.zeit', 't.prio', 'tn.betreff', 'tn.verfasser','wartezeit');
++
++        $defaultorder = 1; // sortiert nach dem oeffnen nach spalte 2
++        $defaultorderdesc = 0; // 0 = auftsteigend , 1 = absteigen (eventuell notfalls pruefen)
++
++	$adresse = $this->app->User->GetAdresse();
++	$label = $this->app->DB->SelectArr("SELECT label FROM warteschlangen WHERE adresse='$adresse'");
++	for($i=0;$i<count($label);$i++)
++	{
++	  if($subkey=="")
++	  $subkey .= " t.warteschlange='".$label[$i]['label']."' ";
++	  else
++	  $subkey .= " OR t.warteschlange='".$label[$i]['label']."' ";
++	}
++
++	
++	if($subkey!="")
++	  $key = " AND ($subkey)";
++
++        $menu = "<table cellpadding=0 cellspacing=0><tr><td nowrap>" . "<a href=\"index.php?module=ticket&action=assistent&id=%value%&back=zugewiesene&opener=zugewiesene\">" . "<img src=\"themes/{$this->app->Conf->WFconf[defaulttheme]}/images/edit.png\" border=\"0\"></a>" . "&nbsp;</td></tr></table>";
++
++        // SQL statement
++        $sql = "SELECT SQL_CALC_FOUND_ROWS tn.id, DATE_FORMAT(tn.zeit,'%Y-%m-%d %H:%i') as zeit, t.prio, CONCAT(if(t.bitteantworten,CONCAT('<b>',LEFT(tn.betreff,30),'...</b>'),CONCAT(LEFT(tn.betreff,30),'...')),if(t.kommentar!='','<b style=\"color:blue\">*</b>','')) as betreff, tn.verfasser, 
++              CONCAT('<font color=\"red\"><b>',TIMEDIFF(NOW(),tn.zeit),'</b></font>') as wartezeit, 
++              tn.id FROM ticket as t, ticket_nachricht as tn";
++
++
++        $where = "t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=1 $key
++              AND t.inbearbeitung!='1'";//d.firma='" . $this->app->User->GetFirma() . "'";
++
++        //$groupby=" GROUP by z.adresse_abrechnung ";
++        
++        // gesamt anzahl
++
++        $count = "SELECT COUNT(tn.id) FROM ticket as t, ticket_nachricht as tn WHERE t.schluessel=tn.ticket AND 
++              tn.status!='beantwortet' AND tn.status!='spam' AND t.zugewiesen=1 $key
++              AND t.inbearbeitung!='1'";
++        break;
++
++
+       case "druckerlist":
+         $allowed['drucker'] = array('list');
+ 
